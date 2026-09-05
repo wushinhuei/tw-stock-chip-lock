@@ -1,0 +1,9 @@
+node_modules/
+.wrangler/
+.dev.vars
+.env
+coverage/
+data/raw/
+data/cache.json
+web/data/*.tmp
+!web/data/latest.json

@@ -1,0 +1,19 @@
+{
+  "name": "tw-stock-chip-lock",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "TWSE/MOPS-first chip and trend screening with explicit data completeness gates",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "check": "node --check src/core/strategy.js && node --check src/core/completeness.js && node --check src/core/portfolio.js && node --check src/core/backtest.js && node --check src/providers/twse.js && node --check src/providers/mops.js && node --check src/providers/tdcc.js && node --check src/pipeline.js && node --check scripts/update-weekly.js && node --check scripts/update-daily.js && node --check scripts/smoke-official.js && node --check scripts/backtest.js && node --check scripts/validate-output.js && node --check worker/index.js && node --check web/app.js",
+    "validate:output": "node scripts/validate-output.js",
+    "smoke:official": "node scripts/smoke-official.js",
+    "update:weekly": "node scripts/update-weekly.js",
+    "update:daily": "node scripts/update-daily.js",
+    "backtest": "node scripts/backtest.js",
+    "dev:worker": "npx wrangler dev",
+    "deploy:worker": "npx wrangler deploy"
+  }
+}
