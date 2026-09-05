@@ -9,6 +9,20 @@ function saveReviews() { localStorage.setItem(REVIEW_KEY, JSON.stringify(reviews
 function formatPercent(value) { return Number.isFinite(Number(value)) ? `${(Number(value) * 100).toFixed(1)}%` : '—'; }
 function formatNumber(value) { return Number.isFinite(Number(value)) ? Number(value).toLocaleString('zh-TW', { maximumFractionDigits: 2 }) : '—'; }
 
+async function loadPageData(url, offlineValue) {
+  if (location.protocol !== 'file:') {
+    try {
+      const response = await fetch(url, { cache: 'no-store' });
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      return await response.json();
+    } catch (error) {
+      if (!offlineValue) throw error;
+    }
+  }
+  if (offlineValue) return structuredClone(offlineValue);
+  throw new Error(`無法讀取 ${url}，且沒有離線資料包`);
+}
+
 function renderStatus() {
   const badge = document.querySelector('#statusBadge');
   badge.textContent = snapshot.dataStatus;
@@ -134,11 +148,19 @@ document.querySelector('#importInput').addEventListener('change', async event =>
   saveReviews(); renderCandidates();
 });
 
-snapshot = await fetch('./data/latest.json', { cache: 'no-store' }).then(response => response.json());
-renderStatus(); renderCandidates();
-fetch('./data/backtest.json', { cache: 'no-store' }).then(response => response.json()).then(result => {
-  document.querySelector('#backtestCard').innerHTML = result.status === 'COMPLETE'
-    ? `<strong>策略 ${formatPercent(result.strategyReturn)}｜0050 ${formatPercent(result.benchmarkReturn)}｜超額 ${formatPercent(result.excessReturn)}</strong><span>${result.caveat}</span>`
-    : `<strong>BLOCKED</strong><span>${result.reason}</span>`;
-}).catch(error => { document.querySelector('#backtestCard').textContent = `回測資料不可用：${error.message}`; });
-pollQuotes(); setInterval(pollQuotes, config.pollIntervalMs || 60000);
+async function initialize() {
+  try {
+  snapshot = await loadPageData('./data/latest.json', globalThis.__CHIP_LOCK_SNAPSHOT__);
+  } catch (error) {
+    snapshot = { dataStatus: 'BLOCKED', allowNewRisk: false, candidates: [], manifest: { sources: {}, warnings: [`資料載入失敗：${error.message}`] } };
+  }
+  renderStatus(); renderCandidates();
+  loadPageData('./data/backtest.json', globalThis.__CHIP_LOCK_BACKTEST__).then(result => {
+    document.querySelector('#backtestCard').innerHTML = result.status === 'COMPLETE'
+      ? `<strong>策略 ${formatPercent(result.strategyReturn)}｜0050 ${formatPercent(result.benchmarkReturn)}｜超額 ${formatPercent(result.excessReturn)}</strong><span>${result.caveat}</span>`
+      : `<strong>BLOCKED</strong><span>${result.reason}</span>`;
+  }).catch(error => { document.querySelector('#backtestCard').textContent = `回測資料不可用：${error.message}`; });
+  pollQuotes(); setInterval(pollQuotes, config.pollIntervalMs || 60000);
+}
+
+initialize();

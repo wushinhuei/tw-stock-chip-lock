@@ -6,10 +6,12 @@ import { fetchDailyDisclosures, fetchExRightsCalendar, fetchShareholderMeetings 
 import { fetchHoldingDistribution } from '../src/providers/tdcc.js';
 import { fetchInstitutionalDay, fetchListedCompanies, fetchMarginDay, fetchMarketDay } from '../src/providers/twse.js';
 import { tradingWeekdays } from '../src/providers/http.js';
+import { writeOfflineData } from './offline-data.js';
 
 const ROOT = resolve(import.meta.dirname, '..');
 const CACHE_PATH = resolve(ROOT, 'data/cache.json');
 const OUTPUT_PATH = resolve(ROOT, 'web/data/latest.json');
+const OFFLINE_OUTPUT_PATH = resolve(ROOT, 'web/data/latest.js');
 const TDCC_DIR = resolve(ROOT, 'data/tdcc');
 
 async function readJson(path, fallback) {
@@ -104,5 +106,6 @@ export async function collect({ fullHistory }) {
   const payload = buildSnapshot({ ...nextCache, tdcc: tdccHistory.rows, sources }, { expectedDate: date, now: now.toISOString() });
   await saveJson(CACHE_PATH, nextCache);
   await saveJson(OUTPUT_PATH, payload);
+  await writeOfflineData(OUTPUT_PATH, OFFLINE_OUTPUT_PATH, '__CHIP_LOCK_SNAPSHOT__');
   return payload;
 }

@@ -36,6 +36,8 @@ npm.cmd run backtest
 
 首次長批次採官方 `wwwc.twse.com.tw` 端點、1.1 秒間隔與 403/429 冷卻；成功日期會寫入本機快取，重跑時只補缺日。回測在一年官方價格、有效交易與 0050 基準不足時輸出 `BLOCKED`，不產生假績效。
 
+頁面同時提供 JSON 與離線 JavaScript 資料包；可直接雙擊 `web/index.html`，不會因 `file://` 阻擋 JSON `fetch` 而停在讀取畫面。
+
 ## 外部發布邊界
 
 建立 GitHub repository、推送、啟用 Pages、設定 Worker secrets 或部署 Cloudflare Worker 都是外部寫入，必須在執行當下另外確認。任何 token 不得寫入 repository。

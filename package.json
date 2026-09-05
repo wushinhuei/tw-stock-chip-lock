@@ -7,7 +7,8 @@
   "engines": { "node": ">=22" },
   "scripts": {
     "test": "node --test test/*.test.js",
-    "check": "node --check src/core/strategy.js && node --check src/core/completeness.js && node --check src/core/portfolio.js && node --check src/core/backtest.js && node --check src/providers/twse.js && node --check src/providers/mops.js && node --check src/providers/tdcc.js && node --check src/pipeline.js && node --check scripts/update-weekly.js && node --check scripts/update-daily.js && node --check scripts/smoke-official.js && node --check scripts/backtest.js && node --check scripts/validate-output.js && node --check worker/index.js && node --check web/app.js",
+    "check": "node --check src/core/strategy.js && node --check src/core/completeness.js && node --check src/core/portfolio.js && node --check src/core/backtest.js && node --check src/providers/twse.js && node --check src/providers/mops.js && node --check src/providers/tdcc.js && node --check src/pipeline.js && node --check scripts/update-weekly.js && node --check scripts/update-daily.js && node --check scripts/smoke-official.js && node --check scripts/backtest.js && node --check scripts/offline-data.js && node --check scripts/build-offline-data.js && node --check scripts/validate-output.js && node --check worker/index.js && node --check web/app.js",
+    "build:offline": "node scripts/build-offline-data.js",
     "validate:output": "node scripts/validate-output.js",
     "smoke:official": "node scripts/smoke-official.js",
     "update:weekly": "node scripts/update-weekly.js",
