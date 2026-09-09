@@ -1,9 +1,11 @@
-import { fetchDailyDisclosures, fetchExRightsCalendar, fetchShareholderMeetings } from '../src/providers/mops.js';
+import { fetchDailyDisclosures, fetchExRightsCalendar, fetchMonthlyRevenueMonth, fetchShareholderMeetings } from '../src/providers/mops.js';
 import { fetchHoldingDistribution } from '../src/providers/tdcc.js';
-import { fetchInstitutionalDay, fetchListedCompanies, fetchMarginDay, fetchMarketDay, fetchQuotes } from '../src/providers/twse.js';
+import { fetchInstitutionalDay, fetchListedCompanies, fetchMarginDay, fetchMarketDay } from '../src/providers/twse.js';
 
 const requestedDate = process.env.SMOKE_DATE || new Date().toISOString().slice(0, 10);
 const compactDate = requestedDate.replaceAll('-', '');
+const revenueDate = new Date(`${requestedDate}T00:00:00Z`);
+revenueDate.setUTCMonth(revenueDate.getUTCMonth() - 1);
 const checks = [
   ['TWSE listed', () => fetchListedCompanies()],
   ['TWSE prices', () => fetchMarketDay(requestedDate)],
@@ -13,7 +15,7 @@ const checks = [
   ['MOPS shareholder meetings', () => fetchShareholderMeetings()],
   ['TWSE ex-right calendar', () => fetchExRightsCalendar()],
   ['TDCC holdings', () => fetchHoldingDistribution()],
-  ['TWSE MIS quote', () => fetchQuotes(['2330'])]
+  ['MOPS monthly revenue', () => fetchMonthlyRevenueMonth(revenueDate.getUTCFullYear(), revenueDate.getUTCMonth() + 1)]
 ];
 
 let failed = false;

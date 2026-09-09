@@ -1,64 +1,56 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { breakoutSignal, creditSignals, evaluateStock, projectedDayVolume, rankCandidates, technicalSignals } from '../src/core/strategy.js';
+import { creditSignals, evaluateStock, rankCandidates, technicalSignals } from '../src/core/strategy.js';
 import { bars, margin, stock } from './fixtures.js';
 
-test('第一、二層全部通過才入選', () => {
-  const result = evaluateStock(stock());
-  assert.equal(result.technical.trendPass, true);
-  assert.equal(result.holders.accumulationPass, true);
-  assert.equal(result.institutional.selectionPass, true);
-  assert.equal(result.selected, true);
-});
-
-test('個股價格、法人或資券未對齊最新交易日即剔除', () => {
-  const item = stock({ expectedDate: bars().at(-1).date });
-  assert.equal(evaluateStock(item).selected, true);
+test('基本門檻與價格、法人、資券日期對齊後才具備入榜資格', () => {
+  const item = stock();
+  const result = evaluateStock(item);
+  assert.equal(result.technical.baseGatePass, true);
+  assert.equal(result.eligible, true);
   item.margin = item.margin.slice(0, -1);
-  assert.equal(evaluateStock(item).sourceAlignmentPass, false);
-  assert.equal(evaluateStock(item).selected, false);
+  assert.equal(evaluateStock(item).eligible, false);
 });
 
-test('流動性與法人集中度採嚴格大於門檻', () => {
-  const exactVolume = bars({ volumeLots: 1000, volumeShares: 1_000_000 });
-  assert.equal(technicalSignals(exactVolume).trendPass, false);
-  const exactConcentration = stock({
-    institutional: exactVolume.slice(-5).map(row => ({ date: row.date, foreignNet: 50_000, trustNet: 50_000 })),
-    bars: exactVolume.map(row => ({ ...row, volumeLots: 1500, volumeShares: 1_000_000 }))
-  });
-  assert.equal(evaluateStock(exactConcentration).institutional.concentration5d, 0.1);
-  assert.equal(evaluateStock(exactConcentration).selected, false);
+test('20日均量必須嚴格大於1000張', () => {
+  assert.equal(technicalSignals(bars({ volumeLots: 1000, volumeShares: 1_000_000 })).baseGatePass, false);
 });
 
-test('排序依法人集中度優先且最多20檔', () => {
-  const rows = Array.from({ length: 25 }, (_, index) => {
-    const item = stock({ symbol: String(1000 + index) });
-    item.institutional = item.institutional.map(row => ({ ...row, symbol: item.symbol, foreignNet: 100_000 + index * 10_000 }));
-    item.tdccWeeks = item.tdccWeeks.map(row => ({ ...row, symbol: item.symbol }));
-    item.margin = item.margin.map(row => ({ ...row, symbol: item.symbol }));
-    return item;
-  });
+test('36月營收創高取得12分且年增為正再取得3分', () => {
+  const result = evaluateStock(stock());
+  assert.equal(result.revenue.revenue36mHigh, true);
+  assert.equal(result.scoreBreakdown.revenue, 15);
+  assert.equal(result.grade, 'A');
+  assert.equal(result.candidateStatus, 'VERIFIED');
+});
+
+test('營收或TDCC不足仍可列暫定榜，不冒充已驗證', () => {
+  const noRevenue = evaluateStock(stock({ monthlyRevenue: [] }));
+  assert.equal(noRevenue.candidateStatus, 'PROVISIONAL');
+  assert.equal(noRevenue.scoreBreakdown.revenue, 0);
+  const shortTdcc = evaluateStock(stock({ tdccWeeks: stock().tdccWeeks.slice(-1) }));
+  assert.equal(shortTdcc.candidateStatus, 'PROVISIONAL');
+  assert.equal(shortTdcc.scoreDenominator, 75);
+});
+
+test('融資五日增加超過10%扣10分', () => {
+  const item = stock();
+  item.margin = item.margin.map((row, index, all) => ({ ...row, marginBalance: index === all.length - 1 ? 12_000 : 10_000 }));
+  const result = evaluateStock(item);
+  assert.equal(result.scoreBreakdown.penalties, -10);
+  assert.match(result.riskReasons.join(), /融資五日/);
+});
+
+test('排行榜最多20檔且同分時營收創高優先', () => {
+  const rows = Array.from({ length: 22 }, (_, index) => stock({ symbol: String(1000 + index) }));
+  rows[11].monthlyRevenue = [];
   const ranked = rankCandidates(rows);
   assert.equal(ranked.length, 20);
-  assert.equal(ranked[0].symbol, '1024');
+  assert.equal(ranked[0].revenue.revenue36mHigh, true);
 });
 
-test('券資比處理零分母及30%、50%邊界', () => {
-  const stockBars = bars();
-  const zero = creditSignals([{ date: stockBars.at(-1).date, marginBalance: 0, shortBalance: 10 }], stockBars);
-  assert.equal(zero.shortToMarginRatio, null);
-  assert.equal(zero.squeezeLevel, 'UNKNOWN');
-  assert.equal(creditSignals(margin(stockBars.slice(-21), 0.3), stockBars).squeezeLevel, 'WATCH');
-  assert.equal(creditSignals(margin(stockBars.slice(-21), 0.5), stockBars).squeezeLevel, 'EXTREME');
-  assert.equal(creditSignals(margin(stockBars.slice(-21), 0.5), stockBars).estimateLabel, 'estimated');
-});
-
-test('09:30前不估量，過期報價與非COMPLETE皆禁止訊號', () => {
-  assert.equal(projectedDayVolume(1000, '09:29'), null);
-  const candidate = evaluateStock(stock());
-  const now = '2026-09-04T10:00:00+08:00';
-  const base = { candidate, review: { approved: true, neckline: 70 }, quote: { price: 80, cumulativeVolumeLots: 2000, timestamp: now }, time: '10:00', dataStatus: 'COMPLETE', now };
-  assert.equal(breakoutSignal(base).triggered, true);
-  assert.equal(breakoutSignal({ ...base, dataStatus: 'PARTIAL' }).triggered, false);
-  assert.match(breakoutSignal({ ...base, quote: { ...base.quote, timestamp: '2026-09-04T09:57:00+08:00' } }).reasons.join(), /報價過期/);
+test('券資比處理零分母及30%、50%數值', () => {
+  assert.equal(creditSignals([{ date: '2026-09-04', marginBalance: 0, shortBalance: 10 }]).shortToMarginRatio, null);
+  assert.equal(creditSignals(margin(bars().slice(-21), 0.3)).shortToMarginRatio, 0.3);
+  assert.equal(creditSignals(margin(bars().slice(-21), 0.5)).shortToMarginRatio, 0.5);
 });

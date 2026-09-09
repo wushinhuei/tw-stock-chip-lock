@@ -28,6 +28,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add web/data/latest.json web/data/latest.js data/tdcc
+          git add web/data/latest.json web/data/latest.js web/data/outcomes.json web/data/outcomes.js data/observations.json data/tdcc
           git diff --cached --quiet || git commit -m "Update weekly official-data snapshot"
           git push

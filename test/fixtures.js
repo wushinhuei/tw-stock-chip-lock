@@ -23,6 +23,10 @@ export function margin(dateRows = bars().slice(-21), ratio = 0.3) {
 
 export function stock(overrides = {}) {
   const stockBars = overrides.bars || bars();
+  const monthlyRevenue = Array.from({ length: 36 }, (_, index) => {
+    const date = new Date(Date.UTC(2023, 8 + index, 1));
+    return { symbol: '1234', yearMonth: `${date.getUTCFullYear()}-${String(date.getUTCMonth() + 1).padStart(2, '0')}`, revenue: 1000 + index * 10, downloadedAt: '2026-09-04T00:00:00Z', availableAt: '2026-09-04T00:00:00Z' };
+  });
   return {
     symbol: '1234', name: '測試股', market: 'TWSE', bars: stockBars,
     institutional: institutional(stockBars.slice(-5)), margin: margin(stockBars.slice(-21)),
@@ -31,6 +35,9 @@ export function stock(overrides = {}) {
       { date: '2026-08-21', symbol: '1234', largeHolderRatio: 0.42, totalHolders: 9500 },
       { date: '2026-08-28', symbol: '1234', largeHolderRatio: 0.45, totalHolders: 9000 }
     ],
+    monthlyRevenue,
+    expectedDate: stockBars.at(-1).date,
+    asOf: '2026-09-05T00:00:00Z',
     ...overrides,
     bars: stockBars
   };

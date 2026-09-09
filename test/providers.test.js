@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { fetchExRightsCalendar, fetchShareholderMeetings, normalizeMopsDate } from '../src/providers/mops.js';
+import { fetchExRightsCalendar, fetchMonthlyRevenueMonth, fetchShareholderMeetings, normalizeMopsDate, parseMonthlyRevenueHtml } from '../src/providers/mops.js';
 import { fetchInstitutionalDay, fetchMarginDay, fetchMarketDay } from '../src/providers/twse.js';
 import { fetchHoldingDistribution } from '../src/providers/tdcc.js';
 
@@ -39,4 +39,14 @@ test('TWSE日K、法人及資券表格正規化', async () => {
   const credit = await fetchMarginDay('2026-09-04', mockJson({ tables: [{ title: '融資融券彙總 (全部)', fields: ['代號', '名稱', '買進', '賣出', '現金償還', '前日餘額', '今日餘額', '限額', '買進', '賣出', '現券償還', '前日餘額', '今日餘額'], data: [['2330', '台積電', 0, 0, 0, 0, '10,000', 0, 0, 0, 0, 0, '3,000']] }] }));
   assert.equal(credit[0].marginBalance, 10_000);
   assert.equal(credit[0].shortBalance, 3_000);
+});
+
+test('MOPS月營收HTML正規化並保留來源雜湊', async () => {
+  const html = '<table><tr><th>公司代號</th><th>公司名稱</th><th>當月營收</th><th>上月營收</th><th>去年當月營收</th></tr><tr><td>2330</td><td>台積電</td><td>100,000</td><td>90,000</td><td>80,000</td></tr></table>';
+  const parsed = parseMonthlyRevenueHtml(html, { year: 2026, month: 8, downloadedAt: '2026-09-01T00:00:00Z', sourceUrl: 'test' });
+  assert.equal(parsed[0].revenue, 100000);
+  assert.equal(parsed[0].yearMonth, '2026-08');
+  assert.equal(parsed[0].rawHash.length, 64);
+  const fetched = await fetchMonthlyRevenueMonth(2026, 8, async () => new Response(html, { status: 200 }), { downloadedAt: '2026-09-01T00:00:00Z', encoding: 'utf-8' });
+  assert.equal(fetched[0].symbol, '2330');
 });

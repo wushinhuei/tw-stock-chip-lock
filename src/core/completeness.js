@@ -7,7 +7,7 @@ export const DATA_STATUS = Object.freeze({
   STALE: 'STALE'
 });
 
-const REQUIRED = Object.freeze(['prices', 'institutional', 'margin', 'tdcc']);
+const REQUIRED = Object.freeze(['prices', 'institutional', 'margin']);
 
 export function coverage(rows, minimumDates) {
   const dates = new Set((rows || []).map(row => row.date).filter(Boolean));
@@ -37,17 +37,17 @@ export function evaluateCompleteness(sources, options = {}) {
   }
 
   if (missing.length) {
-    return { status: DATA_STATUS.BLOCKED, allowNewRisk: false, expectedDate, sourceDates, missingFields: missing, warnings, evaluatedAt: now };
+    return { status: DATA_STATUS.BLOCKED, canPublishRanking: false, expectedDate, sourceDates, missingFields: missing, warnings, evaluatedAt: now };
   }
 
   const marketDates = ['prices', 'institutional', 'margin'].map(name => sourceDates[name]);
   if (new Set(marketDates).size !== 1 || (expectedDate && marketDates[0] !== expectedDate)) {
     warnings.push(`市場資料日期未對齊: ${marketDates.join(', ')}`);
-    return { status: DATA_STATUS.BLOCKED, allowNewRisk: false, expectedDate, sourceDates, missingFields: [], warnings, evaluatedAt: now };
+    return { status: DATA_STATUS.BLOCKED, canPublishRanking: false, expectedDate, sourceDates, missingFields: [], warnings, evaluatedAt: now };
   }
 
   if (Object.values(sources).some(source => source?.stale)) {
-    return { status: DATA_STATUS.STALE, allowNewRisk: false, expectedDate, sourceDates, missingFields: [], warnings, evaluatedAt: now };
+    return { status: DATA_STATUS.STALE, canPublishRanking: false, expectedDate, sourceDates, missingFields: [], warnings, evaluatedAt: now };
   }
 
   const optionalMissing = Object.entries(sources || {})
@@ -55,17 +55,17 @@ export function evaluateCompleteness(sources, options = {}) {
     .map(([name]) => name);
   if (optionalMissing.length) {
     warnings.push(`非必要資料缺漏: ${optionalMissing.join(', ')}`);
-    return { status: DATA_STATUS.PARTIAL, allowNewRisk: false, expectedDate, sourceDates, missingFields: optionalMissing, warnings, evaluatedAt: now };
+    return { status: DATA_STATUS.PARTIAL, canPublishRanking: true, expectedDate, sourceDates, missingFields: optionalMissing, warnings, evaluatedAt: now };
   }
 
-  return { status: DATA_STATUS.COMPLETE, allowNewRisk: true, expectedDate, sourceDates, missingFields: [], warnings, evaluatedAt: now };
+  return { status: DATA_STATUS.COMPLETE, canPublishRanking: true, expectedDate, sourceDates, missingFields: [], warnings, evaluatedAt: now };
 }
 
 export function buildManifest({ sources, completeness, payload, generatedAt = new Date().toISOString() }) {
   return {
     generatedAt,
     status: completeness.status,
-    allowNewRisk: completeness.allowNewRisk,
+    canPublishRanking: completeness.canPublishRanking,
     sourceDates: completeness.sourceDates,
     missingFields: completeness.missingFields,
     warnings: completeness.warnings,

@@ -1,0 +1,151 @@
+[
+  {
+    "symbol": "1101",
+    "name": "台泥",
+    "listedDate": "2026-09-09",
+    "listedPrice": 24.75,
+    "score": 55.7,
+    "revenue36mHigh": false,
+    "candidateStatus": "PROVISIONAL"
+  },
+  {
+    "symbol": "1102",
+    "name": "亞泥",
+    "listedDate": "2026-09-09",
+    "listedPrice": 35.4,
+    "score": 63.3,
+    "revenue36mHigh": false,
+    "candidateStatus": "PROVISIONAL"
+  },
+  {
+    "symbol": "1229",
+    "name": "聯華",
+    "listedDate": "2026-09-09",
+    "listedPrice": 41.95,
+    "score": 58.5,
+    "revenue36mHigh": false,
+    "candidateStatus": "PROVISIONAL"
+  },
+  {
+    "symbol": "1303",
+    "name": "南亞",
+    "listedDate": "2026-09-09",
+    "listedPrice": 236.5,
+    "grade": "C",
+    "score": 59.7,
+    "revenue36mHigh": true,
+    "candidateStatus": "PROVISIONAL"
+  },
+  {
+    "symbol": "2454",
+    "name": "聯發科",
+    "listedDate": "2026-09-09",
+    "listedPrice": 4625,
+    "score": 54.2,
+    "revenue36mHigh": false,
+    "candidateStatus": "PROVISIONAL"
+  },
+  {
+    "symbol": "2520",
+    "name": "冠德",
+    "listedDate": "2026-09-09",
+    "listedPrice": 36.9,
+    "score": 56.2,
+    "revenue36mHigh": false,
+    "candidateStatus": "PROVISIONAL"
+  },
+  {
+    "symbol": "2542",
+    "name": "興富發",
+    "listedDate": "2026-09-09",
+    "listedPrice": 48.2,
+    "score": 73.5,
+    "revenue36mHigh": false,
+    "candidateStatus": "PROVISIONAL"
+  },
+  {
+    "symbol": "2801",
+    "name": "彰銀",
+    "listedDate": "2026-09-09",
+    "listedPrice": 26.85,
+    "score": 67.6,
+    "revenue36mHigh": false,
+    "candidateStatus": "PROVISIONAL"
+  },
+  {
+    "symbol": "2880",
+    "name": "華南金",
+    "listedDate": "2026-09-09",
+    "listedPrice": 44.35,
+    "grade": "C",
+    "score": 50.7,
+    "revenue36mHigh": true,
+    "candidateStatus": "PROVISIONAL"
+  },
+  {
+    "symbol": "2887",
+    "name": "台新新光金",
+    "listedDate": "2026-09-09",
+    "listedPrice": 42.4,
+    "score": 70.1,
+    "revenue36mHigh": false,
+    "candidateStatus": "PROVISIONAL"
+  },
+  {
+    "symbol": "2892",
+    "name": "第一金",
+    "listedDate": "2026-09-09",
+    "listedPrice": 37.8,
+    "grade": "C",
+    "score": 50.3,
+    "revenue36mHigh": true,
+    "candidateStatus": "PROVISIONAL"
+  },
+  {
+    "symbol": "2897",
+    "name": "王道銀行",
+    "listedDate": "2026-09-09",
+    "listedPrice": 10.85,
+    "score": 56.4,
+    "revenue36mHigh": false,
+    "candidateStatus": "PROVISIONAL"
+  },
+  {
+    "symbol": "3017",
+    "name": "奇鋐",
+    "listedDate": "2026-09-09",
+    "listedPrice": 3380,
+    "grade": "C",
+    "score": 50.3,
+    "revenue36mHigh": true,
+    "candidateStatus": "PROVISIONAL"
+  },
+  {
+    "symbol": "3443",
+    "name": "創意",
+    "listedDate": "2026-09-09",
+    "listedPrice": 5925,
+    "grade": "C",
+    "score": 50.2,
+    "revenue36mHigh": true,
+    "candidateStatus": "PROVISIONAL"
+  },
+  {
+    "symbol": "4938",
+    "name": "和碩",
+    "listedDate": "2026-09-09",
+    "listedPrice": 91.1,
+    "score": 57.8,
+    "revenue36mHigh": false,
+    "candidateStatus": "PROVISIONAL"
+  },
+  {
+    "symbol": "5876",
+    "name": "上海商銀",
+    "listedDate": "2026-09-09",
+    "listedPrice": 47.5,
+    "score": 68,
+    "revenue36mHigh": false,
+    "candidateStatus": "PROVISIONAL"
+  }
+]

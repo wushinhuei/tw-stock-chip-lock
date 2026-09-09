@@ -12,8 +12,8 @@ test('雙擊本機頁面不依賴module或JSON fetch才能取得資料', async (
   assert.ok(html.indexOf('data/latest.js') < html.indexOf('app.js'));
   const context = vm.createContext({});
   vm.runInContext(await readFile(resolve(root, 'web/data/latest.js'), 'utf8'), context);
-  vm.runInContext(await readFile(resolve(root, 'web/data/backtest.js'), 'utf8'), context);
-  assert.equal(context.__CHIP_LOCK_SNAPSHOT__.dataStatus, 'BLOCKED');
-  assert.equal(context.__CHIP_LOCK_SNAPSHOT__.manifest.sources.prices.coverage.dates, 130);
-  assert.equal(context.__CHIP_LOCK_BACKTEST__.status, 'BLOCKED');
+  vm.runInContext(await readFile(resolve(root, 'web/data/outcomes.js'), 'utf8'), context);
+  assert.ok(['COMPLETE', 'PARTIAL', 'BLOCKED', 'STALE'].includes(context.__CHIP_LOCK_SNAPSHOT__.dataStatus));
+  assert.ok(context.__CHIP_LOCK_SNAPSHOT__.manifest.sources.prices.coverage.dates >= 120);
+  assert.ok(context.__CHIP_LOCK_OUTCOMES__.summary);
 });

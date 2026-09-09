@@ -77,17 +77,3 @@ export async function fetchMarginDay(date, fetchImpl = fetch) {
     marginBalance: parseNumber(row[marginIndex]), shortBalance: parseNumber(row[shortIndex])
   })).filter(row => /^\d{4}$/.test(row.symbol));
 }
-
-export async function fetchQuotes(symbols, fetchImpl = fetch) {
-  const channels = symbols.map(symbol => `tse_${symbol}.tw`).join('|');
-  const url = `https://mis.twse.com.tw/stock/api/getStockInfo.jsp?ex_ch=${encodeURIComponent(channels)}&json=1&delay=0&_=${Date.now()}`;
-  const json = await fetchJson(url, { fetchImpl, attempts: 2, timeoutMs: 10000 });
-  return (json.msgArray || []).map(item => {
-    const price = parseNumber(item.z) ?? parseNumber(String(item.a || '').split('_')[0]) ?? parseNumber(item.y);
-    const timestamp = item.d && item.t ? `${item.d.slice(0, 4)}-${item.d.slice(4, 6)}-${item.d.slice(6, 8)}T${item.t}+08:00` : null;
-    return {
-      symbol: item.c, name: item.n, price,
-      cumulativeVolumeLots: parseNumber(item.v), timestamp, provider: 'TWSE_MIS'
-    };
-  }).filter(row => row.symbol && row.price !== null);
-}

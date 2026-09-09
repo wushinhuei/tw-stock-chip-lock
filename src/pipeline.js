@@ -1,5 +1,5 @@
 import { buildManifest, evaluateCompleteness } from './core/completeness.js';
-import { evaluateStock, rankCandidates } from './core/strategy.js';
+import { rankCandidates } from './core/strategy.js';
 
 function group(rows) {
   const out = new Map();
@@ -18,6 +18,7 @@ export function buildSnapshot(input, options = {}) {
   const disclosureMap = group(input.disclosures);
   const meetingMap = group(input.shareholderMeetings);
   const exRightsMap = group(input.exRights);
+  const revenueMap = group(input.monthlyRevenue);
   const stocks = (input.companies || []).map(company => ({
     ...company,
     expectedDate: options.expectedDate || null,
@@ -26,18 +27,21 @@ export function buildSnapshot(input, options = {}) {
     margin: marginMap.get(company.symbol) || [],
     tdccWeeks: tdccMap.get(company.symbol) || [],
     mopsDisclosures: disclosureMap.get(company.symbol) || [],
-    riskEvents: [...(meetingMap.get(company.symbol) || []), ...(exRightsMap.get(company.symbol) || [])]
+    riskEvents: [...(meetingMap.get(company.symbol) || []), ...(exRightsMap.get(company.symbol) || [])],
+    monthlyRevenue: revenueMap.get(company.symbol) || [],
+    asOf: options.now || null
   }));
   const completeness = evaluateCompleteness(input.sources, { expectedDate: options.expectedDate, now: options.now });
-  const candidates = completeness.status === 'COMPLETE' ? rankCandidates(stocks) : [];
-  const accumulationWatch = stocks.map(evaluateStock).filter(row => row.accumulationWatch).slice(0, 50);
+  const unavailable = completeness.status === 'BLOCKED' || completeness.status === 'STALE';
+  const potentialStocks = unavailable ? [] : rankCandidates(stocks);
+  const candidateStatus = unavailable ? 'UNAVAILABLE'
+    : completeness.status === 'COMPLETE' && potentialStocks.every(row => row.candidateStatus === 'VERIFIED') ? 'VERIFIED' : 'PROVISIONAL';
   const payload = {
-    schemaVersion: 1,
+    schemaVersion: 2,
     generatedAt: options.now || new Date().toISOString(),
     dataStatus: completeness.status,
-    allowNewRisk: completeness.allowNewRisk,
-    candidates,
-    accumulationWatch,
+    candidateStatus,
+    potentialStocks,
     disclosures: input.disclosures || [],
     corporateEvents: [...(input.shareholderMeetings || []), ...(input.exRights || [])]
   };

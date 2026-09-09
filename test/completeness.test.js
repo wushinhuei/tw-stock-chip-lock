@@ -5,14 +5,15 @@ import { buildManifest, coverage, evaluateCompleteness } from '../src/core/compl
 const date = '2026-09-04';
 const required = {
   prices: { ok: true, date, rows: 100 }, institutional: { ok: true, date, rows: 100 },
-  margin: { ok: true, date, rows: 100 }, tdcc: { ok: true, date: '2026-08-28', rows: 100 }
+  margin: { ok: true, date, rows: 100 }, tdcc: { ok: true, date: '2026-08-28', rows: 100 },
+  monthlyRevenue: { ok: true, date: '2026-08', rows: 3600 }
 };
 
 test('完整、部分、阻擋及過期四種狀態均fail-closed', () => {
   assert.equal(evaluateCompleteness(required, { expectedDate: date }).status, 'COMPLETE');
   const partial = evaluateCompleteness({ ...required, mops: { ok: false, date: null, rows: 0 } }, { expectedDate: date });
   assert.equal(partial.status, 'PARTIAL');
-  assert.equal(partial.allowNewRisk, false);
+  assert.equal(partial.canPublishRanking, true);
   assert.equal(evaluateCompleteness({ ...required, margin: { ok: false, date, rows: 0 } }, { expectedDate: date }).status, 'BLOCKED');
   assert.equal(evaluateCompleteness({ ...required, prices: { ...required.prices, date: '2026-09-03' } }, { expectedDate: date }).status, 'BLOCKED');
   assert.equal(evaluateCompleteness({ ...required, prices: { ...required.prices, stale: true } }, { expectedDate: date }).status, 'STALE');
