@@ -20,7 +20,13 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - run: npm test
+      - name: Restore official-data cache
+        uses: actions/cache@v4
+        with:
+          path: data/cache.json
+          key: official-data-${{ runner.os }}-${{ github.run_id }}
+          restore-keys: |
+            official-data-${{ runner.os }}-      - run: npm test
       - run: npm run update:weekly
         continue-on-error: true
       - run: npm run validate:output

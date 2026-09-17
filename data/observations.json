@@ -147,5 +147,85 @@
     "score": 68,
     "revenue36mHigh": false,
     "candidateStatus": "PROVISIONAL"
+  },
+  {
+    "symbol": "1303",
+    "name": "南亞",
+    "listedDate": "2026-09-17",
+    "listedPrice": 236,
+    "grade": "B",
+    "score": 65.4,
+    "revenue36mHigh": true,
+    "candidateStatus": "PROVISIONAL"
+  },
+  {
+    "symbol": "2603",
+    "name": "長榮",
+    "listedDate": "2026-09-17",
+    "listedPrice": 242.5,
+    "grade": "C",
+    "score": 55.4,
+    "revenue36mHigh": false,
+    "candidateStatus": "PROVISIONAL"
+  },
+  {
+    "symbol": "2606",
+    "name": "裕民",
+    "listedDate": "2026-09-17",
+    "listedPrice": 77,
+    "grade": "C",
+    "score": 51,
+    "revenue36mHigh": false,
+    "candidateStatus": "PROVISIONAL"
+  },
+  {
+    "symbol": "2855",
+    "name": "統一證",
+    "listedDate": "2026-09-17",
+    "listedPrice": 52.5,
+    "grade": "C",
+    "score": 53.4,
+    "revenue36mHigh": false,
+    "candidateStatus": "PROVISIONAL"
+  },
+  {
+    "symbol": "2884",
+    "name": "玉山金",
+    "listedDate": "2026-09-17",
+    "listedPrice": 47.3,
+    "grade": "C",
+    "score": 55,
+    "revenue36mHigh": false,
+    "candidateStatus": "PROVISIONAL"
+  },
+  {
+    "symbol": "2887",
+    "name": "台新新光金",
+    "listedDate": "2026-09-17",
+    "listedPrice": 44.05,
+    "grade": "C",
+    "score": 55.3,
+    "revenue36mHigh": false,
+    "candidateStatus": "PROVISIONAL"
+  },
+  {
+    "symbol": "3443",
+    "name": "創意",
+    "listedDate": "2026-09-17",
+    "listedPrice": 6500,
+    "grade": "B",
+    "score": 75.7,
+    "revenue36mHigh": true,
+    "candidateStatus": "PROVISIONAL"
+  },
+  {
+    "symbol": "5876",
+    "name": "上海商銀",
+    "listedDate": "2026-09-17",
+    "listedPrice": 49.95,
+    "grade": "C",
+    "score": 57.7,
+    "revenue36mHigh": false,
+    "candidateStatus": "PROVISIONAL"
   }
 ]

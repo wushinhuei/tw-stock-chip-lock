@@ -101,7 +101,10 @@ export async function collect({ fullHistory }) {
   const now = new Date();
   const today = now.toISOString().slice(0, 10);
   const cache = await readJson(CACHE_PATH, { prices: [], institutional: [], margin: [] });
-  const dates = tradingWeekdays(today, fullHistory ? 190 : 14);
+  // GitHub-hosted runners start with an empty ignored cache. A daily update must
+  // bootstrap enough history instead of publishing a permanently BLOCKED file.
+  const needsHistoryBootstrap = coverage(cache.prices, 120).dates < 120;
+  const dates = tradingWeekdays(today, fullHistory || needsHistoryBootstrap ? 190 : 14);
   const market = await fetchDays(missingDates(dates, cache.prices), fetchMarketDay, 'prices');
   const recentDates = dates.slice(-10);
   const institutional = await fetchDays(missingDates(recentDates, cache.institutional), fetchInstitutionalDay, 'institutional');

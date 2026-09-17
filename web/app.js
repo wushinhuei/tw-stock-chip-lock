@@ -11,7 +11,11 @@ function escapeHtml(value) { return String(value ?? '').replace(/[&<>'"]/g, char
 
 async function loadPageData(url, offlineValue) {
   if (location.protocol !== 'file:') {
-    try { const response = await fetch(url, { cache: 'no-store' }); if (response.ok) return response.json(); } catch {}
+    try {
+      const separator = url.includes('?') ? '&' : '?';
+      const response = await fetch(`${url}${separator}v=${Date.now()}`, { cache: 'no-store' });
+      if (response.ok) return response.json();
+    } catch {}
   }
   if (offlineValue) return structuredClone(offlineValue);
   throw new Error(`無法讀取 ${url}`);
@@ -31,7 +35,9 @@ function renderStatus() {
   document.querySelector('#statusText').textContent = snapshot.candidateStatus === 'VERIFIED'
     ? '官方資料完整，顯示已驗證潛力榜。' : snapshot.candidateStatus === 'PROVISIONAL'
       ? '核心市場資料可用；TDCC、月營收或人工資料尚未完整，顯示暫定榜。' : '核心價格、法人或資券資料不可用，暫停產生名單。';
-  document.querySelector('#generatedAt').textContent = snapshot.generatedAt ? `更新 ${new Date(snapshot.generatedAt).toLocaleString('zh-TW')}` : '尚未更新';
+  document.querySelector('#marketDate').textContent = `市場資料日 ${snapshot.manifest?.sources?.prices?.date || '缺漏'}`;
+  document.querySelector('#generatedAt').textContent = snapshot.generatedAt ? `資料產製 ${new Date(snapshot.generatedAt).toLocaleString('zh-TW')}` : '資料尚未產製';
+  document.querySelector('#pageOpenedAt').textContent = `本頁讀取 ${new Date().toLocaleString('zh-TW')}`;
   const sources = snapshot.manifest?.sources || {};
   document.querySelector('#sourceCards').innerHTML = Object.entries(sources).map(([name, source]) =>
     `<div><strong>${name.toUpperCase()}</strong><span>${source.provider || '—'}</span><span>日期 ${source.date || '缺漏'}</span><span>${source.rows ?? 0} 筆${source.months ? `／${source.months}月` : ''}</span></div>`).join('') || '<div>尚無來源資料</div>';

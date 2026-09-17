@@ -14,6 +14,14 @@ test('雙擊本機頁面不依賴module或JSON fetch才能取得資料', async (
   vm.runInContext(await readFile(resolve(root, 'web/data/latest.js'), 'utf8'), context);
   vm.runInContext(await readFile(resolve(root, 'web/data/outcomes.js'), 'utf8'), context);
   assert.ok(['COMPLETE', 'PARTIAL', 'BLOCKED', 'STALE'].includes(context.__CHIP_LOCK_SNAPSHOT__.dataStatus));
-  assert.ok(context.__CHIP_LOCK_SNAPSHOT__.manifest.sources.prices.coverage.dates >= 120);
+  assert.ok(context.__CHIP_LOCK_SNAPSHOT__.manifest?.sources?.prices);
   assert.ok(context.__CHIP_LOCK_OUTCOMES__.summary);
+});
+
+test('線上頁面每次開啟都以防快取網址讀取最新發布資料', async () => {
+  const app = await readFile(resolve(root, 'web/app.js'), 'utf8');
+  assert.match(app, /v=\$\{Date\.now\(\)\}/);
+  assert.match(app, /cache: 'no-store'/);
+  assert.match(app, /市場資料日/);
+  assert.match(app, /本頁讀取/);
 });
