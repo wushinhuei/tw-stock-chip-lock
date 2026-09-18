@@ -227,5 +227,85 @@
     "score": 57.7,
     "revenue36mHigh": false,
     "candidateStatus": "PROVISIONAL"
+  },
+  {
+    "symbol": "1303",
+    "name": "南亞",
+    "listedDate": "2026-09-18",
+    "listedPrice": 238,
+    "grade": "B",
+    "score": 67.7,
+    "revenue36mHigh": true,
+    "candidateStatus": "PROVISIONAL"
+  },
+  {
+    "symbol": "2606",
+    "name": "裕民",
+    "listedDate": "2026-09-18",
+    "listedPrice": 77.4,
+    "grade": "C",
+    "score": 50.4,
+    "revenue36mHigh": false,
+    "candidateStatus": "PROVISIONAL"
+  },
+  {
+    "symbol": "2855",
+    "name": "統一證",
+    "listedDate": "2026-09-18",
+    "listedPrice": 53.3,
+    "grade": "C",
+    "score": 52.7,
+    "revenue36mHigh": false,
+    "candidateStatus": "PROVISIONAL"
+  },
+  {
+    "symbol": "2884",
+    "name": "玉山金",
+    "listedDate": "2026-09-18",
+    "listedPrice": 46.4,
+    "grade": "C",
+    "score": 53.3,
+    "revenue36mHigh": false,
+    "candidateStatus": "PROVISIONAL"
+  },
+  {
+    "symbol": "3006",
+    "name": "晶豪科",
+    "listedDate": "2026-09-18",
+    "listedPrice": 291,
+    "grade": "C",
+    "score": 50.1,
+    "revenue36mHigh": true,
+    "candidateStatus": "PROVISIONAL"
+  },
+  {
+    "symbol": "3017",
+    "name": "奇鋐",
+    "listedDate": "2026-09-18",
+    "listedPrice": 3430,
+    "grade": "C",
+    "score": 55.2,
+    "revenue36mHigh": true,
+    "candidateStatus": "PROVISIONAL"
+  },
+  {
+    "symbol": "3034",
+    "name": "聯詠",
+    "listedDate": "2026-09-18",
+    "listedPrice": 558,
+    "grade": "C",
+    "score": 52.4,
+    "revenue36mHigh": true,
+    "candidateStatus": "PROVISIONAL"
+  },
+  {
+    "symbol": "3231",
+    "name": "緯創",
+    "listedDate": "2026-09-18",
+    "listedPrice": 186.5,
+    "grade": "C",
+    "score": 60.3,
+    "revenue36mHigh": true,
+    "candidateStatus": "PROVISIONAL"
   }
 ]

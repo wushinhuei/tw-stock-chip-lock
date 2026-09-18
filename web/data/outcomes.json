@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T22:39:33.443Z",
+  "generatedAt": "2026-09-18T17:11:58.260Z",
   "observations": [
     {
       "symbol": "1101",
@@ -11,9 +11,9 @@
       "candidateStatus": "PROVISIONAL",
       "horizons": {
         "5": {
-          "return": -0.0121,
-          "benchmarkReturn": -0.0146,
-          "excessReturn": 0.0025
+          "return": -0.0283,
+          "benchmarkReturn": -0.0251,
+          "excessReturn": -0.0032
         },
         "10": {
           "return": null,
@@ -27,7 +27,7 @@
         }
       },
       "status": "PENDING",
-      "maximumReturn20d": -0.0101,
+      "maximumReturn20d": 0.002,
       "maximumDrawdown20d": -0.0384
     },
     {
@@ -40,9 +40,9 @@
       "candidateStatus": "PROVISIONAL",
       "horizons": {
         "5": {
-          "return": -0.0028,
-          "benchmarkReturn": -0.0146,
-          "excessReturn": 0.0118
+          "return": -0.0127,
+          "benchmarkReturn": -0.0251,
+          "excessReturn": 0.0124
         },
         "10": {
           "return": null,
@@ -56,7 +56,7 @@
         }
       },
       "status": "PENDING",
-      "maximumReturn20d": -0.0028,
+      "maximumReturn20d": 0.0014,
       "maximumDrawdown20d": -0.0127
     },
     {
@@ -69,9 +69,9 @@
       "candidateStatus": "PROVISIONAL",
       "horizons": {
         "5": {
-          "return": -0.0381,
-          "benchmarkReturn": -0.0146,
-          "excessReturn": -0.0235
+          "return": -0.0453,
+          "benchmarkReturn": -0.0251,
+          "excessReturn": -0.0202
         },
         "10": {
           "return": null,
@@ -85,7 +85,7 @@
         }
       },
       "status": "PENDING",
-      "maximumReturn20d": -0.0298,
+      "maximumReturn20d": -0.0048,
       "maximumDrawdown20d": -0.0453
     },
     {
@@ -99,9 +99,9 @@
       "candidateStatus": "PROVISIONAL",
       "horizons": {
         "5": {
-          "return": -0.0021,
-          "benchmarkReturn": -0.0146,
-          "excessReturn": 0.0125
+          "return": -0.0529,
+          "benchmarkReturn": -0.0251,
+          "excessReturn": -0.0278
         },
         "10": {
           "return": null,
@@ -115,7 +115,7 @@
         }
       },
       "status": "PENDING",
-      "maximumReturn20d": -0.0021,
+      "maximumReturn20d": 0.0317,
       "maximumDrawdown20d": -0.0634
     },
     {
@@ -128,9 +128,9 @@
       "candidateStatus": "PROVISIONAL",
       "horizons": {
         "5": {
-          "return": -0.027,
-          "benchmarkReturn": -0.0146,
-          "excessReturn": -0.0124
+          "return": -0.0205,
+          "benchmarkReturn": -0.0251,
+          "excessReturn": 0.0045
         },
         "10": {
           "return": null,
@@ -144,7 +144,7 @@
         }
       },
       "status": "PENDING",
-      "maximumReturn20d": -0.0086,
+      "maximumReturn20d": 0.0205,
       "maximumDrawdown20d": -0.0422
     },
     {
@@ -157,9 +157,9 @@
       "candidateStatus": "PROVISIONAL",
       "horizons": {
         "5": {
-          "return": 0.0122,
-          "benchmarkReturn": -0.0146,
-          "excessReturn": 0.0268
+          "return": -0.0136,
+          "benchmarkReturn": -0.0251,
+          "excessReturn": 0.0115
         },
         "10": {
           "return": null,
@@ -173,7 +173,7 @@
         }
       },
       "status": "PENDING",
-      "maximumReturn20d": 0.0122,
+      "maximumReturn20d": 0.0298,
       "maximumDrawdown20d": -0.0136
     },
     {
@@ -186,9 +186,9 @@
       "candidateStatus": "PROVISIONAL",
       "horizons": {
         "5": {
-          "return": -0.028,
-          "benchmarkReturn": -0.0146,
-          "excessReturn": -0.0134
+          "return": -0.0477,
+          "benchmarkReturn": -0.0251,
+          "excessReturn": -0.0226
         },
         "10": {
           "return": null,
@@ -202,7 +202,7 @@
         }
       },
       "status": "PENDING",
-      "maximumReturn20d": -0.028,
+      "maximumReturn20d": -0.0083,
       "maximumDrawdown20d": -0.0612
     },
     {
@@ -215,9 +215,9 @@
       "candidateStatus": "PROVISIONAL",
       "horizons": {
         "5": {
-          "return": 0.1024,
-          "benchmarkReturn": -0.0146,
-          "excessReturn": 0.117
+          "return": 0.0764,
+          "benchmarkReturn": -0.0251,
+          "excessReturn": 0.1014
         },
         "10": {
           "return": null,
@@ -232,7 +232,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": 0.1024,
-      "maximumDrawdown20d": 0.0391
+      "maximumDrawdown20d": 0
     },
     {
       "symbol": "2880",
@@ -245,9 +245,9 @@
       "candidateStatus": "PROVISIONAL",
       "horizons": {
         "5": {
-          "return": 0.08,
-          "benchmarkReturn": -0.0146,
-          "excessReturn": 0.0946
+          "return": 0.0676,
+          "benchmarkReturn": -0.0251,
+          "excessReturn": 0.0927
         },
         "10": {
           "return": null,
@@ -262,7 +262,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": 0.08,
-      "maximumDrawdown20d": 0.0338
+      "maximumDrawdown20d": 0.0101
     },
     {
       "symbol": "2887",
@@ -274,9 +274,9 @@
       "candidateStatus": "PROVISIONAL",
       "horizons": {
         "5": {
-          "return": 0.0389,
-          "benchmarkReturn": -0.0146,
-          "excessReturn": 0.0535
+          "return": 0.0472,
+          "benchmarkReturn": -0.0251,
+          "excessReturn": 0.0722
         },
         "10": {
           "return": null,
@@ -291,7 +291,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": 0.0472,
-      "maximumDrawdown20d": 0.0059
+      "maximumDrawdown20d": -0.0059
     },
     {
       "symbol": "2892",
@@ -304,9 +304,9 @@
       "candidateStatus": "PROVISIONAL",
       "horizons": {
         "5": {
-          "return": 0.078,
-          "benchmarkReturn": -0.0146,
-          "excessReturn": 0.0926
+          "return": 0.0582,
+          "benchmarkReturn": -0.0251,
+          "excessReturn": 0.0833
         },
         "10": {
           "return": null,
@@ -321,7 +321,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": 0.078,
-      "maximumDrawdown20d": 0.0291
+      "maximumDrawdown20d": 0.0053
     },
     {
       "symbol": "2897",
@@ -333,9 +333,9 @@
       "candidateStatus": "PROVISIONAL",
       "horizons": {
         "5": {
-          "return": 0.0369,
-          "benchmarkReturn": -0.0146,
-          "excessReturn": 0.0515
+          "return": 0.0276,
+          "benchmarkReturn": -0.0251,
+          "excessReturn": 0.0527
         },
         "10": {
           "return": null,
@@ -350,7 +350,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": 0.0369,
-      "maximumDrawdown20d": 0.0138
+      "maximumDrawdown20d": -0.0046
     },
     {
       "symbol": "3017",
@@ -363,9 +363,9 @@
       "candidateStatus": "PROVISIONAL",
       "horizons": {
         "5": {
-          "return": -0.0577,
-          "benchmarkReturn": -0.0146,
-          "excessReturn": -0.0431
+          "return": -0.0607,
+          "benchmarkReturn": -0.0251,
+          "excessReturn": -0.0356
         },
         "10": {
           "return": null,
@@ -379,7 +379,7 @@
         }
       },
       "status": "PENDING",
-      "maximumReturn20d": -0.003,
+      "maximumReturn20d": 0.0237,
       "maximumDrawdown20d": -0.0784
     },
     {
@@ -393,9 +393,9 @@
       "candidateStatus": "PROVISIONAL",
       "horizons": {
         "5": {
-          "return": 0.097,
-          "benchmarkReturn": -0.0146,
-          "excessReturn": 0.1116
+          "return": 0.0414,
+          "benchmarkReturn": -0.0251,
+          "excessReturn": 0.0664
         },
         "10": {
           "return": null,
@@ -409,7 +409,7 @@
         }
       },
       "status": "PENDING",
-      "maximumReturn20d": 0.097,
+      "maximumReturn20d": 0.2068,
       "maximumDrawdown20d": 0.0186
     },
     {
@@ -422,9 +422,9 @@
       "candidateStatus": "PROVISIONAL",
       "horizons": {
         "5": {
-          "return": -0.0077,
-          "benchmarkReturn": -0.0146,
-          "excessReturn": 0.0069
+          "return": -0.0231,
+          "benchmarkReturn": -0.0251,
+          "excessReturn": 0.002
         },
         "10": {
           "return": null,
@@ -451,9 +451,9 @@
       "candidateStatus": "PROVISIONAL",
       "horizons": {
         "5": {
-          "return": 0.0516,
-          "benchmarkReturn": -0.0146,
-          "excessReturn": 0.0662
+          "return": 0.0474,
+          "benchmarkReturn": -0.0251,
+          "excessReturn": 0.0724
         },
         "10": {
           "return": null,
@@ -468,7 +468,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": 0.0516,
-      "maximumDrawdown20d": 0.0242
+      "maximumDrawdown20d": 0.0084
     },
     {
       "symbol": "1303",
@@ -497,8 +497,8 @@
         }
       },
       "status": "PENDING",
-      "maximumReturn20d": null,
-      "maximumDrawdown20d": null
+      "maximumReturn20d": 0.0085,
+      "maximumDrawdown20d": 0.0085
     },
     {
       "symbol": "2603",
@@ -527,8 +527,8 @@
         }
       },
       "status": "PENDING",
-      "maximumReturn20d": null,
-      "maximumDrawdown20d": null
+      "maximumReturn20d": -0.0082,
+      "maximumDrawdown20d": -0.0082
     },
     {
       "symbol": "2606",
@@ -557,8 +557,8 @@
         }
       },
       "status": "PENDING",
-      "maximumReturn20d": null,
-      "maximumDrawdown20d": null
+      "maximumReturn20d": 0.0052,
+      "maximumDrawdown20d": 0.0052
     },
     {
       "symbol": "2855",
@@ -587,8 +587,8 @@
         }
       },
       "status": "PENDING",
-      "maximumReturn20d": null,
-      "maximumDrawdown20d": null
+      "maximumReturn20d": 0.0152,
+      "maximumDrawdown20d": 0.0152
     },
     {
       "symbol": "2884",
@@ -617,8 +617,8 @@
         }
       },
       "status": "PENDING",
-      "maximumReturn20d": null,
-      "maximumDrawdown20d": null
+      "maximumReturn20d": -0.019,
+      "maximumDrawdown20d": -0.019
     },
     {
       "symbol": "2887",
@@ -647,8 +647,8 @@
         }
       },
       "status": "PENDING",
-      "maximumReturn20d": null,
-      "maximumDrawdown20d": null
+      "maximumReturn20d": 0.0079,
+      "maximumDrawdown20d": 0.0079
     },
     {
       "symbol": "3443",
@@ -677,8 +677,8 @@
         }
       },
       "status": "PENDING",
-      "maximumReturn20d": null,
-      "maximumDrawdown20d": null
+      "maximumReturn20d": 0.1,
+      "maximumDrawdown20d": 0.1
     },
     {
       "symbol": "5876",
@@ -707,12 +707,252 @@
         }
       },
       "status": "PENDING",
+      "maximumReturn20d": -0.01,
+      "maximumDrawdown20d": -0.01
+    },
+    {
+      "symbol": "1303",
+      "name": "南亞",
+      "listedDate": "2026-09-18",
+      "listedPrice": 238,
+      "grade": "B",
+      "score": 67.7,
+      "revenue36mHigh": true,
+      "candidateStatus": "PROVISIONAL",
+      "horizons": {
+        "5": {
+          "return": null,
+          "benchmarkReturn": null,
+          "excessReturn": null
+        },
+        "10": {
+          "return": null,
+          "benchmarkReturn": null,
+          "excessReturn": null
+        },
+        "20": {
+          "return": null,
+          "benchmarkReturn": null,
+          "excessReturn": null
+        }
+      },
+      "status": "PENDING",
+      "maximumReturn20d": null,
+      "maximumDrawdown20d": null
+    },
+    {
+      "symbol": "2606",
+      "name": "裕民",
+      "listedDate": "2026-09-18",
+      "listedPrice": 77.4,
+      "grade": "C",
+      "score": 50.4,
+      "revenue36mHigh": false,
+      "candidateStatus": "PROVISIONAL",
+      "horizons": {
+        "5": {
+          "return": null,
+          "benchmarkReturn": null,
+          "excessReturn": null
+        },
+        "10": {
+          "return": null,
+          "benchmarkReturn": null,
+          "excessReturn": null
+        },
+        "20": {
+          "return": null,
+          "benchmarkReturn": null,
+          "excessReturn": null
+        }
+      },
+      "status": "PENDING",
+      "maximumReturn20d": null,
+      "maximumDrawdown20d": null
+    },
+    {
+      "symbol": "2855",
+      "name": "統一證",
+      "listedDate": "2026-09-18",
+      "listedPrice": 53.3,
+      "grade": "C",
+      "score": 52.7,
+      "revenue36mHigh": false,
+      "candidateStatus": "PROVISIONAL",
+      "horizons": {
+        "5": {
+          "return": null,
+          "benchmarkReturn": null,
+          "excessReturn": null
+        },
+        "10": {
+          "return": null,
+          "benchmarkReturn": null,
+          "excessReturn": null
+        },
+        "20": {
+          "return": null,
+          "benchmarkReturn": null,
+          "excessReturn": null
+        }
+      },
+      "status": "PENDING",
+      "maximumReturn20d": null,
+      "maximumDrawdown20d": null
+    },
+    {
+      "symbol": "2884",
+      "name": "玉山金",
+      "listedDate": "2026-09-18",
+      "listedPrice": 46.4,
+      "grade": "C",
+      "score": 53.3,
+      "revenue36mHigh": false,
+      "candidateStatus": "PROVISIONAL",
+      "horizons": {
+        "5": {
+          "return": null,
+          "benchmarkReturn": null,
+          "excessReturn": null
+        },
+        "10": {
+          "return": null,
+          "benchmarkReturn": null,
+          "excessReturn": null
+        },
+        "20": {
+          "return": null,
+          "benchmarkReturn": null,
+          "excessReturn": null
+        }
+      },
+      "status": "PENDING",
+      "maximumReturn20d": null,
+      "maximumDrawdown20d": null
+    },
+    {
+      "symbol": "3006",
+      "name": "晶豪科",
+      "listedDate": "2026-09-18",
+      "listedPrice": 291,
+      "grade": "C",
+      "score": 50.1,
+      "revenue36mHigh": true,
+      "candidateStatus": "PROVISIONAL",
+      "horizons": {
+        "5": {
+          "return": null,
+          "benchmarkReturn": null,
+          "excessReturn": null
+        },
+        "10": {
+          "return": null,
+          "benchmarkReturn": null,
+          "excessReturn": null
+        },
+        "20": {
+          "return": null,
+          "benchmarkReturn": null,
+          "excessReturn": null
+        }
+      },
+      "status": "PENDING",
+      "maximumReturn20d": null,
+      "maximumDrawdown20d": null
+    },
+    {
+      "symbol": "3017",
+      "name": "奇鋐",
+      "listedDate": "2026-09-18",
+      "listedPrice": 3430,
+      "grade": "C",
+      "score": 55.2,
+      "revenue36mHigh": true,
+      "candidateStatus": "PROVISIONAL",
+      "horizons": {
+        "5": {
+          "return": null,
+          "benchmarkReturn": null,
+          "excessReturn": null
+        },
+        "10": {
+          "return": null,
+          "benchmarkReturn": null,
+          "excessReturn": null
+        },
+        "20": {
+          "return": null,
+          "benchmarkReturn": null,
+          "excessReturn": null
+        }
+      },
+      "status": "PENDING",
+      "maximumReturn20d": null,
+      "maximumDrawdown20d": null
+    },
+    {
+      "symbol": "3034",
+      "name": "聯詠",
+      "listedDate": "2026-09-18",
+      "listedPrice": 558,
+      "grade": "C",
+      "score": 52.4,
+      "revenue36mHigh": true,
+      "candidateStatus": "PROVISIONAL",
+      "horizons": {
+        "5": {
+          "return": null,
+          "benchmarkReturn": null,
+          "excessReturn": null
+        },
+        "10": {
+          "return": null,
+          "benchmarkReturn": null,
+          "excessReturn": null
+        },
+        "20": {
+          "return": null,
+          "benchmarkReturn": null,
+          "excessReturn": null
+        }
+      },
+      "status": "PENDING",
+      "maximumReturn20d": null,
+      "maximumDrawdown20d": null
+    },
+    {
+      "symbol": "3231",
+      "name": "緯創",
+      "listedDate": "2026-09-18",
+      "listedPrice": 186.5,
+      "grade": "C",
+      "score": 60.3,
+      "revenue36mHigh": true,
+      "candidateStatus": "PROVISIONAL",
+      "horizons": {
+        "5": {
+          "return": null,
+          "benchmarkReturn": null,
+          "excessReturn": null
+        },
+        "10": {
+          "return": null,
+          "benchmarkReturn": null,
+          "excessReturn": null
+        },
+        "20": {
+          "return": null,
+          "benchmarkReturn": null,
+          "excessReturn": null
+        }
+      },
+      "status": "PENDING",
       "maximumReturn20d": null,
       "maximumDrawdown20d": null
     }
   ],
   "summary": {
-    "total": 24,
+    "total": 32,
     "completed": 0,
     "groups": {
       "A": {
