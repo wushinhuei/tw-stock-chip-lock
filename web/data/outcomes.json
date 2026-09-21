@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T07:27:27.123Z",
+  "generatedAt": "2026-09-21T18:50:52.419Z",
   "observations": [
     {
       "symbol": "1101",
@@ -144,7 +144,7 @@
         }
       },
       "status": "PENDING",
-      "maximumReturn20d": 0.0205,
+      "maximumReturn20d": 0.0832,
       "maximumDrawdown20d": -0.0422
     },
     {
@@ -173,7 +173,7 @@
         }
       },
       "status": "PENDING",
-      "maximumReturn20d": 0.0298,
+      "maximumReturn20d": 0.0393,
       "maximumDrawdown20d": -0.0136
     },
     {
@@ -409,7 +409,7 @@
         }
       },
       "status": "PENDING",
-      "maximumReturn20d": 0.2068,
+      "maximumReturn20d": 0.2852,
       "maximumDrawdown20d": 0.0186
     },
     {
@@ -497,7 +497,7 @@
         }
       },
       "status": "PENDING",
-      "maximumReturn20d": 0.0085,
+      "maximumReturn20d": 0.0148,
       "maximumDrawdown20d": 0.0085
     },
     {
@@ -527,7 +527,7 @@
         }
       },
       "status": "PENDING",
-      "maximumReturn20d": -0.0082,
+      "maximumReturn20d": -0.0021,
       "maximumDrawdown20d": -0.0082
     },
     {
@@ -558,7 +558,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": 0.0052,
-      "maximumDrawdown20d": 0.0052
+      "maximumDrawdown20d": 0.0039
     },
     {
       "symbol": "2855",
@@ -587,7 +587,7 @@
         }
       },
       "status": "PENDING",
-      "maximumReturn20d": 0.0152,
+      "maximumReturn20d": 0.0914,
       "maximumDrawdown20d": 0.0152
     },
     {
@@ -618,7 +618,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": -0.019,
-      "maximumDrawdown20d": -0.019
+      "maximumDrawdown20d": -0.0233
     },
     {
       "symbol": "2887",
@@ -648,7 +648,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": 0.0079,
-      "maximumDrawdown20d": 0.0079
+      "maximumDrawdown20d": -0.0057
     },
     {
       "symbol": "3443",
@@ -677,7 +677,7 @@
         }
       },
       "status": "PENDING",
-      "maximumReturn20d": 0.1,
+      "maximumReturn20d": 0.1715,
       "maximumDrawdown20d": 0.1
     },
     {
@@ -708,7 +708,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": -0.01,
-      "maximumDrawdown20d": -0.01
+      "maximumDrawdown20d": -0.014
     },
     {
       "symbol": "1303",
@@ -737,8 +737,8 @@
         }
       },
       "status": "PENDING",
-      "maximumReturn20d": null,
-      "maximumDrawdown20d": null
+      "maximumReturn20d": 0.0063,
+      "maximumDrawdown20d": 0.0063
     },
     {
       "symbol": "2606",
@@ -767,8 +767,8 @@
         }
       },
       "status": "PENDING",
-      "maximumReturn20d": null,
-      "maximumDrawdown20d": null
+      "maximumReturn20d": -0.0013,
+      "maximumDrawdown20d": -0.0013
     },
     {
       "symbol": "2855",
@@ -797,8 +797,8 @@
         }
       },
       "status": "PENDING",
-      "maximumReturn20d": null,
-      "maximumDrawdown20d": null
+      "maximumReturn20d": 0.075,
+      "maximumDrawdown20d": 0.075
     },
     {
       "symbol": "2884",
@@ -827,8 +827,8 @@
         }
       },
       "status": "PENDING",
-      "maximumReturn20d": null,
-      "maximumDrawdown20d": null
+      "maximumReturn20d": -0.0043,
+      "maximumDrawdown20d": -0.0043
     },
     {
       "symbol": "3006",
@@ -857,8 +857,8 @@
         }
       },
       "status": "PENDING",
-      "maximumReturn20d": null,
-      "maximumDrawdown20d": null
+      "maximumReturn20d": -0.0206,
+      "maximumDrawdown20d": -0.0206
     },
     {
       "symbol": "3017",
@@ -887,8 +887,8 @@
         }
       },
       "status": "PENDING",
-      "maximumReturn20d": null,
-      "maximumDrawdown20d": null
+      "maximumReturn20d": -0.0044,
+      "maximumDrawdown20d": -0.0044
     },
     {
       "symbol": "3034",
@@ -917,8 +917,8 @@
         }
       },
       "status": "PENDING",
-      "maximumReturn20d": null,
-      "maximumDrawdown20d": null
+      "maximumReturn20d": -0.0179,
+      "maximumDrawdown20d": -0.0179
     },
     {
       "symbol": "3231",
@@ -947,12 +947,312 @@
         }
       },
       "status": "PENDING",
+      "maximumReturn20d": 0,
+      "maximumDrawdown20d": 0
+    },
+    {
+      "symbol": "1709",
+      "name": "和益",
+      "listedDate": "2026-09-21",
+      "listedPrice": 43.1,
+      "grade": "C",
+      "score": 58.7,
+      "revenue36mHigh": true,
+      "candidateStatus": "VERIFIED",
+      "horizons": {
+        "5": {
+          "return": null,
+          "benchmarkReturn": null,
+          "excessReturn": null
+        },
+        "10": {
+          "return": null,
+          "benchmarkReturn": null,
+          "excessReturn": null
+        },
+        "20": {
+          "return": null,
+          "benchmarkReturn": null,
+          "excessReturn": null
+        }
+      },
+      "status": "PENDING",
+      "maximumReturn20d": null,
+      "maximumDrawdown20d": null
+    },
+    {
+      "symbol": "2412",
+      "name": "中華電",
+      "listedDate": "2026-09-21",
+      "listedPrice": 144.5,
+      "grade": "C",
+      "score": 55.6,
+      "revenue36mHigh": false,
+      "candidateStatus": "VERIFIED",
+      "horizons": {
+        "5": {
+          "return": null,
+          "benchmarkReturn": null,
+          "excessReturn": null
+        },
+        "10": {
+          "return": null,
+          "benchmarkReturn": null,
+          "excessReturn": null
+        },
+        "20": {
+          "return": null,
+          "benchmarkReturn": null,
+          "excessReturn": null
+        }
+      },
+      "status": "PENDING",
+      "maximumReturn20d": null,
+      "maximumDrawdown20d": null
+    },
+    {
+      "symbol": "2474",
+      "name": "可成",
+      "listedDate": "2026-09-21",
+      "listedPrice": 211,
+      "grade": "C",
+      "score": 57.6,
+      "revenue36mHigh": false,
+      "candidateStatus": "VERIFIED",
+      "horizons": {
+        "5": {
+          "return": null,
+          "benchmarkReturn": null,
+          "excessReturn": null
+        },
+        "10": {
+          "return": null,
+          "benchmarkReturn": null,
+          "excessReturn": null
+        },
+        "20": {
+          "return": null,
+          "benchmarkReturn": null,
+          "excessReturn": null
+        }
+      },
+      "status": "PENDING",
+      "maximumReturn20d": null,
+      "maximumDrawdown20d": null
+    },
+    {
+      "symbol": "2530",
+      "name": "華建",
+      "listedDate": "2026-09-21",
+      "listedPrice": 20.2,
+      "grade": "C",
+      "score": 54.4,
+      "revenue36mHigh": false,
+      "candidateStatus": "VERIFIED",
+      "horizons": {
+        "5": {
+          "return": null,
+          "benchmarkReturn": null,
+          "excessReturn": null
+        },
+        "10": {
+          "return": null,
+          "benchmarkReturn": null,
+          "excessReturn": null
+        },
+        "20": {
+          "return": null,
+          "benchmarkReturn": null,
+          "excessReturn": null
+        }
+      },
+      "status": "PENDING",
+      "maximumReturn20d": null,
+      "maximumDrawdown20d": null
+    },
+    {
+      "symbol": "2612",
+      "name": "中航",
+      "listedDate": "2026-09-21",
+      "listedPrice": 63.3,
+      "grade": "C",
+      "score": 52.5,
+      "revenue36mHigh": true,
+      "candidateStatus": "VERIFIED",
+      "horizons": {
+        "5": {
+          "return": null,
+          "benchmarkReturn": null,
+          "excessReturn": null
+        },
+        "10": {
+          "return": null,
+          "benchmarkReturn": null,
+          "excessReturn": null
+        },
+        "20": {
+          "return": null,
+          "benchmarkReturn": null,
+          "excessReturn": null
+        }
+      },
+      "status": "PENDING",
+      "maximumReturn20d": null,
+      "maximumDrawdown20d": null
+    },
+    {
+      "symbol": "2884",
+      "name": "玉山金",
+      "listedDate": "2026-09-21",
+      "listedPrice": 46.2,
+      "grade": "C",
+      "score": 56.9,
+      "revenue36mHigh": false,
+      "candidateStatus": "VERIFIED",
+      "horizons": {
+        "5": {
+          "return": null,
+          "benchmarkReturn": null,
+          "excessReturn": null
+        },
+        "10": {
+          "return": null,
+          "benchmarkReturn": null,
+          "excessReturn": null
+        },
+        "20": {
+          "return": null,
+          "benchmarkReturn": null,
+          "excessReturn": null
+        }
+      },
+      "status": "PENDING",
+      "maximumReturn20d": null,
+      "maximumDrawdown20d": null
+    },
+    {
+      "symbol": "2890",
+      "name": "永豐金",
+      "listedDate": "2026-09-21",
+      "listedPrice": 45.7,
+      "grade": "C",
+      "score": 62.7,
+      "revenue36mHigh": false,
+      "candidateStatus": "VERIFIED",
+      "horizons": {
+        "5": {
+          "return": null,
+          "benchmarkReturn": null,
+          "excessReturn": null
+        },
+        "10": {
+          "return": null,
+          "benchmarkReturn": null,
+          "excessReturn": null
+        },
+        "20": {
+          "return": null,
+          "benchmarkReturn": null,
+          "excessReturn": null
+        }
+      },
+      "status": "PENDING",
+      "maximumReturn20d": null,
+      "maximumDrawdown20d": null
+    },
+    {
+      "symbol": "3045",
+      "name": "台灣大",
+      "listedDate": "2026-09-21",
+      "listedPrice": 124.5,
+      "grade": "B",
+      "score": 67.7,
+      "revenue36mHigh": false,
+      "candidateStatus": "VERIFIED",
+      "horizons": {
+        "5": {
+          "return": null,
+          "benchmarkReturn": null,
+          "excessReturn": null
+        },
+        "10": {
+          "return": null,
+          "benchmarkReturn": null,
+          "excessReturn": null
+        },
+        "20": {
+          "return": null,
+          "benchmarkReturn": null,
+          "excessReturn": null
+        }
+      },
+      "status": "PENDING",
+      "maximumReturn20d": null,
+      "maximumDrawdown20d": null
+    },
+    {
+      "symbol": "5876",
+      "name": "上海商銀",
+      "listedDate": "2026-09-21",
+      "listedPrice": 49.25,
+      "grade": "C",
+      "score": 64.7,
+      "revenue36mHigh": false,
+      "candidateStatus": "VERIFIED",
+      "horizons": {
+        "5": {
+          "return": null,
+          "benchmarkReturn": null,
+          "excessReturn": null
+        },
+        "10": {
+          "return": null,
+          "benchmarkReturn": null,
+          "excessReturn": null
+        },
+        "20": {
+          "return": null,
+          "benchmarkReturn": null,
+          "excessReturn": null
+        }
+      },
+      "status": "PENDING",
+      "maximumReturn20d": null,
+      "maximumDrawdown20d": null
+    },
+    {
+      "symbol": "6505",
+      "name": "台塑化",
+      "listedDate": "2026-09-21",
+      "listedPrice": 88.5,
+      "grade": "C",
+      "score": 62.2,
+      "revenue36mHigh": true,
+      "candidateStatus": "VERIFIED",
+      "horizons": {
+        "5": {
+          "return": null,
+          "benchmarkReturn": null,
+          "excessReturn": null
+        },
+        "10": {
+          "return": null,
+          "benchmarkReturn": null,
+          "excessReturn": null
+        },
+        "20": {
+          "return": null,
+          "benchmarkReturn": null,
+          "excessReturn": null
+        }
+      },
+      "status": "PENDING",
       "maximumReturn20d": null,
       "maximumDrawdown20d": null
     }
   ],
   "summary": {
-    "total": 32,
+    "total": 42,
     "completed": 0,
     "groups": {
       "A": {

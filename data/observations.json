@@ -307,5 +307,105 @@
     "score": 60.3,
     "revenue36mHigh": true,
     "candidateStatus": "PROVISIONAL"
+  },
+  {
+    "symbol": "1709",
+    "name": "和益",
+    "listedDate": "2026-09-21",
+    "listedPrice": 43.1,
+    "grade": "C",
+    "score": 58.7,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "2412",
+    "name": "中華電",
+    "listedDate": "2026-09-21",
+    "listedPrice": 144.5,
+    "grade": "C",
+    "score": 55.6,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "2474",
+    "name": "可成",
+    "listedDate": "2026-09-21",
+    "listedPrice": 211,
+    "grade": "C",
+    "score": 57.6,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "2530",
+    "name": "華建",
+    "listedDate": "2026-09-21",
+    "listedPrice": 20.2,
+    "grade": "C",
+    "score": 54.4,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "2612",
+    "name": "中航",
+    "listedDate": "2026-09-21",
+    "listedPrice": 63.3,
+    "grade": "C",
+    "score": 52.5,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "2884",
+    "name": "玉山金",
+    "listedDate": "2026-09-21",
+    "listedPrice": 46.2,
+    "grade": "C",
+    "score": 56.9,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "2890",
+    "name": "永豐金",
+    "listedDate": "2026-09-21",
+    "listedPrice": 45.7,
+    "grade": "C",
+    "score": 62.7,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "3045",
+    "name": "台灣大",
+    "listedDate": "2026-09-21",
+    "listedPrice": 124.5,
+    "grade": "B",
+    "score": 67.7,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "5876",
+    "name": "上海商銀",
+    "listedDate": "2026-09-21",
+    "listedPrice": 49.25,
+    "grade": "C",
+    "score": 64.7,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "6505",
+    "name": "台塑化",
+    "listedDate": "2026-09-21",
+    "listedPrice": 88.5,
+    "grade": "C",
+    "score": 62.2,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
   }
 ]
