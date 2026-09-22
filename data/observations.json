@@ -407,5 +407,105 @@
     "score": 62.2,
     "revenue36mHigh": true,
     "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "1303",
+    "name": "南亞",
+    "listedDate": "2026-09-22",
+    "listedPrice": 231.5,
+    "grade": "C",
+    "score": 50.1,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "2412",
+    "name": "中華電",
+    "listedDate": "2026-09-22",
+    "listedPrice": 145,
+    "grade": "C",
+    "score": 58.3,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "2474",
+    "name": "可成",
+    "listedDate": "2026-09-22",
+    "listedPrice": 210,
+    "grade": "C",
+    "score": 63.5,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "2530",
+    "name": "華建",
+    "listedDate": "2026-09-22",
+    "listedPrice": 20.4,
+    "grade": "C",
+    "score": 58.6,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "2884",
+    "name": "玉山金",
+    "listedDate": "2026-09-22",
+    "listedPrice": 46.05,
+    "grade": "C",
+    "score": 55.4,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "2890",
+    "name": "永豐金",
+    "listedDate": "2026-09-22",
+    "listedPrice": 45.4,
+    "grade": "C",
+    "score": 64.3,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "2892",
+    "name": "第一金",
+    "listedDate": "2026-09-22",
+    "listedPrice": 39.9,
+    "grade": "C",
+    "score": 60.6,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "3005",
+    "name": "神基",
+    "listedDate": "2026-09-22",
+    "listedPrice": 118.5,
+    "grade": "C",
+    "score": 61.8,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "3653",
+    "name": "健策",
+    "listedDate": "2026-09-22",
+    "listedPrice": 5830,
+    "grade": "C",
+    "score": 50.9,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "5876",
+    "name": "上海商銀",
+    "listedDate": "2026-09-22",
+    "listedPrice": 49.7,
+    "grade": "B",
+    "score": 65.3,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
   }
 ]
