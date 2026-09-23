@@ -507,5 +507,85 @@
     "score": 65.3,
     "revenue36mHigh": false,
     "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "2412",
+    "name": "中華電",
+    "listedDate": "2026-09-23",
+    "listedPrice": 145.5,
+    "grade": "C",
+    "score": 60.9,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "2474",
+    "name": "可成",
+    "listedDate": "2026-09-23",
+    "listedPrice": 209,
+    "grade": "C",
+    "score": 61.8,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "2884",
+    "name": "玉山金",
+    "listedDate": "2026-09-23",
+    "listedPrice": 45.6,
+    "grade": "C",
+    "score": 52.5,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "2890",
+    "name": "永豐金",
+    "listedDate": "2026-09-23",
+    "listedPrice": 45.05,
+    "grade": "C",
+    "score": 64.4,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "2892",
+    "name": "第一金",
+    "listedDate": "2026-09-23",
+    "listedPrice": 39.85,
+    "grade": "C",
+    "score": 60.8,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "3045",
+    "name": "台灣大",
+    "listedDate": "2026-09-23",
+    "listedPrice": 123,
+    "grade": "C",
+    "score": 52.8,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "4961",
+    "name": "天鈺",
+    "listedDate": "2026-09-23",
+    "listedPrice": 178.5,
+    "grade": "C",
+    "score": 61,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "5876",
+    "name": "上海商銀",
+    "listedDate": "2026-09-23",
+    "listedPrice": 49.25,
+    "grade": "C",
+    "score": 62.2,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
   }
 ]
