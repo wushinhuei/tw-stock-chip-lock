@@ -699,6 +699,26 @@
     "candidateStatus": "VERIFIED"
   },
   {
+    "symbol": "3189",
+    "name": "景碩",
+    "listedDate": "2026-09-24",
+    "listedPrice": 962,
+    "grade": "C",
+    "score": 63.1,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "3711",
+    "name": "日月光投控",
+    "listedDate": "2026-09-24",
+    "listedPrice": 699,
+    "grade": "C",
+    "score": 56.9,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
+  },
+  {
     "symbol": "4961",
     "name": "天鈺",
     "listedDate": "2026-09-24",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T17:58:17.285Z",
+  "generatedAt": "2026-09-25T18:03:33.090Z",
   "observations": [
     {
       "symbol": "1101",
@@ -2121,6 +2121,66 @@
       "maximumDrawdown20d": null
     },
     {
+      "symbol": "3189",
+      "name": "景碩",
+      "listedDate": "2026-09-24",
+      "listedPrice": 962,
+      "grade": "C",
+      "score": 63.1,
+      "revenue36mHigh": true,
+      "candidateStatus": "VERIFIED",
+      "horizons": {
+        "5": {
+          "return": null,
+          "benchmarkReturn": null,
+          "excessReturn": null
+        },
+        "10": {
+          "return": null,
+          "benchmarkReturn": null,
+          "excessReturn": null
+        },
+        "20": {
+          "return": null,
+          "benchmarkReturn": null,
+          "excessReturn": null
+        }
+      },
+      "status": "PENDING",
+      "maximumReturn20d": null,
+      "maximumDrawdown20d": null
+    },
+    {
+      "symbol": "3711",
+      "name": "日月光投控",
+      "listedDate": "2026-09-24",
+      "listedPrice": 699,
+      "grade": "C",
+      "score": 56.9,
+      "revenue36mHigh": true,
+      "candidateStatus": "VERIFIED",
+      "horizons": {
+        "5": {
+          "return": null,
+          "benchmarkReturn": null,
+          "excessReturn": null
+        },
+        "10": {
+          "return": null,
+          "benchmarkReturn": null,
+          "excessReturn": null
+        },
+        "20": {
+          "return": null,
+          "benchmarkReturn": null,
+          "excessReturn": null
+        }
+      },
+      "status": "PENDING",
+      "maximumReturn20d": null,
+      "maximumDrawdown20d": null
+    },
+    {
       "symbol": "4961",
       "name": "天鈺",
       "listedDate": "2026-09-24",
@@ -2182,7 +2242,7 @@
     }
   ],
   "summary": {
-    "total": 73,
+    "total": 75,
     "completed": 0,
     "groups": {
       "A": {
