@@ -737,5 +737,115 @@
     "score": 63.6,
     "revenue36mHigh": false,
     "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "2006",
+    "name": "東和鋼鐵",
+    "listedDate": "2026-09-29",
+    "listedPrice": 85.4,
+    "grade": "C",
+    "score": 52.3,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "2412",
+    "name": "中華電",
+    "listedDate": "2026-09-29",
+    "listedPrice": 144,
+    "grade": "C",
+    "score": 57.4,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "2530",
+    "name": "華建",
+    "listedDate": "2026-09-29",
+    "listedPrice": 20.1,
+    "grade": "C",
+    "score": 52.9,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "2884",
+    "name": "玉山金",
+    "listedDate": "2026-09-29",
+    "listedPrice": 44.9,
+    "grade": "C",
+    "score": 50.7,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "2892",
+    "name": "第一金",
+    "listedDate": "2026-09-29",
+    "listedPrice": 38.6,
+    "grade": "C",
+    "score": 54.4,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "3037",
+    "name": "欣興",
+    "listedDate": "2026-09-29",
+    "listedPrice": 1165,
+    "grade": "C",
+    "score": 64.8,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "3189",
+    "name": "景碩",
+    "listedDate": "2026-09-29",
+    "listedPrice": 955,
+    "grade": "C",
+    "score": 64.6,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "3653",
+    "name": "健策",
+    "listedDate": "2026-09-29",
+    "listedPrice": 6895,
+    "grade": "B",
+    "score": 72.6,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "3711",
+    "name": "日月光投控",
+    "listedDate": "2026-09-29",
+    "listedPrice": 687,
+    "grade": "C",
+    "score": 55.2,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "4961",
+    "name": "天鈺",
+    "listedDate": "2026-09-29",
+    "listedPrice": 184.5,
+    "grade": "C",
+    "score": 59.6,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "5876",
+    "name": "上海商銀",
+    "listedDate": "2026-09-29",
+    "listedPrice": 48.85,
+    "grade": "C",
+    "score": 62.8,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
   }
 ]
