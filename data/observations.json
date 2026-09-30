@@ -847,5 +847,105 @@
     "score": 62.8,
     "revenue36mHigh": false,
     "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "2006",
+    "name": "東和鋼鐵",
+    "listedDate": "2026-09-30",
+    "listedPrice": 85.4,
+    "grade": "C",
+    "score": 54.1,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "2412",
+    "name": "中華電",
+    "listedDate": "2026-09-30",
+    "listedPrice": 143.5,
+    "grade": "C",
+    "score": 53,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "2892",
+    "name": "第一金",
+    "listedDate": "2026-09-30",
+    "listedPrice": 38.65,
+    "grade": "C",
+    "score": 58.4,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "3037",
+    "name": "欣興",
+    "listedDate": "2026-09-30",
+    "listedPrice": 1175,
+    "grade": "B",
+    "score": 65.9,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "3189",
+    "name": "景碩",
+    "listedDate": "2026-09-30",
+    "listedPrice": 970,
+    "grade": "B",
+    "score": 66,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "3653",
+    "name": "健策",
+    "listedDate": "2026-09-30",
+    "listedPrice": 6800,
+    "grade": "B",
+    "score": 71.1,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "3711",
+    "name": "日月光投控",
+    "listedDate": "2026-09-30",
+    "listedPrice": 703,
+    "grade": "C",
+    "score": 57.7,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "4961",
+    "name": "天鈺",
+    "listedDate": "2026-09-30",
+    "listedPrice": 181,
+    "grade": "C",
+    "score": 56.7,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "5876",
+    "name": "上海商銀",
+    "listedDate": "2026-09-30",
+    "listedPrice": 49.15,
+    "grade": "C",
+    "score": 63.9,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "6257",
+    "name": "矽格",
+    "listedDate": "2026-09-30",
+    "listedPrice": 254,
+    "grade": "C",
+    "score": 58.5,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
   }
 ]
