@@ -1057,5 +1057,125 @@
     "score": 73.5,
     "revenue36mHigh": true,
     "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "2330",
+    "name": "台積電",
+    "listedDate": "2026-10-02",
+    "listedPrice": 2500,
+    "grade": "C",
+    "score": 56.9,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "2412",
+    "name": "中華電",
+    "listedDate": "2026-10-02",
+    "listedPrice": 146,
+    "grade": "C",
+    "score": 51.8,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "2454",
+    "name": "聯發科",
+    "listedDate": "2026-10-02",
+    "listedPrice": 4950,
+    "grade": "C",
+    "score": 61.5,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "2855",
+    "name": "統一證",
+    "listedDate": "2026-10-02",
+    "listedPrice": 57.6,
+    "grade": "C",
+    "score": 53.1,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "3005",
+    "name": "神基",
+    "listedDate": "2026-10-02",
+    "listedPrice": 117.5,
+    "grade": "C",
+    "score": 50.5,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "3653",
+    "name": "健策",
+    "listedDate": "2026-10-02",
+    "listedPrice": 6800,
+    "grade": "B",
+    "score": 74.5,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "3711",
+    "name": "日月光投控",
+    "listedDate": "2026-10-02",
+    "listedPrice": 713,
+    "grade": "C",
+    "score": 59.6,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "4961",
+    "name": "天鈺",
+    "listedDate": "2026-10-02",
+    "listedPrice": 183.5,
+    "grade": "C",
+    "score": 62,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "5876",
+    "name": "上海商銀",
+    "listedDate": "2026-10-02",
+    "listedPrice": 48.95,
+    "grade": "C",
+    "score": 51.9,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "6505",
+    "name": "台塑化",
+    "listedDate": "2026-10-02",
+    "listedPrice": 100,
+    "grade": "B",
+    "score": 73.7,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "6526",
+    "name": "達發",
+    "listedDate": "2026-10-02",
+    "listedPrice": 835,
+    "grade": "C",
+    "score": 54.2,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "6770",
+    "name": "力積電",
+    "listedDate": "2026-10-02",
+    "listedPrice": 76.5,
+    "grade": "C",
+    "score": 63.6,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
   }
 ]
