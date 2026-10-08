@@ -1377,5 +1377,85 @@
     "score": 53.8,
     "revenue36mHigh": false,
     "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "2308",
+    "name": "台達電",
+    "listedDate": "2026-10-08",
+    "listedPrice": 1965,
+    "grade": "C",
+    "score": 51.8,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "2368",
+    "name": "金像電",
+    "listedDate": "2026-10-08",
+    "listedPrice": 1285,
+    "grade": "C",
+    "score": 53.9,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "2404",
+    "name": "漢唐",
+    "listedDate": "2026-10-08",
+    "listedPrice": 1305,
+    "grade": "C",
+    "score": 54.2,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "2412",
+    "name": "中華電",
+    "listedDate": "2026-10-08",
+    "listedPrice": 146.5,
+    "grade": "C",
+    "score": 53.5,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "3044",
+    "name": "健鼎",
+    "listedDate": "2026-10-08",
+    "listedPrice": 582,
+    "grade": "C",
+    "score": 60.4,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "3711",
+    "name": "日月光投控",
+    "listedDate": "2026-10-08",
+    "listedPrice": 744,
+    "grade": "C",
+    "score": 58.2,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "6526",
+    "name": "達發",
+    "listedDate": "2026-10-08",
+    "listedPrice": 801,
+    "grade": "C",
+    "score": 53.4,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "8021",
+    "name": "尖點",
+    "listedDate": "2026-10-08",
+    "listedPrice": 557,
+    "grade": "C",
+    "score": 57.9,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
   }
 ]
