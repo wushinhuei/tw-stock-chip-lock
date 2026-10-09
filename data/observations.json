@@ -1429,6 +1429,16 @@
     "candidateStatus": "VERIFIED"
   },
   {
+    "symbol": "3045",
+    "name": "台灣大",
+    "listedDate": "2026-10-08",
+    "listedPrice": 124,
+    "grade": "C",
+    "score": 52.5,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
+  },
+  {
     "symbol": "3711",
     "name": "日月光投控",
     "listedDate": "2026-10-08",
@@ -1436,6 +1446,16 @@
     "grade": "C",
     "score": 58.2,
     "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "4904",
+    "name": "遠傳",
+    "listedDate": "2026-10-08",
+    "listedPrice": 106,
+    "grade": "C",
+    "score": 50.3,
+    "revenue36mHigh": false,
     "candidateStatus": "VERIFIED"
   },
   {
