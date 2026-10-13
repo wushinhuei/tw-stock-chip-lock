@@ -1647,5 +1647,185 @@
     "score": 56.4,
     "revenue36mHigh": true,
     "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "2034",
+    "name": "允強",
+    "listedDate": "2026-10-13",
+    "listedPrice": 23.7,
+    "grade": "C",
+    "score": 56.1,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "2313",
+    "name": "華通",
+    "listedDate": "2026-10-13",
+    "listedPrice": 243.5,
+    "grade": "C",
+    "score": 53.9,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "2412",
+    "name": "中華電",
+    "listedDate": "2026-10-13",
+    "listedPrice": 148,
+    "grade": "C",
+    "score": 61.9,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "2484",
+    "name": "希華",
+    "listedDate": "2026-10-13",
+    "listedPrice": 85.9,
+    "grade": "C",
+    "score": 54.6,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "2881",
+    "name": "富邦金",
+    "listedDate": "2026-10-13",
+    "listedPrice": 160,
+    "grade": "C",
+    "score": 56.9,
+    "revenue36mHigh": false,
+    "candidateStatus": "PROVISIONAL"
+  },
+  {
+    "symbol": "2891",
+    "name": "中信金",
+    "listedDate": "2026-10-13",
+    "listedPrice": 71.6,
+    "grade": "C",
+    "score": 51.3,
+    "revenue36mHigh": false,
+    "candidateStatus": "PROVISIONAL"
+  },
+  {
+    "symbol": "2892",
+    "name": "第一金",
+    "listedDate": "2026-10-13",
+    "listedPrice": 40.5,
+    "grade": "C",
+    "score": 58.7,
+    "revenue36mHigh": false,
+    "candidateStatus": "PROVISIONAL"
+  },
+  {
+    "symbol": "3044",
+    "name": "健鼎",
+    "listedDate": "2026-10-13",
+    "listedPrice": 572,
+    "grade": "C",
+    "score": 58.8,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "3045",
+    "name": "台灣大",
+    "listedDate": "2026-10-13",
+    "listedPrice": 125,
+    "grade": "C",
+    "score": 52.6,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "3189",
+    "name": "景碩",
+    "listedDate": "2026-10-13",
+    "listedPrice": 1040,
+    "grade": "C",
+    "score": 57.8,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "3702",
+    "name": "大聯大",
+    "listedDate": "2026-10-13",
+    "listedPrice": 117.5,
+    "grade": "C",
+    "score": 55.1,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "3711",
+    "name": "日月光投控",
+    "listedDate": "2026-10-13",
+    "listedPrice": 740,
+    "grade": "C",
+    "score": 63.1,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "4904",
+    "name": "遠傳",
+    "listedDate": "2026-10-13",
+    "listedPrice": 107.5,
+    "grade": "B",
+    "score": 65.2,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "4961",
+    "name": "天鈺",
+    "listedDate": "2026-10-13",
+    "listedPrice": 183,
+    "grade": "C",
+    "score": 53.3,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "5469",
+    "name": "瀚宇博",
+    "listedDate": "2026-10-13",
+    "listedPrice": 82.4,
+    "grade": "C",
+    "score": 51.4,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "6214",
+    "name": "精誠",
+    "listedDate": "2026-10-13",
+    "listedPrice": 193.5,
+    "grade": "C",
+    "score": 54.3,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "6257",
+    "name": "矽格",
+    "listedDate": "2026-10-13",
+    "listedPrice": 279,
+    "grade": "C",
+    "score": 59.1,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "8021",
+    "name": "尖點",
+    "listedDate": "2026-10-13",
+    "listedPrice": 544,
+    "grade": "B",
+    "score": 67.8,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
   }
 ]
