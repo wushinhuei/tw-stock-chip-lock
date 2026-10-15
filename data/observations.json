@@ -2027,5 +2027,105 @@
     "score": 59.8,
     "revenue36mHigh": true,
     "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "1609",
+    "name": "大亞",
+    "listedDate": "2026-10-15",
+    "listedPrice": 39.1,
+    "grade": "C",
+    "score": 50.9,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "2034",
+    "name": "允強",
+    "listedDate": "2026-10-15",
+    "listedPrice": 23.2,
+    "grade": "C",
+    "score": 54.9,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "2892",
+    "name": "第一金",
+    "listedDate": "2026-10-15",
+    "listedPrice": 41.6,
+    "grade": "C",
+    "score": 54.1,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "3014",
+    "name": "聯陽",
+    "listedDate": "2026-10-15",
+    "listedPrice": 146.5,
+    "grade": "C",
+    "score": 57,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "3034",
+    "name": "聯詠",
+    "listedDate": "2026-10-15",
+    "listedPrice": 565,
+    "grade": "C",
+    "score": 51.6,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "3044",
+    "name": "健鼎",
+    "listedDate": "2026-10-15",
+    "listedPrice": 586,
+    "grade": "B",
+    "score": 71.8,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "4961",
+    "name": "天鈺",
+    "listedDate": "2026-10-15",
+    "listedPrice": 186.5,
+    "grade": "C",
+    "score": 55.2,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "5469",
+    "name": "瀚宇博",
+    "listedDate": "2026-10-15",
+    "listedPrice": 81.7,
+    "grade": "C",
+    "score": 53.6,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "6214",
+    "name": "精誠",
+    "listedDate": "2026-10-15",
+    "listedPrice": 197,
+    "grade": "C",
+    "score": 51.4,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "8070",
+    "name": "長華*",
+    "listedDate": "2026-10-15",
+    "listedPrice": 51.5,
+    "grade": "C",
+    "score": 54.4,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
   }
 ]
