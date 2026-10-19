@@ -2287,5 +2287,195 @@
     "score": 51.4,
     "revenue36mHigh": true,
     "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "1402",
+    "name": "遠東新",
+    "listedDate": "2026-10-19",
+    "listedPrice": 28.85,
+    "grade": "C",
+    "score": 56.4,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "2027",
+    "name": "大成鋼",
+    "listedDate": "2026-10-19",
+    "listedPrice": 51,
+    "grade": "C",
+    "score": 50.2,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "2034",
+    "name": "允強",
+    "listedDate": "2026-10-19",
+    "listedPrice": 23.7,
+    "grade": "C",
+    "score": 51.1,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "2313",
+    "name": "華通",
+    "listedDate": "2026-10-19",
+    "listedPrice": 248,
+    "grade": "C",
+    "score": 64.3,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "2412",
+    "name": "中華電",
+    "listedDate": "2026-10-19",
+    "listedPrice": 154.5,
+    "grade": "C",
+    "score": 56.3,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "2520",
+    "name": "冠德",
+    "listedDate": "2026-10-19",
+    "listedPrice": 37.3,
+    "grade": "C",
+    "score": 51.2,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "2609",
+    "name": "陽明",
+    "listedDate": "2026-10-19",
+    "listedPrice": 63.5,
+    "grade": "C",
+    "score": 55,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "2892",
+    "name": "第一金",
+    "listedDate": "2026-10-19",
+    "listedPrice": 41.1,
+    "grade": "C",
+    "score": 58.8,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "2913",
+    "name": "農林",
+    "listedDate": "2026-10-19",
+    "listedPrice": 11.4,
+    "grade": "C",
+    "score": 53.5,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "3044",
+    "name": "健鼎",
+    "listedDate": "2026-10-19",
+    "listedPrice": 577,
+    "grade": "C",
+    "score": 51.6,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "3045",
+    "name": "台灣大",
+    "listedDate": "2026-10-19",
+    "listedPrice": 130.5,
+    "grade": "C",
+    "score": 55.8,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "4904",
+    "name": "遠傳",
+    "listedDate": "2026-10-19",
+    "listedPrice": 112.5,
+    "grade": "C",
+    "score": 56.6,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "4961",
+    "name": "天鈺",
+    "listedDate": "2026-10-19",
+    "listedPrice": 185.5,
+    "grade": "C",
+    "score": 50.6,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "5469",
+    "name": "瀚宇博",
+    "listedDate": "2026-10-19",
+    "listedPrice": 86.1,
+    "grade": "C",
+    "score": 57.3,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "6209",
+    "name": "今國光",
+    "listedDate": "2026-10-19",
+    "listedPrice": 102,
+    "grade": "C",
+    "score": 63,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "6214",
+    "name": "精誠",
+    "listedDate": "2026-10-19",
+    "listedPrice": 196.5,
+    "grade": "C",
+    "score": 50.9,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "8070",
+    "name": "長華*",
+    "listedDate": "2026-10-19",
+    "listedPrice": 51.2,
+    "grade": "C",
+    "score": 52.1,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "8213",
+    "name": "志超",
+    "listedDate": "2026-10-19",
+    "listedPrice": 38.9,
+    "grade": "C",
+    "score": 54.2,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "9105",
+    "name": "泰金寶-DR",
+    "listedDate": "2026-10-19",
+    "listedPrice": 9.13,
+    "grade": "C",
+    "score": 56.5,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
   }
 ]
