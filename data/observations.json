@@ -2617,5 +2617,165 @@
     "score": 53,
     "revenue36mHigh": true,
     "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "2002",
+    "name": "中鋼",
+    "listedDate": "2026-10-21",
+    "listedPrice": 19.6,
+    "grade": "B",
+    "score": 66.6,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "2034",
+    "name": "允強",
+    "listedDate": "2026-10-21",
+    "listedPrice": 24,
+    "grade": "C",
+    "score": 54.1,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "2313",
+    "name": "華通",
+    "listedDate": "2026-10-21",
+    "listedPrice": 240.5,
+    "grade": "C",
+    "score": 62.3,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "2347",
+    "name": "聯強",
+    "listedDate": "2026-10-21",
+    "listedPrice": 99.7,
+    "grade": "B",
+    "score": 65.3,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "2393",
+    "name": "億光",
+    "listedDate": "2026-10-21",
+    "listedPrice": 67.9,
+    "grade": "C",
+    "score": 50.2,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "2412",
+    "name": "中華電",
+    "listedDate": "2026-10-21",
+    "listedPrice": 154,
+    "grade": "C",
+    "score": 52.1,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "2884",
+    "name": "玉山金",
+    "listedDate": "2026-10-21",
+    "listedPrice": 49.2,
+    "grade": "C",
+    "score": 55.4,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "2892",
+    "name": "第一金",
+    "listedDate": "2026-10-21",
+    "listedPrice": 41.3,
+    "grade": "C",
+    "score": 54.3,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "2913",
+    "name": "農林",
+    "listedDate": "2026-10-21",
+    "listedPrice": 11.25,
+    "grade": "C",
+    "score": 57.2,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "3036",
+    "name": "文曄",
+    "listedDate": "2026-10-21",
+    "listedPrice": 212.5,
+    "grade": "C",
+    "score": 55.9,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "4904",
+    "name": "遠傳",
+    "listedDate": "2026-10-21",
+    "listedPrice": 112,
+    "grade": "C",
+    "score": 63.6,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "4927",
+    "name": "泰鼎-KY",
+    "listedDate": "2026-10-21",
+    "listedPrice": 56.3,
+    "grade": "C",
+    "score": 55.1,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "4958",
+    "name": "臻鼎-KY",
+    "listedDate": "2026-10-21",
+    "listedPrice": 578,
+    "grade": "C",
+    "score": 53,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "5469",
+    "name": "瀚宇博",
+    "listedDate": "2026-10-21",
+    "listedPrice": 84.5,
+    "grade": "C",
+    "score": 51.4,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "5880",
+    "name": "合庫金",
+    "listedDate": "2026-10-21",
+    "listedPrice": 28,
+    "grade": "C",
+    "score": 51.8,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "9105",
+    "name": "泰金寶-DR",
+    "listedDate": "2026-10-21",
+    "listedPrice": 8.85,
+    "grade": "C",
+    "score": 50.6,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
   }
 ]
