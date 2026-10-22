@@ -2777,5 +2777,75 @@
     "score": 50.6,
     "revenue36mHigh": true,
     "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "2034",
+    "name": "允強",
+    "listedDate": "2026-10-22",
+    "listedPrice": 24.35,
+    "grade": "C",
+    "score": 61.2,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "2323",
+    "name": "中環",
+    "listedDate": "2026-10-22",
+    "listedPrice": 11.65,
+    "grade": "C",
+    "score": 57.5,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "2347",
+    "name": "聯強",
+    "listedDate": "2026-10-22",
+    "listedPrice": 99.3,
+    "grade": "C",
+    "score": 60.3,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "2412",
+    "name": "中華電",
+    "listedDate": "2026-10-22",
+    "listedPrice": 158,
+    "grade": "C",
+    "score": 52.3,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "2913",
+    "name": "農林",
+    "listedDate": "2026-10-22",
+    "listedPrice": 11.25,
+    "grade": "C",
+    "score": 57.2,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "4904",
+    "name": "遠傳",
+    "listedDate": "2026-10-22",
+    "listedPrice": 115,
+    "grade": "C",
+    "score": 58.7,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "5880",
+    "name": "合庫金",
+    "listedDate": "2026-10-22",
+    "listedPrice": 28.2,
+    "grade": "C",
+    "score": 51.8,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
   }
 ]
