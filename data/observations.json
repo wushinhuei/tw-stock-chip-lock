@@ -2779,6 +2779,16 @@
     "candidateStatus": "VERIFIED"
   },
   {
+    "symbol": "2002",
+    "name": "中鋼",
+    "listedDate": "2026-10-22",
+    "listedPrice": 19.55,
+    "grade": "C",
+    "score": 63.6,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
+  },
+  {
     "symbol": "2034",
     "name": "允強",
     "listedDate": "2026-10-22",
@@ -2809,6 +2819,16 @@
     "candidateStatus": "VERIFIED"
   },
   {
+    "symbol": "2393",
+    "name": "億光",
+    "listedDate": "2026-10-22",
+    "listedPrice": 67.8,
+    "grade": "C",
+    "score": 56.1,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
+  },
+  {
     "symbol": "2412",
     "name": "中華電",
     "listedDate": "2026-10-22",
@@ -2825,6 +2845,26 @@
     "listedPrice": 11.25,
     "grade": "C",
     "score": 57.2,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "3036",
+    "name": "文曄",
+    "listedDate": "2026-10-22",
+    "listedPrice": 213,
+    "grade": "C",
+    "score": 56.5,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "3715",
+    "name": "定穎投控",
+    "listedDate": "2026-10-22",
+    "listedPrice": 134.5,
+    "grade": "C",
+    "score": 52.4,
     "revenue36mHigh": true,
     "candidateStatus": "VERIFIED"
   },
