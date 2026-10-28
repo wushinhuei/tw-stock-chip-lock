@@ -2977,5 +2977,135 @@
     "score": 53.6,
     "revenue36mHigh": true,
     "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "2002",
+    "name": "中鋼",
+    "listedDate": "2026-10-28",
+    "listedPrice": 19.75,
+    "grade": "C",
+    "score": 62.6,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "2347",
+    "name": "聯強",
+    "listedDate": "2026-10-28",
+    "listedPrice": 102.5,
+    "grade": "C",
+    "score": 61.5,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "2352",
+    "name": "佳世達",
+    "listedDate": "2026-10-28",
+    "listedPrice": 29.85,
+    "grade": "C",
+    "score": 56.1,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "2393",
+    "name": "億光",
+    "listedDate": "2026-10-28",
+    "listedPrice": 69,
+    "grade": "C",
+    "score": 51.2,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "2412",
+    "name": "中華電",
+    "listedDate": "2026-10-28",
+    "listedPrice": 156.5,
+    "grade": "C",
+    "score": 51.8,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "2882",
+    "name": "國泰金",
+    "listedDate": "2026-10-28",
+    "listedPrice": 115.5,
+    "grade": "C",
+    "score": 51.5,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "3029",
+    "name": "零壹",
+    "listedDate": "2026-10-28",
+    "listedPrice": 128,
+    "grade": "C",
+    "score": 50.5,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "3036",
+    "name": "文曄",
+    "listedDate": "2026-10-28",
+    "listedPrice": 217,
+    "grade": "C",
+    "score": 56.7,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "3231",
+    "name": "緯創",
+    "listedDate": "2026-10-28",
+    "listedPrice": 194.5,
+    "grade": "C",
+    "score": 51.4,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "3591",
+    "name": "艾笛森",
+    "listedDate": "2026-10-28",
+    "listedPrice": 27.75,
+    "grade": "C",
+    "score": 52.7,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "3715",
+    "name": "定穎投控",
+    "listedDate": "2026-10-28",
+    "listedPrice": 133.5,
+    "grade": "C",
+    "score": 55.1,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "4927",
+    "name": "泰鼎-KY",
+    "listedDate": "2026-10-28",
+    "listedPrice": 56.3,
+    "grade": "C",
+    "score": 60.1,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "8070",
+    "name": "長華*",
+    "listedDate": "2026-10-28",
+    "listedPrice": 51.3,
+    "grade": "C",
+    "score": 61.8,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
   }
 ]
