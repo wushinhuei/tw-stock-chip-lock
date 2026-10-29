@@ -3107,5 +3107,75 @@
     "score": 61.8,
     "revenue36mHigh": true,
     "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "2002",
+    "name": "中鋼",
+    "listedDate": "2026-10-29",
+    "listedPrice": 19.45,
+    "grade": "C",
+    "score": 59.5,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "2347",
+    "name": "聯強",
+    "listedDate": "2026-10-29",
+    "listedPrice": 102,
+    "grade": "B",
+    "score": 73.1,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "2412",
+    "name": "中華電",
+    "listedDate": "2026-10-29",
+    "listedPrice": 158,
+    "grade": "C",
+    "score": 54,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "2913",
+    "name": "農林",
+    "listedDate": "2026-10-29",
+    "listedPrice": 11.15,
+    "grade": "C",
+    "score": 56.4,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "3036",
+    "name": "文曄",
+    "listedDate": "2026-10-29",
+    "listedPrice": 214,
+    "grade": "C",
+    "score": 55.8,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "3045",
+    "name": "台灣大",
+    "listedDate": "2026-10-29",
+    "listedPrice": 134.5,
+    "grade": "C",
+    "score": 55.6,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "3533",
+    "name": "嘉澤",
+    "listedDate": "2026-10-29",
+    "listedPrice": 1900,
+    "grade": "C",
+    "score": 52,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
   }
 ]
