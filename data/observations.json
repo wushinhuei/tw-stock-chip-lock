@@ -3177,5 +3177,45 @@
     "score": 52,
     "revenue36mHigh": false,
     "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "2347",
+    "name": "聯強",
+    "listedDate": "2026-10-30",
+    "listedPrice": 99.5,
+    "grade": "B",
+    "score": 66.3,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "2882",
+    "name": "國泰金",
+    "listedDate": "2026-10-30",
+    "listedPrice": 116,
+    "grade": "C",
+    "score": 51.6,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "2885",
+    "name": "元大金",
+    "listedDate": "2026-10-30",
+    "listedPrice": 72.6,
+    "grade": "C",
+    "score": 52.9,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "3533",
+    "name": "嘉澤",
+    "listedDate": "2026-10-30",
+    "listedPrice": 1860,
+    "grade": "C",
+    "score": 53.6,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
   }
 ]
