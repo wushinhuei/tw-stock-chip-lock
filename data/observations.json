@@ -3357,5 +3357,165 @@
     "score": 65.5,
     "revenue36mHigh": true,
     "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "1101",
+    "name": "台泥",
+    "listedDate": "2026-11-03",
+    "listedPrice": 27.7,
+    "grade": "C",
+    "score": 53.6,
+    "revenue36mHigh": false,
+    "candidateStatus": "PROVISIONAL"
+  },
+  {
+    "symbol": "1216",
+    "name": "統一",
+    "listedDate": "2026-11-03",
+    "listedPrice": 81.1,
+    "grade": "C",
+    "score": 50.8,
+    "revenue36mHigh": false,
+    "candidateStatus": "PROVISIONAL"
+  },
+  {
+    "symbol": "2002",
+    "name": "中鋼",
+    "listedDate": "2026-11-03",
+    "listedPrice": 19.35,
+    "grade": "B",
+    "score": 67.6,
+    "revenue36mHigh": false,
+    "candidateStatus": "PROVISIONAL"
+  },
+  {
+    "symbol": "2023",
+    "name": "燁輝",
+    "listedDate": "2026-11-03",
+    "listedPrice": 14.85,
+    "grade": "C",
+    "score": 51.4,
+    "revenue36mHigh": false,
+    "candidateStatus": "PROVISIONAL"
+  },
+  {
+    "symbol": "2412",
+    "name": "中華電",
+    "listedDate": "2026-11-03",
+    "listedPrice": 159,
+    "grade": "C",
+    "score": 57.3,
+    "revenue36mHigh": false,
+    "candidateStatus": "PROVISIONAL"
+  },
+  {
+    "symbol": "2603",
+    "name": "長榮",
+    "listedDate": "2026-11-03",
+    "listedPrice": 266.5,
+    "grade": "B",
+    "score": 73.7,
+    "revenue36mHigh": false,
+    "candidateStatus": "PROVISIONAL"
+  },
+  {
+    "symbol": "2618",
+    "name": "長榮航",
+    "listedDate": "2026-11-03",
+    "listedPrice": 43.7,
+    "grade": "B",
+    "score": 70.7,
+    "revenue36mHigh": false,
+    "candidateStatus": "PROVISIONAL"
+  },
+  {
+    "symbol": "2801",
+    "name": "彰銀",
+    "listedDate": "2026-11-03",
+    "listedPrice": 29.7,
+    "grade": "C",
+    "score": 53.9,
+    "revenue36mHigh": false,
+    "candidateStatus": "PROVISIONAL"
+  },
+  {
+    "symbol": "2880",
+    "name": "華南金",
+    "listedDate": "2026-11-03",
+    "listedPrice": 49.05,
+    "grade": "B",
+    "score": 66.3,
+    "revenue36mHigh": false,
+    "candidateStatus": "PROVISIONAL"
+  },
+  {
+    "symbol": "2891",
+    "name": "中信金",
+    "listedDate": "2026-11-03",
+    "listedPrice": 74.2,
+    "grade": "C",
+    "score": 56.9,
+    "revenue36mHigh": false,
+    "candidateStatus": "PROVISIONAL"
+  },
+  {
+    "symbol": "2892",
+    "name": "第一金",
+    "listedDate": "2026-11-03",
+    "listedPrice": 42.6,
+    "grade": "C",
+    "score": 58.1,
+    "revenue36mHigh": false,
+    "candidateStatus": "PROVISIONAL"
+  },
+  {
+    "symbol": "3005",
+    "name": "神基",
+    "listedDate": "2026-11-03",
+    "listedPrice": 122,
+    "grade": "C",
+    "score": 54.9,
+    "revenue36mHigh": false,
+    "candidateStatus": "PROVISIONAL"
+  },
+  {
+    "symbol": "4904",
+    "name": "遠傳",
+    "listedDate": "2026-11-03",
+    "listedPrice": 112.5,
+    "grade": "C",
+    "score": 56.7,
+    "revenue36mHigh": false,
+    "candidateStatus": "PROVISIONAL"
+  },
+  {
+    "symbol": "5876",
+    "name": "上海商銀",
+    "listedDate": "2026-11-03",
+    "listedPrice": 52.6,
+    "grade": "C",
+    "score": 50.8,
+    "revenue36mHigh": false,
+    "candidateStatus": "PROVISIONAL"
+  },
+  {
+    "symbol": "5880",
+    "name": "合庫金",
+    "listedDate": "2026-11-03",
+    "listedPrice": 28.45,
+    "grade": "C",
+    "score": 52.7,
+    "revenue36mHigh": false,
+    "candidateStatus": "PROVISIONAL"
+  },
+  {
+    "symbol": "9933",
+    "name": "中鼎",
+    "listedDate": "2026-11-03",
+    "listedPrice": 46.3,
+    "grade": "C",
+    "score": 50.3,
+    "revenue36mHigh": false,
+    "candidateStatus": "PROVISIONAL"
   }
 ]

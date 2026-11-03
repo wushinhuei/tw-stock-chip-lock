@@ -1,117 +1,24 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-11-02T22:26:07.490Z",
-  "dataStatus": "COMPLETE",
-  "candidateStatus": "VERIFIED",
+  "generatedAt": "2026-11-03T20:13:42.388Z",
+  "dataStatus": "PARTIAL",
+  "candidateStatus": "PROVISIONAL",
   "potentialStocks": [
-    {
-      "symbol": "3034",
-      "name": "聯詠",
-      "market": "TWSE",
-      "eligible": true,
-      "candidateStatus": "VERIFIED",
-      "score": 65.5,
-      "rawScore": 65.5,
-      "scoreDenominator": 100,
-      "grade": "B",
-      "scoreBreakdown": {
-        "holders": 23,
-        "institutional": 11.62,
-        "technical": 10.92,
-        "revenue": 15,
-        "credit": 0,
-        "liquidity": 5,
-        "penalties": 0
-      },
-      "positiveReasons": [
-        "大戶增持且股東人數下降",
-        "投信連買至少3日",
-        "最新月營收創36個月新高",
-        "距60日頸線-6.1%"
-      ],
-      "riskReasons": [],
-      "technical": {
-        "barCount": 128,
-        "latestDate": "2026-11-02",
-        "close": 571,
-        "ma20": 563.3,
-        "ma60": 547.8,
-        "averageVolume20": 3412.0353,
-        "averageTradeValue20": 1933545455,
-        "prior60High": 608,
-        "necklineDistance": -0.0609,
-        "return20d": 0.0458,
-        "platformRange60": 0.2197,
-        "latestVolumeRatio20": 1.1123,
-        "latestVolume120High": false,
-        "baseGatePass": true
-      },
-      "holders": {
-        "weeks": 3,
-        "largeHolderRatios": [
-          1.5949,
-          1.6016,
-          1.6064
-        ],
-        "totalHolders": [
-          181332,
-          169818,
-          167186
-        ],
-        "ratioIncreasing": true,
-        "holderCountDecreasing": true,
-        "twoWeekLargeHolderChange": 0.0115
-      },
-      "institutional": {
-        "trustBuyStreak": 4,
-        "foreignBuyStreak": 0,
-        "concentration5d": 0.0385,
-        "sameDayForeignTrustBuy": false,
-        "simultaneousBuy3d": false
-      },
-      "revenue": {
-        "monthlyRevenue": 10347340,
-        "latestRevenueMonth": "2026-09",
-        "revenueYoY": 0.2499,
-        "revenue36mHigh": true,
-        "revenueDataStatus": "COMPLETE",
-        "validMonths": 36
-      },
-      "credit": {
-        "marginBalance": 1944,
-        "shortBalance": 34,
-        "shortToMarginRatio": 0.0175,
-        "margin5dChange": -0.1286
-      },
-      "mopsDisclosures": [],
-      "riskEvents": [
-        {
-          "symbol": "3034",
-          "name": "聯詠",
-          "date": "2026-05-29",
-          "publishedDate": "2026-11-02",
-          "eventType": "SHAREHOLDER_MEETING",
-          "meetingType": "常會",
-          "electronicVoting": "強制",
-          "source": "MOPS_T187AP41_L"
-        }
-      ]
-    },
     {
       "symbol": "2603",
       "name": "長榮",
       "market": "TWSE",
       "eligible": true,
-      "candidateStatus": "VERIFIED",
-      "score": 64.5,
-      "rawScore": 64.5,
-      "scoreDenominator": 100,
-      "grade": "C",
+      "candidateStatus": "PROVISIONAL",
+      "score": 73.7,
+      "rawScore": 62.7,
+      "scoreDenominator": 85,
+      "grade": "B",
       "scoreBreakdown": {
         "holders": 25,
-        "institutional": 14.56,
-        "technical": 16.9,
-        "revenue": 3,
+        "institutional": 15.568,
+        "technical": 17.09,
+        "revenue": 0,
         "credit": 0,
         "liquidity": 5,
         "penalties": 0
@@ -119,22 +26,22 @@
       "positiveReasons": [
         "大戶增持且股東人數下降",
         "投信連買至少3日",
-        "距60日頸線1.1%"
+        "距60日頸線-2.9%"
       ],
       "riskReasons": [],
       "technical": {
         "barCount": 128,
-        "latestDate": "2026-11-02",
-        "close": 274.5,
-        "ma20": 254.475,
-        "ma60": 239.5333,
-        "averageVolume20": 14562.0943,
-        "averageTradeValue20": 3744658930,
-        "prior60High": 271.5,
-        "necklineDistance": 0.011,
-        "return20d": 0.1461,
-        "platformRange60": 0.3441,
-        "latestVolumeRatio20": 0.8609,
+        "latestDate": "2026-11-03",
+        "close": 266.5,
+        "ma20": 255.9,
+        "ma60": 240.5417,
+        "averageVolume20": 14795.6594,
+        "averageTradeValue20": 3815912580,
+        "prior60High": 274.5,
+        "necklineDistance": -0.0291,
+        "return20d": 0.1197,
+        "platformRange60": 0.3589,
+        "latestVolumeRatio20": 0.7182,
         "latestVolume120High": false,
         "baseGatePass": true
       },
@@ -157,23 +64,23 @@
       "institutional": {
         "trustBuyStreak": 5,
         "foreignBuyStreak": 0,
-        "concentration5d": 0.063,
+        "concentration5d": 0.0714,
         "sameDayForeignTrustBuy": false,
         "simultaneousBuy3d": false
       },
       "revenue": {
         "monthlyRevenue": 49711309,
         "latestRevenueMonth": "2026-09",
-        "revenueYoY": 0.6504,
+        "revenueYoY": null,
         "revenue36mHigh": false,
-        "revenueDataStatus": "COMPLETE",
-        "validMonths": 36
+        "revenueDataStatus": "REVENUE_INCOMPLETE",
+        "validMonths": 35
       },
       "credit": {
-        "marginBalance": 8105,
-        "shortBalance": 563,
-        "shortToMarginRatio": 0.0695,
-        "margin5dChange": -0.0229
+        "marginBalance": 8089,
+        "shortBalance": 499,
+        "shortToMarginRatio": 0.0617,
+        "margin5dChange": -0.0158
       },
       "mopsDisclosures": [],
       "riskEvents": [
@@ -190,20 +97,112 @@
       ]
     },
     {
+      "symbol": "2618",
+      "name": "長榮航",
+      "market": "TWSE",
+      "eligible": true,
+      "candidateStatus": "PROVISIONAL",
+      "score": 70.7,
+      "rawScore": 60.1,
+      "scoreDenominator": 85,
+      "grade": "B",
+      "scoreBreakdown": {
+        "holders": 21,
+        "institutional": 15.376,
+        "technical": 16.72,
+        "revenue": 0,
+        "credit": 3,
+        "liquidity": 4,
+        "penalties": 0
+      },
+      "positiveReasons": [
+        "大戶增持且股東人數下降",
+        "投信連買至少3日",
+        "距60日頸線-2%"
+      ],
+      "riskReasons": [],
+      "technical": {
+        "barCount": 128,
+        "latestDate": "2026-11-03",
+        "close": 43.7,
+        "ma20": 42.5825,
+        "ma60": 42.34,
+        "averageVolume20": 15354.4235,
+        "averageTradeValue20": 656720651,
+        "prior60High": 44.6,
+        "necklineDistance": -0.0202,
+        "return20d": 0.0355,
+        "platformRange60": 0.1378,
+        "latestVolumeRatio20": 2.2139,
+        "latestVolume120High": false,
+        "baseGatePass": true
+      },
+      "holders": {
+        "weeks": 3,
+        "largeHolderRatios": [
+          1.7973,
+          1.8043,
+          1.8059
+        ],
+        "totalHolders": [
+          386742,
+          376784,
+          374540
+        ],
+        "ratioIncreasing": true,
+        "holderCountDecreasing": true,
+        "twoWeekLargeHolderChange": 0.0086
+      },
+      "institutional": {
+        "trustBuyStreak": 3,
+        "foreignBuyStreak": 0,
+        "concentration5d": 0.0698,
+        "sameDayForeignTrustBuy": false,
+        "simultaneousBuy3d": false
+      },
+      "revenue": {
+        "monthlyRevenue": 20749259,
+        "latestRevenueMonth": "2026-09",
+        "revenueYoY": null,
+        "revenue36mHigh": false,
+        "revenueDataStatus": "REVENUE_INCOMPLETE",
+        "validMonths": 35
+      },
+      "credit": {
+        "marginBalance": 15428,
+        "shortBalance": 1196,
+        "shortToMarginRatio": 0.0775,
+        "margin5dChange": 0.0089
+      },
+      "mopsDisclosures": [],
+      "riskEvents": [
+        {
+          "symbol": "2618",
+          "name": "長榮航",
+          "date": "2026-05-29",
+          "publishedDate": "2026-11-02",
+          "eventType": "SHAREHOLDER_MEETING",
+          "meetingType": "常會",
+          "electronicVoting": "強制",
+          "source": "MOPS_T187AP41_L"
+        }
+      ]
+    },
+    {
       "symbol": "2002",
       "name": "中鋼",
       "market": "TWSE",
       "eligible": true,
-      "candidateStatus": "VERIFIED",
-      "score": 61.1,
-      "rawScore": 61.1,
-      "scoreDenominator": 100,
-      "grade": "C",
+      "candidateStatus": "PROVISIONAL",
+      "score": 67.6,
+      "rawScore": 57.4,
+      "scoreDenominator": 85,
+      "grade": "B",
       "scoreBreakdown": {
         "holders": 23,
-        "institutional": 8.596,
-        "technical": 22.49,
-        "revenue": 3,
+        "institutional": 10.18,
+        "technical": 20.24,
+        "revenue": 0,
         "credit": 0,
         "liquidity": 4,
         "penalties": 0
@@ -211,22 +210,22 @@
       "positiveReasons": [
         "大戶增持且股東人數下降",
         "投信連買至少3日",
-        "距60日頸線-2.5%"
+        "距60日頸線-2.8%"
       ],
       "riskReasons": [],
       "technical": {
         "barCount": 128,
-        "latestDate": "2026-11-02",
-        "close": 19.4,
-        "ma20": 19.31,
-        "ma60": 19.1225,
-        "averageVolume20": 39918.6107,
-        "averageTradeValue20": 772169435,
+        "latestDate": "2026-11-03",
+        "close": 19.35,
+        "ma20": 19.33,
+        "ma60": 19.1308,
+        "averageVolume20": 39673.4726,
+        "averageTradeValue20": 768106966,
         "prior60High": 19.9,
-        "necklineDistance": -0.0251,
-        "return20d": 0.0104,
+        "necklineDistance": -0.0276,
+        "return20d": 0.0211,
         "platformRange60": 0.0699,
-        "latestVolumeRatio20": 0.7448,
+        "latestVolumeRatio20": 0.8441,
         "latestVolume120High": false,
         "baseGatePass": true
       },
@@ -247,25 +246,25 @@
         "twoWeekLargeHolderChange": 0.0139
       },
       "institutional": {
-        "trustBuyStreak": 4,
+        "trustBuyStreak": 5,
         "foreignBuyStreak": 0,
-        "concentration5d": 0.0133,
+        "concentration5d": 0.0265,
         "sameDayForeignTrustBuy": false,
         "simultaneousBuy3d": false
       },
       "revenue": {
         "monthlyRevenue": 31001054,
         "latestRevenueMonth": "2026-09",
-        "revenueYoY": 0.2713,
+        "revenueYoY": null,
         "revenue36mHigh": false,
-        "revenueDataStatus": "COMPLETE",
-        "validMonths": 36
+        "revenueDataStatus": "REVENUE_INCOMPLETE",
+        "validMonths": 35
       },
       "credit": {
-        "marginBalance": 36418,
-        "shortBalance": 94,
-        "shortToMarginRatio": 0.0026,
-        "margin5dChange": -0.0448
+        "marginBalance": 37155,
+        "shortBalance": 432,
+        "shortToMarginRatio": 0.0116,
+        "margin5dChange": -0.0337
       },
       "mopsDisclosures": [],
       "riskEvents": [
@@ -282,215 +281,22 @@
       ]
     },
     {
-      "symbol": "2355",
-      "name": "敬鵬",
+      "symbol": "2880",
+      "name": "華南金",
       "market": "TWSE",
       "eligible": true,
-      "candidateStatus": "VERIFIED",
-      "score": 57.4,
-      "rawScore": 57.4,
-      "scoreDenominator": 100,
-      "grade": "C",
-      "scoreBreakdown": {
-        "holders": 23,
-        "institutional": 1.428,
-        "technical": 10.94,
-        "revenue": 15,
-        "credit": 3,
-        "liquidity": 4,
-        "penalties": 0
-      },
-      "positiveReasons": [
-        "大戶增持且股東人數下降",
-        "最新月營收創36個月新高",
-        "距60日頸線-9.1%"
-      ],
-      "riskReasons": [],
-      "technical": {
-        "barCount": 128,
-        "latestDate": "2026-11-02",
-        "close": 51.2,
-        "ma20": 49.36,
-        "ma60": 44.4367,
-        "averageVolume20": 12150.186,
-        "averageTradeValue20": 621729457,
-        "prior60High": 56.3,
-        "necklineDistance": -0.0906,
-        "return20d": 0.2249,
-        "platformRange60": 0.551,
-        "latestVolumeRatio20": 0.5018,
-        "latestVolume120High": false,
-        "baseGatePass": true
-      },
-      "holders": {
-        "weeks": 3,
-        "largeHolderRatios": [
-          1.3343,
-          1.3476,
-          1.3489
-        ],
-        "totalHolders": [
-          152112,
-          148956,
-          148416
-        ],
-        "ratioIncreasing": true,
-        "holderCountDecreasing": true,
-        "twoWeekLargeHolderChange": 0.0146
-      },
-      "institutional": {
-        "trustBuyStreak": 0,
-        "foreignBuyStreak": 0,
-        "concentration5d": 0.0119,
-        "sameDayForeignTrustBuy": false,
-        "simultaneousBuy3d": false
-      },
-      "revenue": {
-        "monthlyRevenue": 1870544,
-        "latestRevenueMonth": "2026-09",
-        "revenueYoY": 0.4428,
-        "revenue36mHigh": true,
-        "revenueDataStatus": "COMPLETE",
-        "validMonths": 36
-      },
-      "credit": {
-        "marginBalance": 11450,
-        "shortBalance": 174,
-        "shortToMarginRatio": 0.0152,
-        "margin5dChange": 0.0431
-      },
-      "mopsDisclosures": [],
-      "riskEvents": [
-        {
-          "symbol": "2355",
-          "name": "敬鵬",
-          "date": "2026-06-24",
-          "publishedDate": "2026-11-02",
-          "eventType": "SHAREHOLDER_MEETING",
-          "meetingType": "常會",
-          "electronicVoting": "強制",
-          "source": "MOPS_T187AP41_L"
-        }
-      ]
-    },
-    {
-      "symbol": "2884",
-      "name": "玉山金",
-      "market": "TWSE",
-      "eligible": true,
-      "candidateStatus": "VERIFIED",
-      "score": 57.1,
-      "rawScore": 57.1,
-      "scoreDenominator": 100,
-      "grade": "C",
+      "candidateStatus": "PROVISIONAL",
+      "score": 66.3,
+      "rawScore": 56.4,
+      "scoreDenominator": 85,
+      "grade": "B",
       "scoreBreakdown": {
         "holders": 21,
-        "institutional": 14.8787,
-        "technical": 13.21,
-        "revenue": 3,
-        "credit": 0,
-        "liquidity": 5,
-        "penalties": 0
-      },
-      "positiveReasons": [
-        "大戶增持且股東人數下降",
-        "距60日頸線-2.8%"
-      ],
-      "riskReasons": [],
-      "technical": {
-        "barCount": 128,
-        "latestDate": "2026-11-02",
-        "close": 48.7,
-        "ma20": 47.5325,
-        "ma60": 43.4708,
-        "averageVolume20": 28801.2153,
-        "averageTradeValue20": 1380079667,
-        "prior60High": 50.1,
-        "necklineDistance": -0.0279,
-        "return20d": 0.0858,
-        "platformRange60": 0.3802,
-        "latestVolumeRatio20": 1.0909,
-        "latestVolume120High": false,
-        "baseGatePass": true
-      },
-      "holders": {
-        "weeks": 3,
-        "largeHolderRatios": [
-          1.7029,
-          1.7071999999999998,
-          1.7078
-        ],
-        "totalHolders": [
-          1248034,
-          1234850,
-          1234282
-        ],
-        "ratioIncreasing": true,
-        "holderCountDecreasing": true,
-        "twoWeekLargeHolderChange": 0.0049
-      },
-      "institutional": {
-        "trustBuyStreak": 2,
-        "foreignBuyStreak": 0,
-        "concentration5d": 0.0851,
-        "sameDayForeignTrustBuy": false,
-        "simultaneousBuy3d": false
-      },
-      "revenue": {
-        "monthlyRevenue": 8591317,
-        "latestRevenueMonth": "2026-09",
-        "revenueYoY": 0.0718,
-        "revenue36mHigh": false,
-        "revenueDataStatus": "COMPLETE",
-        "validMonths": 36
-      },
-      "credit": {
-        "marginBalance": 5008,
-        "shortBalance": 258,
-        "shortToMarginRatio": 0.0515,
-        "margin5dChange": -0.0697
-      },
-      "mopsDisclosures": [],
-      "riskEvents": [
-        {
-          "symbol": "2884",
-          "name": "玉山金",
-          "date": "2026-06-12",
-          "publishedDate": "2026-11-02",
-          "eventType": "SHAREHOLDER_MEETING",
-          "meetingType": "常會",
-          "electronicVoting": "強制",
-          "source": "MOPS_T187AP41_L"
-        },
-        {
-          "symbol": "2884",
-          "name": "玉山金",
-          "date": "2026-01-23",
-          "publishedDate": "2026-11-02",
-          "eventType": "SHAREHOLDER_MEETING",
-          "meetingType": "臨時會",
-          "electronicVoting": "強制",
-          "source": "MOPS_T187AP41_L"
-        }
-      ]
-    },
-    {
-      "symbol": "2027",
-      "name": "大成鋼",
-      "market": "TWSE",
-      "eligible": true,
-      "candidateStatus": "VERIFIED",
-      "score": 56.5,
-      "rawScore": 56.5,
-      "scoreDenominator": 100,
-      "grade": "C",
-      "scoreBreakdown": {
-        "holders": 23,
-        "institutional": 10.96,
-        "technical": 16.5833,
-        "revenue": 3,
-        "credit": 0,
-        "liquidity": 3,
+        "institutional": 17.176,
+        "technical": 11.18,
+        "revenue": 0,
+        "credit": 3,
+        "liquidity": 4,
         "penalties": 0
       },
       "positiveReasons": [
@@ -501,109 +307,17 @@
       "riskReasons": [],
       "technical": {
         "barCount": 128,
-        "latestDate": "2026-11-02",
-        "close": 50.3,
-        "ma20": 49.465,
-        "ma60": 48.5392,
-        "averageVolume20": 9817.1314,
-        "averageTradeValue20": 486146319,
-        "prior60High": 52.3,
-        "necklineDistance": -0.0382,
-        "return20d": 0.0601,
-        "platformRange60": 0.2379,
-        "latestVolumeRatio20": 0.75,
-        "latestVolume120High": false,
-        "baseGatePass": true
-      },
-      "holders": {
-        "weeks": 3,
-        "largeHolderRatios": [
-          1.7366,
-          1.7476,
-          1.7486000000000002
-        ],
-        "totalHolders": [
-          209168,
-          201774,
-          199804
-        ],
-        "ratioIncreasing": true,
-        "holderCountDecreasing": true,
-        "twoWeekLargeHolderChange": 0.012
-      },
-      "institutional": {
-        "trustBuyStreak": 4,
-        "foreignBuyStreak": 0,
-        "concentration5d": 0.033,
-        "sameDayForeignTrustBuy": false,
-        "simultaneousBuy3d": false
-      },
-      "revenue": {
-        "monthlyRevenue": 12396569,
-        "latestRevenueMonth": "2026-09",
-        "revenueYoY": 0.4107,
-        "revenue36mHigh": false,
-        "revenueDataStatus": "COMPLETE",
-        "validMonths": 36
-      },
-      "credit": {
-        "marginBalance": 20093,
-        "shortBalance": 133,
-        "shortToMarginRatio": 0.0066,
-        "margin5dChange": -0.0408
-      },
-      "mopsDisclosures": [],
-      "riskEvents": [
-        {
-          "symbol": "2027",
-          "name": "大成鋼",
-          "date": "2026-06-16",
-          "publishedDate": "2026-11-02",
-          "eventType": "SHAREHOLDER_MEETING",
-          "meetingType": "常會",
-          "electronicVoting": "強制",
-          "source": "MOPS_T187AP41_L"
-        }
-      ]
-    },
-    {
-      "symbol": "2880",
-      "name": "華南金",
-      "market": "TWSE",
-      "eligible": true,
-      "candidateStatus": "VERIFIED",
-      "score": 56.2,
-      "rawScore": 56.2,
-      "scoreDenominator": 100,
-      "grade": "C",
-      "scoreBreakdown": {
-        "holders": 21,
-        "institutional": 12.904,
-        "technical": 15.25,
-        "revenue": 3,
-        "credit": 0,
-        "liquidity": 4,
-        "penalties": 0
-      },
-      "positiveReasons": [
-        "大戶增持且股東人數下降",
-        "投信連買至少3日",
-        "距60日頸線-2.7%"
-      ],
-      "riskReasons": [],
-      "technical": {
-        "barCount": 128,
-        "latestDate": "2026-11-02",
-        "close": 49.6,
-        "ma20": 48.185,
-        "ma60": 44.8667,
-        "averageVolume20": 13911.2727,
-        "averageTradeValue20": 674436223,
+        "latestDate": "2026-11-03",
+        "close": 49.05,
+        "ma20": 48.375,
+        "ma60": 44.9633,
+        "averageVolume20": 14134.902,
+        "averageTradeValue20": 688666979,
         "prior60High": 51,
-        "necklineDistance": -0.0275,
-        "return20d": 0.0937,
+        "necklineDistance": -0.0382,
+        "return20d": 0.084,
         "platformRange60": 0.3421,
-        "latestVolumeRatio20": 0.851,
+        "latestVolumeRatio20": 1.2641,
         "latestVolume120High": false,
         "baseGatePass": true
       },
@@ -626,23 +340,23 @@
       "institutional": {
         "trustBuyStreak": 5,
         "foreignBuyStreak": 0,
-        "concentration5d": 0.0492,
+        "concentration5d": 0.0848,
         "sameDayForeignTrustBuy": false,
         "simultaneousBuy3d": false
       },
       "revenue": {
         "monthlyRevenue": 6206398,
         "latestRevenueMonth": "2026-09",
-        "revenueYoY": 0.0479,
+        "revenueYoY": null,
         "revenue36mHigh": false,
-        "revenueDataStatus": "COMPLETE",
-        "validMonths": 36
+        "revenueDataStatus": "REVENUE_INCOMPLETE",
+        "validMonths": 35
       },
       "credit": {
-        "marginBalance": 607,
-        "shortBalance": 91,
-        "shortToMarginRatio": 0.1499,
-        "margin5dChange": -0.0241
+        "marginBalance": 593,
+        "shortBalance": 86,
+        "shortToMarginRatio": 0.145,
+        "margin5dChange": 0.0762
       },
       "mopsDisclosures": [],
       "riskEvents": [
@@ -659,20 +373,410 @@
       ]
     },
     {
+      "symbol": "2892",
+      "name": "第一金",
+      "market": "TWSE",
+      "eligible": true,
+      "candidateStatus": "PROVISIONAL",
+      "score": 58.1,
+      "rawScore": 49.4,
+      "scoreDenominator": 85,
+      "grade": "C",
+      "scoreBreakdown": {
+        "holders": 21,
+        "institutional": 13.276,
+        "technical": 11.09,
+        "revenue": 0,
+        "credit": 0,
+        "liquidity": 4,
+        "penalties": 0
+      },
+      "positiveReasons": [
+        "大戶增持且股東人數下降",
+        "投信連買至少3日",
+        "距60日頸線-4.9%"
+      ],
+      "riskReasons": [],
+      "technical": {
+        "barCount": 128,
+        "latestDate": "2026-11-03",
+        "close": 42.6,
+        "ma20": 41.17,
+        "ma60": 38.0025,
+        "averageVolume20": 22050.5725,
+        "averageTradeValue20": 918489782,
+        "prior60High": 44.8,
+        "necklineDistance": -0.0491,
+        "return20d": 0.1008,
+        "platformRange60": 0.3806,
+        "latestVolumeRatio20": 1.177,
+        "latestVolume120High": false,
+        "baseGatePass": true
+      },
+      "holders": {
+        "weeks": 3,
+        "largeHolderRatios": [
+          1.685,
+          1.6879,
+          1.6897
+        ],
+        "totalHolders": [
+          871668,
+          864346,
+          862696
+        ],
+        "ratioIncreasing": true,
+        "holderCountDecreasing": true,
+        "twoWeekLargeHolderChange": 0.0047
+      },
+      "institutional": {
+        "trustBuyStreak": 3,
+        "foreignBuyStreak": 0,
+        "concentration5d": 0.0523,
+        "sameDayForeignTrustBuy": false,
+        "simultaneousBuy3d": false
+      },
+      "revenue": {
+        "monthlyRevenue": 6110987,
+        "latestRevenueMonth": "2026-09",
+        "revenueYoY": null,
+        "revenue36mHigh": false,
+        "revenueDataStatus": "REVENUE_INCOMPLETE",
+        "validMonths": 35
+      },
+      "credit": {
+        "marginBalance": 2445,
+        "shortBalance": 175,
+        "shortToMarginRatio": 0.0716,
+        "margin5dChange": -0.8422
+      },
+      "mopsDisclosures": [],
+      "riskEvents": [
+        {
+          "symbol": "2892",
+          "name": "第一金",
+          "date": "2026-06-18",
+          "publishedDate": "2026-11-02",
+          "eventType": "SHAREHOLDER_MEETING",
+          "meetingType": "常會",
+          "electronicVoting": "強制",
+          "source": "MOPS_T187AP41_L"
+        }
+      ]
+    },
+    {
+      "symbol": "2412",
+      "name": "中華電",
+      "market": "TWSE",
+      "eligible": true,
+      "candidateStatus": "PROVISIONAL",
+      "score": 57.3,
+      "rawScore": 47.2,
+      "scoreDenominator": 85,
+      "grade": "C",
+      "scoreBreakdown": {
+        "holders": 21,
+        "institutional": 13.0067,
+        "technical": 18.24,
+        "revenue": 0,
+        "credit": 0,
+        "liquidity": 5,
+        "penalties": -10
+      },
+      "positiveReasons": [
+        "大戶增持且股東人數下降",
+        "距60日頸線-1.5%"
+      ],
+      "riskReasons": [
+        "融資五日增加超過10%"
+      ],
+      "technical": {
+        "barCount": 128,
+        "latestDate": "2026-11-03",
+        "close": 159,
+        "ma20": 152.475,
+        "ma60": 143.6167,
+        "averageVolume20": 11363.1448,
+        "averageTradeValue20": 1735245465,
+        "prior60High": 161.5,
+        "necklineDistance": -0.0155,
+        "return20d": 0.0928,
+        "platformRange60": 0.1963,
+        "latestVolumeRatio20": 0.8889,
+        "latestVolume120High": false,
+        "baseGatePass": true
+      },
+      "holders": {
+        "weeks": 3,
+        "largeHolderRatios": [
+          1.78,
+          1.7835999999999999,
+          1.7849
+        ],
+        "totalHolders": [
+          592130,
+          582996,
+          581166
+        ],
+        "ratioIncreasing": true,
+        "holderCountDecreasing": true,
+        "twoWeekLargeHolderChange": 0.0049
+      },
+      "institutional": {
+        "trustBuyStreak": 2,
+        "foreignBuyStreak": 0,
+        "concentration5d": 0.0695,
+        "sameDayForeignTrustBuy": false,
+        "simultaneousBuy3d": false
+      },
+      "revenue": {
+        "monthlyRevenue": 24398810,
+        "latestRevenueMonth": "2026-09",
+        "revenueYoY": null,
+        "revenue36mHigh": false,
+        "revenueDataStatus": "REVENUE_INCOMPLETE",
+        "validMonths": 35
+      },
+      "credit": {
+        "marginBalance": 1448,
+        "shortBalance": 113,
+        "shortToMarginRatio": 0.078,
+        "margin5dChange": 1.5674
+      },
+      "mopsDisclosures": [],
+      "riskEvents": [
+        {
+          "symbol": "2412",
+          "name": "中華電",
+          "date": "2026-05-29",
+          "publishedDate": "2026-11-02",
+          "eventType": "SHAREHOLDER_MEETING",
+          "meetingType": "常會",
+          "electronicVoting": "強制",
+          "source": "MOPS_T187AP41_L"
+        }
+      ]
+    },
+    {
+      "symbol": "2891",
+      "name": "中信金",
+      "market": "TWSE",
+      "eligible": true,
+      "candidateStatus": "PROVISIONAL",
+      "score": 56.9,
+      "rawScore": 46.9,
+      "scoreDenominator": 85,
+      "grade": "C",
+      "scoreBreakdown": {
+        "holders": 21,
+        "institutional": 19,
+        "technical": 11.88,
+        "revenue": 0,
+        "credit": 0,
+        "liquidity": 5,
+        "penalties": -10
+      },
+      "positiveReasons": [
+        "大戶增持且股東人數下降",
+        "投信連買至少3日",
+        "距60日頸線-3.5%"
+      ],
+      "riskReasons": [
+        "融資五日增加超過10%"
+      ],
+      "technical": {
+        "barCount": 128,
+        "latestDate": "2026-11-03",
+        "close": 74.2,
+        "ma20": 72.13,
+        "ma60": 68.655,
+        "averageVolume20": 39096.4527,
+        "averageTradeValue20": 2842193983,
+        "prior60High": 76.9,
+        "necklineDistance": -0.0351,
+        "return20d": 0.0928,
+        "platformRange60": 0.2383,
+        "latestVolumeRatio20": 1.287,
+        "latestVolume120High": false,
+        "baseGatePass": true
+      },
+      "holders": {
+        "weeks": 3,
+        "largeHolderRatios": [
+          1.7906,
+          1.7944,
+          1.7955
+        ],
+        "totalHolders": [
+          1161318,
+          1142478,
+          1139252
+        ],
+        "ratioIncreasing": true,
+        "holderCountDecreasing": true,
+        "twoWeekLargeHolderChange": 0.0049
+      },
+      "institutional": {
+        "trustBuyStreak": 3,
+        "foreignBuyStreak": 0,
+        "concentration5d": 0.1288,
+        "sameDayForeignTrustBuy": false,
+        "simultaneousBuy3d": false
+      },
+      "revenue": {
+        "monthlyRevenue": 21331939,
+        "latestRevenueMonth": "2026-09",
+        "revenueYoY": null,
+        "revenue36mHigh": false,
+        "revenueDataStatus": "REVENUE_INCOMPLETE",
+        "validMonths": 35
+      },
+      "credit": {
+        "marginBalance": 2465,
+        "shortBalance": 219,
+        "shortToMarginRatio": 0.0888,
+        "margin5dChange": 0.1251
+      },
+      "mopsDisclosures": [
+        {
+          "symbol": "2891",
+          "name": "",
+          "date": "2026-11-02",
+          "time": "194956",
+          "subject": "",
+          "source": "MOPS_T187AP04_L"
+        },
+        {
+          "symbol": "2891",
+          "name": "",
+          "date": "2026-11-02",
+          "time": "195044",
+          "subject": "",
+          "source": "MOPS_T187AP04_L"
+        }
+      ],
+      "riskEvents": [
+        {
+          "symbol": "2891",
+          "name": "中信金",
+          "date": "2026-06-12",
+          "publishedDate": "2026-11-02",
+          "eventType": "SHAREHOLDER_MEETING",
+          "meetingType": "常會",
+          "electronicVoting": "強制",
+          "source": "MOPS_T187AP41_L"
+        }
+      ]
+    },
+    {
+      "symbol": "4904",
+      "name": "遠傳",
+      "market": "TWSE",
+      "eligible": true,
+      "candidateStatus": "PROVISIONAL",
+      "score": 56.7,
+      "rawScore": 46.7,
+      "scoreDenominator": 85,
+      "grade": "C",
+      "scoreBreakdown": {
+        "holders": 21,
+        "institutional": 16.444,
+        "technical": 15.23,
+        "revenue": 0,
+        "credit": 0,
+        "liquidity": 4,
+        "penalties": -10
+      },
+      "positiveReasons": [
+        "大戶增持且股東人數下降",
+        "投信連買至少3日",
+        "距60日頸線-3%"
+      ],
+      "riskReasons": [
+        "融資五日增加超過10%"
+      ],
+      "technical": {
+        "barCount": 128,
+        "latestDate": "2026-11-03",
+        "close": 112.5,
+        "ma20": 110.3,
+        "ma60": 105.4583,
+        "averageVolume20": 6772.8295,
+        "averageTradeValue20": 750259171,
+        "prior60High": 116,
+        "necklineDistance": -0.0302,
+        "return20d": 0.0714,
+        "platformRange60": 0.1825,
+        "latestVolumeRatio20": 1.1059,
+        "latestVolume120High": false,
+        "baseGatePass": true
+      },
+      "holders": {
+        "weeks": 3,
+        "largeHolderRatios": [
+          1.9102000000000001,
+          1.9125,
+          1.9127
+        ],
+        "totalHolders": [
+          170218,
+          166490,
+          166050
+        ],
+        "ratioIncreasing": true,
+        "holderCountDecreasing": true,
+        "twoWeekLargeHolderChange": 0.0025
+      },
+      "institutional": {
+        "trustBuyStreak": 3,
+        "foreignBuyStreak": 0,
+        "concentration5d": 0.0787,
+        "sameDayForeignTrustBuy": false,
+        "simultaneousBuy3d": false
+      },
+      "revenue": {
+        "monthlyRevenue": 10962073,
+        "latestRevenueMonth": "2026-09",
+        "revenueYoY": null,
+        "revenue36mHigh": false,
+        "revenueDataStatus": "REVENUE_INCOMPLETE",
+        "validMonths": 35
+      },
+      "credit": {
+        "marginBalance": 226,
+        "shortBalance": 10,
+        "shortToMarginRatio": 0.0442,
+        "margin5dChange": 0.2486
+      },
+      "mopsDisclosures": [],
+      "riskEvents": [
+        {
+          "symbol": "4904",
+          "name": "遠傳",
+          "date": "2026-05-20",
+          "publishedDate": "2026-11-02",
+          "eventType": "SHAREHOLDER_MEETING",
+          "meetingType": "常會",
+          "electronicVoting": "強制",
+          "source": "MOPS_T187AP41_L"
+        }
+      ]
+    },
+    {
       "symbol": "3005",
       "name": "神基",
       "market": "TWSE",
       "eligible": true,
-      "candidateStatus": "VERIFIED",
-      "score": 55.9,
-      "rawScore": 55.9,
-      "scoreDenominator": 100,
+      "candidateStatus": "PROVISIONAL",
+      "score": 54.9,
+      "rawScore": 46.7,
+      "scoreDenominator": 85,
       "grade": "C",
       "scoreBreakdown": {
         "holders": 21,
-        "institutional": 7.936,
-        "technical": 20.97,
-        "revenue": 3,
+        "institutional": 8.296,
+        "technical": 14.41,
+        "revenue": 0,
         "credit": 0,
         "liquidity": 3,
         "penalties": 0
@@ -680,22 +784,22 @@
       "positiveReasons": [
         "大戶增持且股東人數下降",
         "投信連買至少3日",
-        "距60日頸線-2.7%"
+        "距60日頸線-4.3%"
       ],
       "riskReasons": [],
       "technical": {
         "barCount": 128,
-        "latestDate": "2026-11-02",
-        "close": 124,
-        "ma20": 121.15,
-        "ma60": 117.7583,
-        "averageVolume20": 2209.3671,
-        "averageTradeValue20": 269239819,
+        "latestDate": "2026-11-03",
+        "close": 122,
+        "ma20": 121.375,
+        "ma60": 117.8917,
+        "averageVolume20": 2319.1519,
+        "averageTradeValue20": 282998190,
         "prior60High": 127.5,
-        "necklineDistance": -0.0275,
-        "return20d": 0.0644,
+        "necklineDistance": -0.0431,
+        "return20d": 0.0383,
         "platformRange60": 0.1384,
-        "latestVolumeRatio20": 0.6289,
+        "latestVolumeRatio20": 1.3672,
         "latestVolume120High": false,
         "baseGatePass": true
       },
@@ -718,23 +822,23 @@
       "institutional": {
         "trustBuyStreak": 5,
         "foreignBuyStreak": 0,
-        "concentration5d": 0.0078,
+        "concentration5d": 0.0108,
         "sameDayForeignTrustBuy": false,
         "simultaneousBuy3d": false
       },
       "revenue": {
         "monthlyRevenue": 3946673,
         "latestRevenueMonth": "2026-09",
-        "revenueYoY": 0.1634,
+        "revenueYoY": null,
         "revenue36mHigh": false,
-        "revenueDataStatus": "COMPLETE",
-        "validMonths": 36
+        "revenueDataStatus": "REVENUE_INCOMPLETE",
+        "validMonths": 35
       },
       "credit": {
-        "marginBalance": 6797,
+        "marginBalance": 6725,
         "shortBalance": 25,
         "shortToMarginRatio": 0.0037,
-        "margin5dChange": -0.0244
+        "margin5dChange": -0.0292
       },
       "mopsDisclosures": [],
       "riskEvents": [
@@ -751,279 +855,89 @@
       ]
     },
     {
-      "symbol": "2882",
-      "name": "國泰金",
+      "symbol": "2801",
+      "name": "彰銀",
       "market": "TWSE",
       "eligible": true,
-      "candidateStatus": "VERIFIED",
-      "score": 55.7,
-      "rawScore": 55.7,
-      "scoreDenominator": 100,
+      "candidateStatus": "PROVISIONAL",
+      "score": 53.9,
+      "rawScore": 45.8,
+      "scoreDenominator": 85,
       "grade": "C",
       "scoreBreakdown": {
         "holders": 21,
-        "institutional": 13.2587,
-        "technical": 14.4267,
+        "institutional": 10.432,
+        "technical": 10.35,
         "revenue": 0,
-        "credit": 2,
-        "liquidity": 5,
-        "penalties": 0
-      },
-      "positiveReasons": [
-        "大戶增持且股東人數下降",
-        "距60日頸線-1.7%"
-      ],
-      "riskReasons": [],
-      "technical": {
-        "barCount": 128,
-        "latestDate": "2026-11-02",
-        "close": 116,
-        "ma20": 113.475,
-        "ma60": 108.635,
-        "averageVolume20": 21704.4566,
-        "averageTradeValue20": 2464342920,
-        "prior60High": 118,
-        "necklineDistance": -0.0169,
-        "return20d": 0.045,
-        "platformRange60": 0.2165,
-        "latestVolumeRatio20": 1.3057,
-        "latestVolume120High": false,
-        "baseGatePass": true
-      },
-      "holders": {
-        "weeks": 3,
-        "largeHolderRatios": [
-          1.8354,
-          1.8359999999999999,
-          1.8365
-        ],
-        "totalHolders": [
-          797060,
-          793978,
-          790498
-        ],
-        "ratioIncreasing": true,
-        "holderCountDecreasing": true,
-        "twoWeekLargeHolderChange": 0.0011
-      },
-      "institutional": {
-        "trustBuyStreak": 2,
-        "foreignBuyStreak": 0,
-        "concentration5d": 0.0716,
-        "sameDayForeignTrustBuy": false,
-        "simultaneousBuy3d": false
-      },
-      "revenue": {
-        "monthlyRevenue": 20405136,
-        "latestRevenueMonth": "2026-09",
-        "revenueYoY": -0.4117,
-        "revenue36mHigh": false,
-        "revenueDataStatus": "COMPLETE",
-        "validMonths": 36
-      },
-      "credit": {
-        "marginBalance": 4744,
-        "shortBalance": 1512,
-        "shortToMarginRatio": 0.3187,
-        "margin5dChange": -0.0152
-      },
-      "mopsDisclosures": [
-        {
-          "symbol": "2882",
-          "name": "",
-          "date": "2026-11-02",
-          "time": "171016",
-          "subject": "",
-          "source": "MOPS_T187AP04_L"
-        }
-      ],
-      "riskEvents": [
-        {
-          "symbol": "2882",
-          "name": "國泰金",
-          "date": "2026-06-12",
-          "publishedDate": "2026-11-02",
-          "eventType": "SHAREHOLDER_MEETING",
-          "meetingType": "常會",
-          "electronicVoting": "強制",
-          "source": "MOPS_T187AP41_L"
-        }
-      ]
-    },
-    {
-      "symbol": "2633",
-      "name": "台灣高鐵",
-      "market": "TWSE",
-      "eligible": true,
-      "candidateStatus": "VERIFIED",
-      "score": 55,
-      "rawScore": 55,
-      "scoreDenominator": 100,
-      "grade": "C",
-      "scoreBreakdown": {
-        "holders": 21,
-        "institutional": 2.3333,
-        "technical": 23.69,
-        "revenue": 3,
-        "credit": 3,
-        "liquidity": 2,
-        "penalties": 0
-      },
-      "positiveReasons": [
-        "大戶增持且股東人數下降",
-        "距60日頸線-1.3%"
-      ],
-      "riskReasons": [],
-      "technical": {
-        "barCount": 128,
-        "latestDate": "2026-11-02",
-        "close": 26.3,
-        "ma20": 26.08,
-        "ma60": 25.9942,
-        "averageVolume20": 4531.7112,
-        "averageTradeValue20": 118203371,
-        "prior60High": 26.65,
-        "necklineDistance": -0.0131,
-        "return20d": 0.0253,
-        "platformRange60": 0.0472,
-        "latestVolumeRatio20": 0.5806,
-        "latestVolume120High": false,
-        "baseGatePass": true
-      },
-      "holders": {
-        "weeks": 3,
-        "largeHolderRatios": [
-          1.8506,
-          1.8525,
-          1.8535
-        ],
-        "totalHolders": [
-          209504,
-          206806,
-          205848
-        ],
-        "ratioIncreasing": true,
-        "holderCountDecreasing": true,
-        "twoWeekLargeHolderChange": 0.0029
-      },
-      "institutional": {
-        "trustBuyStreak": 1,
-        "foreignBuyStreak": 0,
-        "concentration5d": -0.0374,
-        "sameDayForeignTrustBuy": false,
-        "simultaneousBuy3d": false
-      },
-      "revenue": {
-        "monthlyRevenue": 4718392,
-        "latestRevenueMonth": "2026-09",
-        "revenueYoY": 0.1139,
-        "revenue36mHigh": false,
-        "revenueDataStatus": "COMPLETE",
-        "validMonths": 36
-      },
-      "credit": {
-        "marginBalance": 1854,
-        "shortBalance": 27,
-        "shortToMarginRatio": 0.0146,
-        "margin5dChange": 0.0329
-      },
-      "mopsDisclosures": [],
-      "riskEvents": [
-        {
-          "symbol": "2633",
-          "name": "台灣高鐵",
-          "date": "2026-05-27",
-          "publishedDate": "2026-11-02",
-          "eventType": "SHAREHOLDER_MEETING",
-          "meetingType": "常會",
-          "electronicVoting": "強制",
-          "source": "MOPS_T187AP41_L"
-        }
-      ]
-    },
-    {
-      "symbol": "2618",
-      "name": "長榮航",
-      "market": "TWSE",
-      "eligible": true,
-      "candidateStatus": "VERIFIED",
-      "score": 53.1,
-      "rawScore": 53.1,
-      "scoreDenominator": 100,
-      "grade": "C",
-      "scoreBreakdown": {
-        "holders": 21,
-        "institutional": 6.6587,
-        "technical": 18.49,
-        "revenue": 3,
         "credit": 0,
         "liquidity": 4,
         "penalties": 0
       },
       "positiveReasons": [
         "大戶增持且股東人數下降",
-        "距60日頸線-3.2%"
+        "投信連買至少3日",
+        "距60日頸線-4.6%"
       ],
       "riskReasons": [],
       "technical": {
         "barCount": 128,
-        "latestDate": "2026-11-02",
-        "close": 43.15,
-        "ma20": 42.5075,
-        "ma60": 42.3417,
-        "averageVolume20": 14533.5594,
-        "averageTradeValue20": 618983497,
-        "prior60High": 44.6,
-        "necklineDistance": -0.0325,
-        "return20d": 0.007,
-        "platformRange60": 0.1378,
-        "latestVolumeRatio20": 0.8414,
+        "latestDate": "2026-11-03",
+        "close": 29.7,
+        "ma20": 29.0775,
+        "ma60": 26.8825,
+        "averageVolume20": 19774.2605,
+        "averageTradeValue20": 576916815,
+        "prior60High": 31.15,
+        "necklineDistance": -0.0465,
+        "return20d": 0.078,
+        "platformRange60": 0.3543,
+        "latestVolumeRatio20": 1.45,
         "latestVolume120High": false,
         "baseGatePass": true
       },
       "holders": {
         "weeks": 3,
         "largeHolderRatios": [
-          1.7973,
-          1.8043,
-          1.8059
+          1.741,
+          1.7459,
+          1.7473999999999998
         ],
         "totalHolders": [
-          386742,
-          376784,
-          374540
+          565666,
+          560362,
+          558214
         ],
         "ratioIncreasing": true,
         "holderCountDecreasing": true,
-        "twoWeekLargeHolderChange": 0.0086
+        "twoWeekLargeHolderChange": 0.0064
       },
       "institutional": {
-        "trustBuyStreak": 2,
+        "trustBuyStreak": 3,
         "foreignBuyStreak": 0,
-        "concentration5d": 0.0166,
+        "concentration5d": 0.0286,
         "sameDayForeignTrustBuy": false,
         "simultaneousBuy3d": false
       },
       "revenue": {
-        "monthlyRevenue": 20749259,
+        "monthlyRevenue": 4141864,
         "latestRevenueMonth": "2026-09",
-        "revenueYoY": 0.3286,
+        "revenueYoY": null,
         "revenue36mHigh": false,
-        "revenueDataStatus": "COMPLETE",
-        "validMonths": 36
+        "revenueDataStatus": "REVENUE_INCOMPLETE",
+        "validMonths": 35
       },
       "credit": {
-        "marginBalance": 15149,
-        "shortBalance": 1097,
-        "shortToMarginRatio": 0.0724,
-        "margin5dChange": -0.026
+        "marginBalance": 7726,
+        "shortBalance": 521,
+        "shortToMarginRatio": 0.0674,
+        "margin5dChange": -0.009
       },
       "mopsDisclosures": [],
       "riskEvents": [
         {
-          "symbol": "2618",
-          "name": "長榮航",
-          "date": "2026-05-29",
+          "symbol": "2801",
+          "name": "彰銀",
+          "date": "2026-06-18",
           "publishedDate": "2026-11-02",
           "eventType": "SHAREHOLDER_MEETING",
           "meetingType": "常會",
@@ -1037,38 +951,38 @@
       "name": "台泥",
       "market": "TWSE",
       "eligible": true,
-      "candidateStatus": "VERIFIED",
-      "score": 52.1,
-      "rawScore": 52.1,
-      "scoreDenominator": 100,
+      "candidateStatus": "PROVISIONAL",
+      "score": 53.6,
+      "rawScore": 45.6,
+      "scoreDenominator": 85,
       "grade": "C",
       "scoreBreakdown": {
         "holders": 21,
-        "institutional": 2.3333,
-        "technical": 17.7533,
-        "revenue": 3,
-        "credit": 3,
+        "institutional": 4.6667,
+        "technical": 14.91,
+        "revenue": 0,
+        "credit": 0,
         "liquidity": 5,
         "penalties": 0
       },
       "positiveReasons": [
         "大戶增持且股東人數下降",
-        "距60日頸線-1.4%"
+        "距60日頸線-3.8%"
       ],
       "riskReasons": [],
       "technical": {
         "barCount": 128,
-        "latestDate": "2026-11-02",
-        "close": 28.1,
-        "ma20": 26.8125,
-        "ma60": 25.2742,
-        "averageVolume20": 48590.7818,
-        "averageTradeValue20": 1310815459,
-        "prior60High": 28.5,
-        "necklineDistance": -0.014,
-        "return20d": 0.0684,
-        "platformRange60": 0.2154,
-        "latestVolumeRatio20": 0.9795,
+        "latestDate": "2026-11-03",
+        "close": 27.7,
+        "ma20": 26.92,
+        "ma60": 25.3433,
+        "averageVolume20": 48260.3914,
+        "averageTradeValue20": 1307226658,
+        "prior60High": 28.8,
+        "necklineDistance": -0.0382,
+        "return20d": 0.0841,
+        "platformRange60": 0.2281,
+        "latestVolumeRatio20": 0.9993,
         "latestVolume120High": false,
         "baseGatePass": true
       },
@@ -1089,25 +1003,25 @@
         "twoWeekLargeHolderChange": 0.0047
       },
       "institutional": {
-        "trustBuyStreak": 1,
+        "trustBuyStreak": 2,
         "foreignBuyStreak": 0,
-        "concentration5d": -0.0082,
+        "concentration5d": -0.0217,
         "sameDayForeignTrustBuy": false,
         "simultaneousBuy3d": false
       },
       "revenue": {
         "monthlyRevenue": 14321556,
         "latestRevenueMonth": "2026-09",
-        "revenueYoY": 0.0763,
+        "revenueYoY": null,
         "revenue36mHigh": false,
-        "revenueDataStatus": "COMPLETE",
-        "validMonths": 36
+        "revenueDataStatus": "REVENUE_INCOMPLETE",
+        "validMonths": 35
       },
       "credit": {
-        "marginBalance": 37267,
-        "shortBalance": 503,
-        "shortToMarginRatio": 0.0135,
-        "margin5dChange": 0.044
+        "marginBalance": 35677,
+        "shortBalance": 276,
+        "shortToMarginRatio": 0.0077,
+        "margin5dChange": -0.0604
       },
       "mopsDisclosures": [],
       "riskEvents": [
@@ -1134,113 +1048,22 @@
       ]
     },
     {
-      "symbol": "2892",
-      "name": "第一金",
+      "symbol": "5880",
+      "name": "合庫金",
       "market": "TWSE",
       "eligible": true,
-      "candidateStatus": "VERIFIED",
-      "score": 51.4,
-      "rawScore": 51.4,
-      "scoreDenominator": 100,
+      "candidateStatus": "PROVISIONAL",
+      "score": 52.7,
+      "rawScore": 43.3,
+      "scoreDenominator": 85,
       "grade": "C",
       "scoreBreakdown": {
         "holders": 21,
-        "institutional": 10.7867,
-        "technical": 15.65,
+        "institutional": 13.456,
+        "technical": 14.8767,
         "revenue": 0,
         "credit": 0,
         "liquidity": 4,
-        "penalties": 0
-      },
-      "positiveReasons": [
-        "大戶增持且股東人數下降",
-        "距60日頸線-2.3%"
-      ],
-      "riskReasons": [],
-      "technical": {
-        "barCount": 128,
-        "latestDate": "2026-11-02",
-        "close": 43.65,
-        "ma20": 40.975,
-        "ma60": 37.8808,
-        "averageVolume20": 21690.8797,
-        "averageTradeValue20": 898846164,
-        "prior60High": 44.7,
-        "necklineDistance": -0.0235,
-        "return20d": 0.1294,
-        "platformRange60": 0.3775,
-        "latestVolumeRatio20": 0.996,
-        "latestVolume120High": false,
-        "baseGatePass": true
-      },
-      "holders": {
-        "weeks": 3,
-        "largeHolderRatios": [
-          1.685,
-          1.6879,
-          1.6897
-        ],
-        "totalHolders": [
-          871668,
-          864346,
-          862696
-        ],
-        "ratioIncreasing": true,
-        "holderCountDecreasing": true,
-        "twoWeekLargeHolderChange": 0.0047
-      },
-      "institutional": {
-        "trustBuyStreak": 2,
-        "foreignBuyStreak": 0,
-        "concentration5d": 0.051,
-        "sameDayForeignTrustBuy": false,
-        "simultaneousBuy3d": false
-      },
-      "revenue": {
-        "monthlyRevenue": 6110987,
-        "latestRevenueMonth": "2026-09",
-        "revenueYoY": -0.0848,
-        "revenue36mHigh": false,
-        "revenueDataStatus": "COMPLETE",
-        "validMonths": 36
-      },
-      "credit": {
-        "marginBalance": 2107,
-        "shortBalance": 192,
-        "shortToMarginRatio": 0.0911,
-        "margin5dChange": -0.8624
-      },
-      "mopsDisclosures": [],
-      "riskEvents": [
-        {
-          "symbol": "2892",
-          "name": "第一金",
-          "date": "2026-06-18",
-          "publishedDate": "2026-11-02",
-          "eventType": "SHAREHOLDER_MEETING",
-          "meetingType": "常會",
-          "electronicVoting": "強制",
-          "source": "MOPS_T187AP41_L"
-        }
-      ]
-    },
-    {
-      "symbol": "2885",
-      "name": "元大金",
-      "market": "TWSE",
-      "eligible": true,
-      "candidateStatus": "VERIFIED",
-      "score": 50.5,
-      "rawScore": 50.5,
-      "scoreDenominator": 100,
-      "grade": "C",
-      "scoreBreakdown": {
-        "holders": 21,
-        "institutional": 15.52,
-        "technical": 16.0067,
-        "revenue": 3,
-        "credit": 0,
-        "liquidity": 5,
         "penalties": -10
       },
       "positiveReasons": [
@@ -1253,63 +1076,427 @@
       ],
       "technical": {
         "barCount": 128,
-        "latestDate": "2026-11-02",
-        "close": 71.5,
-        "ma20": 70.905,
-        "ma60": 68.7233,
-        "averageVolume20": 23983.5748,
-        "averageTradeValue20": 1702555236,
-        "prior60High": 74.2,
-        "necklineDistance": -0.0364,
-        "return20d": 0.0438,
-        "platformRange60": 0.2006,
-        "latestVolumeRatio20": 0.8464,
+        "latestDate": "2026-11-03",
+        "close": 28.45,
+        "ma20": 27.6075,
+        "ma60": 26.5142,
+        "averageVolume20": 19010.1076,
+        "averageTradeValue20": 526912965,
+        "prior60High": 29.5,
+        "necklineDistance": -0.0356,
+        "return20d": 0.0942,
+        "platformRange60": 0.2369,
+        "latestVolumeRatio20": 0.958,
         "latestVolume120High": false,
         "baseGatePass": true
       },
       "holders": {
         "weeks": 3,
         "largeHolderRatios": [
-          1.8028,
-          1.8053,
-          1.8061
+          1.7142,
+          1.7195,
+          1.7212999999999998
         ],
         "totalHolders": [
-          916332,
-          910180,
-          907890
+          816784,
+          808624,
+          806364
         ],
         "ratioIncreasing": true,
         "holderCountDecreasing": true,
-        "twoWeekLargeHolderChange": 0.0033
+        "twoWeekLargeHolderChange": 0.0071
       },
       "institutional": {
         "trustBuyStreak": 5,
         "foreignBuyStreak": 0,
-        "concentration5d": 0.071,
+        "concentration5d": 0.0538,
         "sameDayForeignTrustBuy": false,
         "simultaneousBuy3d": false
       },
       "revenue": {
-        "monthlyRevenue": 14927852,
+        "monthlyRevenue": 5448285,
         "latestRevenueMonth": "2026-09",
-        "revenueYoY": 0.2271,
+        "revenueYoY": null,
         "revenue36mHigh": false,
-        "revenueDataStatus": "COMPLETE",
-        "validMonths": 36
+        "revenueDataStatus": "REVENUE_INCOMPLETE",
+        "validMonths": 35
       },
       "credit": {
-        "marginBalance": 1363,
-        "shortBalance": 7,
-        "shortToMarginRatio": 0.0051,
-        "margin5dChange": 0.262
+        "marginBalance": 2777,
+        "shortBalance": 91,
+        "shortToMarginRatio": 0.0328,
+        "margin5dChange": 0.7422
       },
       "mopsDisclosures": [],
       "riskEvents": [
         {
-          "symbol": "2885",
-          "name": "元大金",
+          "symbol": "5880",
+          "name": "合庫金",
+          "date": "2026-06-18",
+          "publishedDate": "2026-11-02",
+          "eventType": "SHAREHOLDER_MEETING",
+          "meetingType": "常會",
+          "electronicVoting": "強制",
+          "source": "MOPS_T187AP41_L"
+        }
+      ]
+    },
+    {
+      "symbol": "2023",
+      "name": "燁輝",
+      "market": "TWSE",
+      "eligible": true,
+      "candidateStatus": "PROVISIONAL",
+      "score": 51.4,
+      "rawScore": 43.7,
+      "scoreDenominator": 85,
+      "grade": "C",
+      "scoreBreakdown": {
+        "holders": 21,
+        "institutional": 2.4173,
+        "technical": 19.2533,
+        "revenue": 0,
+        "credit": 0,
+        "liquidity": 1,
+        "penalties": 0
+      },
+      "positiveReasons": [
+        "大戶增持且股東人數下降",
+        "距60日頸線-2.6%"
+      ],
+      "riskReasons": [],
+      "technical": {
+        "barCount": 128,
+        "latestDate": "2026-11-03",
+        "close": 14.85,
+        "ma20": 14.49,
+        "ma60": 14.0308,
+        "averageVolume20": 1541.297,
+        "averageTradeValue20": 22532229,
+        "prior60High": 15.25,
+        "necklineDistance": -0.0262,
+        "return20d": 0.0761,
+        "platformRange60": 0.1338,
+        "latestVolumeRatio20": 0.9486,
+        "latestVolume120High": false,
+        "baseGatePass": true
+      },
+      "holders": {
+        "weeks": 3,
+        "largeHolderRatios": [
+          1.7769,
+          1.7809,
+          1.7814
+        ],
+        "totalHolders": [
+          201740,
+          199896,
+          199370
+        ],
+        "ratioIncreasing": true,
+        "holderCountDecreasing": true,
+        "twoWeekLargeHolderChange": 0.0045
+      },
+      "institutional": {
+        "trustBuyStreak": 1,
+        "foreignBuyStreak": 0,
+        "concentration5d": 0.0007,
+        "sameDayForeignTrustBuy": false,
+        "simultaneousBuy3d": false
+      },
+      "revenue": {
+        "monthlyRevenue": 5248814,
+        "latestRevenueMonth": "2026-09",
+        "revenueYoY": null,
+        "revenue36mHigh": false,
+        "revenueDataStatus": "REVENUE_INCOMPLETE",
+        "validMonths": 35
+      },
+      "credit": {
+        "marginBalance": 2898,
+        "shortBalance": 4,
+        "shortToMarginRatio": 0.0014,
+        "margin5dChange": -0.0007
+      },
+      "mopsDisclosures": [],
+      "riskEvents": [
+        {
+          "symbol": "2023",
+          "name": "燁輝",
+          "date": "2026-06-25",
+          "publishedDate": "2026-11-02",
+          "eventType": "SHAREHOLDER_MEETING",
+          "meetingType": "常會",
+          "electronicVoting": "強制",
+          "source": "MOPS_T187AP41_L"
+        }
+      ]
+    },
+    {
+      "symbol": "5876",
+      "name": "上海商銀",
+      "market": "TWSE",
+      "eligible": true,
+      "candidateStatus": "PROVISIONAL",
+      "score": 50.8,
+      "rawScore": 43.1,
+      "scoreDenominator": 85,
+      "grade": "C",
+      "scoreBreakdown": {
+        "holders": 21,
+        "institutional": 11.0387,
+        "technical": 8.1,
+        "revenue": 0,
+        "credit": 0,
+        "liquidity": 3,
+        "penalties": 0
+      },
+      "positiveReasons": [
+        "大戶增持且股東人數下降",
+        "距60日頸線-6.9%"
+      ],
+      "riskReasons": [],
+      "technical": {
+        "barCount": 128,
+        "latestDate": "2026-11-03",
+        "close": 52.6,
+        "ma20": 52.4275,
+        "ma60": 48.0675,
+        "averageVolume20": 7705.8797,
+        "averageTradeValue20": 407561980,
+        "prior60High": 56.5,
+        "necklineDistance": -0.069,
+        "return20d": 0.0868,
+        "platformRange60": 0.3565,
+        "latestVolumeRatio20": 1.3712,
+        "latestVolume120High": false,
+        "baseGatePass": true
+      },
+      "holders": {
+        "weeks": 3,
+        "largeHolderRatios": [
+          1.8340999999999998,
+          1.8372,
+          1.8377
+        ],
+        "totalHolders": [
+          99038,
+          97594,
+          97318
+        ],
+        "ratioIncreasing": true,
+        "holderCountDecreasing": true,
+        "twoWeekLargeHolderChange": 0.0036
+      },
+      "institutional": {
+        "trustBuyStreak": 2,
+        "foreignBuyStreak": 0,
+        "concentration5d": 0.0531,
+        "sameDayForeignTrustBuy": false,
+        "simultaneousBuy3d": false
+      },
+      "revenue": {
+        "monthlyRevenue": 4382814,
+        "latestRevenueMonth": "2026-09",
+        "revenueYoY": null,
+        "revenue36mHigh": false,
+        "revenueDataStatus": "REVENUE_INCOMPLETE",
+        "validMonths": 35
+      },
+      "credit": {
+        "marginBalance": 308,
+        "shortBalance": 29,
+        "shortToMarginRatio": 0.0942,
+        "margin5dChange": -0.0806
+      },
+      "mopsDisclosures": [],
+      "riskEvents": [
+        {
+          "symbol": "5876",
+          "name": "上海商銀",
           "date": "2026-06-12",
+          "publishedDate": "2026-11-02",
+          "eventType": "SHAREHOLDER_MEETING",
+          "meetingType": "常會",
+          "electronicVoting": "強制",
+          "source": "MOPS_T187AP41_L"
+        }
+      ]
+    },
+    {
+      "symbol": "1216",
+      "name": "統一",
+      "market": "TWSE",
+      "eligible": true,
+      "candidateStatus": "PROVISIONAL",
+      "score": 50.8,
+      "rawScore": 43.2,
+      "scoreDenominator": 85,
+      "grade": "C",
+      "scoreBreakdown": {
+        "holders": 21,
+        "institutional": 0,
+        "technical": 17.1633,
+        "revenue": 0,
+        "credit": 0,
+        "liquidity": 5,
+        "penalties": 0
+      },
+      "positiveReasons": [
+        "大戶增持且股東人數下降",
+        "距60日頸線-2.3%"
+      ],
+      "riskReasons": [],
+      "technical": {
+        "barCount": 128,
+        "latestDate": "2026-11-03",
+        "close": 81.1,
+        "ma20": 77.825,
+        "ma60": 76.3767,
+        "averageVolume20": 14310.794,
+        "averageTradeValue20": 1114309478,
+        "prior60High": 83,
+        "necklineDistance": -0.0229,
+        "return20d": 0.0974,
+        "platformRange60": 0.1464,
+        "latestVolumeRatio20": 1.1059,
+        "latestVolume120High": false,
+        "baseGatePass": true
+      },
+      "holders": {
+        "weeks": 3,
+        "largeHolderRatios": [
+          1.859,
+          1.8668,
+          1.8675000000000002
+        ],
+        "totalHolders": [
+          286640,
+          271258,
+          268780
+        ],
+        "ratioIncreasing": true,
+        "holderCountDecreasing": true,
+        "twoWeekLargeHolderChange": 0.0085
+      },
+      "institutional": {
+        "trustBuyStreak": 0,
+        "foreignBuyStreak": 0,
+        "concentration5d": -0.0236,
+        "sameDayForeignTrustBuy": false,
+        "simultaneousBuy3d": false
+      },
+      "revenue": {
+        "monthlyRevenue": 61805124,
+        "latestRevenueMonth": "2026-09",
+        "revenueYoY": null,
+        "revenue36mHigh": false,
+        "revenueDataStatus": "REVENUE_INCOMPLETE",
+        "validMonths": 35
+      },
+      "credit": {
+        "marginBalance": 451,
+        "shortBalance": 11,
+        "shortToMarginRatio": 0.0244,
+        "margin5dChange": -0.0425
+      },
+      "mopsDisclosures": [],
+      "riskEvents": [
+        {
+          "symbol": "1216",
+          "name": "統一",
+          "date": "2026-05-28",
+          "publishedDate": "2026-11-02",
+          "eventType": "SHAREHOLDER_MEETING",
+          "meetingType": "常會",
+          "electronicVoting": "強制",
+          "source": "MOPS_T187AP41_L"
+        }
+      ]
+    },
+    {
+      "symbol": "9933",
+      "name": "中鼎",
+      "market": "TWSE",
+      "eligible": true,
+      "candidateStatus": "PROVISIONAL",
+      "score": 50.3,
+      "rawScore": 42.7,
+      "scoreDenominator": 85,
+      "grade": "C",
+      "scoreBreakdown": {
+        "holders": 11,
+        "institutional": 12.772,
+        "technical": 12.97,
+        "revenue": 0,
+        "credit": 3,
+        "liquidity": 3,
+        "penalties": 0
+      },
+      "positiveReasons": [
+        "投信連買至少3日",
+        "距60日頸線-5%"
+      ],
+      "riskReasons": [],
+      "technical": {
+        "barCount": 128,
+        "latestDate": "2026-11-03",
+        "close": 46.3,
+        "ma20": 44.5275,
+        "ma60": 42.11,
+        "averageVolume20": 7354.9935,
+        "averageTradeValue20": 333085980,
+        "prior60High": 48.75,
+        "necklineDistance": -0.0503,
+        "return20d": 0.1116,
+        "platformRange60": 0.3617,
+        "latestVolumeRatio20": 0.8562,
+        "latestVolume120High": false,
+        "baseGatePass": true
+      },
+      "holders": {
+        "weeks": 3,
+        "largeHolderRatios": [
+          1.576,
+          1.5735999999999999,
+          1.5773
+        ],
+        "totalHolders": [
+          109320,
+          106720,
+          104081
+        ],
+        "ratioIncreasing": false,
+        "holderCountDecreasing": true,
+        "twoWeekLargeHolderChange": 0.0013
+      },
+      "institutional": {
+        "trustBuyStreak": 5,
+        "foreignBuyStreak": 0,
+        "concentration5d": 0.0481,
+        "sameDayForeignTrustBuy": false,
+        "simultaneousBuy3d": false
+      },
+      "revenue": {
+        "monthlyRevenue": 8356732,
+        "latestRevenueMonth": "2026-09",
+        "revenueYoY": null,
+        "revenue36mHigh": false,
+        "revenueDataStatus": "REVENUE_INCOMPLETE",
+        "validMonths": 35
+      },
+      "credit": {
+        "marginBalance": 6976,
+        "shortBalance": 218,
+        "shortToMarginRatio": 0.0313,
+        "margin5dChange": 0.0986
+      },
+      "mopsDisclosures": [],
+      "riskEvents": [
+        {
+          "symbol": "9933",
+          "name": "中鼎",
+          "date": "2026-05-25",
           "publishedDate": "2026-11-02",
           "eventType": "SHAREHOLDER_MEETING",
           "meetingType": "常會",
@@ -13487,74 +13674,36 @@
       "meetingType": "常會",
       "electronicVoting": "強制",
       "source": "MOPS_T187AP41_L"
-    },
-    {
-      "symbol": "0051",
-      "name": "元大中型100",
-      "date": "2026-11-20",
-      "eventType": "EX_RIGHT_DIVIDEND",
-      "category": "息",
-      "cashDividend": null,
-      "source": "TWSE_TWT48U_ALL"
-    },
-    {
-      "symbol": "0055",
-      "name": "元大MSCI金融",
-      "date": "2026-11-20",
-      "eventType": "EX_RIGHT_DIVIDEND",
-      "category": "息",
-      "cashDividend": null,
-      "source": "TWSE_TWT48U_ALL"
-    },
-    {
-      "symbol": "2414",
-      "name": "精技",
-      "date": "2026-11-06",
-      "eventType": "EX_RIGHT_DIVIDEND",
-      "category": "權",
-      "cashDividend": 0,
-      "source": "TWSE_TWT48U_ALL"
-    },
-    {
-      "symbol": "6165",
-      "name": "浪凡",
-      "date": "2026-11-02",
-      "eventType": "EX_RIGHT_DIVIDEND",
-      "category": "息",
-      "cashDividend": 5,
-      "source": "TWSE_TWT48U_ALL"
-    },
-    {
-      "symbol": "8467",
-      "name": "波力-KY",
-      "date": "2026-11-04",
-      "eventType": "EX_RIGHT_DIVIDEND",
-      "category": "息",
-      "cashDividend": 2,
-      "source": "TWSE_TWT48U_ALL"
     }
   ],
   "manifest": {
-    "generatedAt": "2026-11-02T22:26:07.490Z",
-    "status": "COMPLETE",
+    "generatedAt": "2026-11-03T20:13:42.388Z",
+    "status": "PARTIAL",
     "canPublishRanking": true,
     "sourceDates": {
-      "prices": "2026-11-02",
-      "institutional": "2026-11-02",
-      "margin": "2026-11-02",
+      "prices": "2026-11-03",
+      "institutional": "2026-11-03",
+      "margin": "2026-11-03",
       "tdcc": "2026-10-30",
       "mops": "2026-11-02",
       "shareholderMeetings": "2026-12-21",
-      "exRights": "2026-11-20",
+      "exRights": null,
       "monthlyRevenue": "2026-09"
     },
-    "missingFields": [],
-    "warnings": [],
+    "missingFields": [
+      "exRights",
+      "monthlyRevenue"
+    ],
+    "warnings": [
+      "exRights: Unexpected token '<', \"<html><hea\"... is not valid JSON",
+      "monthlyRevenue: 2025-06: fetch failed",
+      "非必要資料缺漏: exRights, monthlyRevenue"
+    ],
     "sources": {
       "prices": {
         "provider": "TWSE_MI_INDEX",
-        "date": "2026-11-02",
-        "rows": 139424,
+        "date": "2026-11-03",
+        "rows": 139441,
         "coverage": {
           "dates": 128,
           "minimumDates": 120,
@@ -13565,8 +13714,8 @@
       },
       "institutional": {
         "provider": "TWSE_T86",
-        "date": "2026-11-02",
-        "rows": 8694,
+        "date": "2026-11-03",
+        "rows": 8695,
         "coverage": {
           "dates": 8,
           "minimumDates": 5,
@@ -13577,8 +13726,8 @@
       },
       "margin": {
         "provider": "TWSE_MI_MARGN",
-        "date": "2026-11-02",
-        "rows": 8552,
+        "date": "2026-11-03",
+        "rows": 8553,
         "coverage": {
           "dates": 8,
           "minimumDates": 6,
@@ -13611,20 +13760,20 @@
       },
       "exRights": {
         "provider": "TWSE_TWT48U_ALL",
-        "date": "2026-11-20",
-        "rows": 5,
-        "ok": true,
-        "warning": null
+        "date": null,
+        "rows": 0,
+        "ok": false,
+        "warning": "Unexpected token '<', \"<html><hea\"... is not valid JSON"
       },
       "monthlyRevenue": {
         "provider": "MOPS_T21_ARCHIVE",
         "date": "2026-09",
-        "rows": 38732,
-        "months": 36,
-        "ok": true,
-        "warning": null
+        "rows": 37647,
+        "months": 35,
+        "ok": false,
+        "warning": "2025-06: fetch failed"
       }
     },
-    "payloadSha256": "c33629c34a8a1dce7d09c0529a93c14fed2fa7b536f6d405fc9ba41d0d89fa68"
+    "payloadSha256": "6488fd67f9515d5a3651687a8800c78eb62986477b65b83e011884a159c9bf91"
   }
 }
