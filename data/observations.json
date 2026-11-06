@@ -3597,5 +3597,35 @@
     "score": 63.5,
     "revenue36mHigh": false,
     "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "2412",
+    "name": "中華電",
+    "listedDate": "2026-11-06",
+    "listedPrice": 163.5,
+    "grade": "C",
+    "score": 53.8,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "2886",
+    "name": "兆豐金",
+    "listedDate": "2026-11-06",
+    "listedPrice": 53.5,
+    "grade": "C",
+    "score": 61.7,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "2891",
+    "name": "中信金",
+    "listedDate": "2026-11-06",
+    "listedPrice": 73.4,
+    "grade": "C",
+    "score": 58.8,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
   }
 ]
