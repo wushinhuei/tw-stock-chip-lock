@@ -3717,5 +3717,65 @@
     "score": 74.7,
     "revenue36mHigh": false,
     "candidateStatus": "PROVISIONAL"
+  },
+  {
+    "symbol": "2412",
+    "name": "中華電",
+    "listedDate": "2026-11-12",
+    "listedPrice": 162,
+    "grade": "C",
+    "score": 51.2,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "2618",
+    "name": "長榮航",
+    "listedDate": "2026-11-12",
+    "listedPrice": 46.9,
+    "grade": "C",
+    "score": 53.1,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "2880",
+    "name": "華南金",
+    "listedDate": "2026-11-12",
+    "listedPrice": 50.5,
+    "grade": "C",
+    "score": 61.2,
+    "revenue36mHigh": false,
+    "candidateStatus": "PROVISIONAL"
+  },
+  {
+    "symbol": "2886",
+    "name": "兆豐金",
+    "listedDate": "2026-11-12",
+    "listedPrice": 54.4,
+    "grade": "C",
+    "score": 50.9,
+    "revenue36mHigh": false,
+    "candidateStatus": "PROVISIONAL"
+  },
+  {
+    "symbol": "2891",
+    "name": "中信金",
+    "listedDate": "2026-11-12",
+    "listedPrice": 75.4,
+    "grade": "C",
+    "score": 63.4,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "5880",
+    "name": "合庫金",
+    "listedDate": "2026-11-12",
+    "listedPrice": 28.2,
+    "grade": "C",
+    "score": 60.4,
+    "revenue36mHigh": false,
+    "candidateStatus": "PROVISIONAL"
   }
 ]
