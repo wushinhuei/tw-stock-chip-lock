@@ -3777,5 +3777,55 @@
     "score": 60.4,
     "revenue36mHigh": false,
     "candidateStatus": "PROVISIONAL"
+  },
+  {
+    "symbol": "1802",
+    "name": "台玻",
+    "listedDate": "2026-11-13",
+    "listedPrice": 85.1,
+    "grade": "C",
+    "score": 50.1,
+    "revenue36mHigh": true,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "2412",
+    "name": "中華電",
+    "listedDate": "2026-11-13",
+    "listedPrice": 165,
+    "grade": "C",
+    "score": 50.7,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "2618",
+    "name": "長榮航",
+    "listedDate": "2026-11-13",
+    "listedPrice": 47.75,
+    "grade": "C",
+    "score": 50,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "2880",
+    "name": "華南金",
+    "listedDate": "2026-11-13",
+    "listedPrice": 51.9,
+    "grade": "C",
+    "score": 53,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "5880",
+    "name": "合庫金",
+    "listedDate": "2026-11-13",
+    "listedPrice": 28.55,
+    "grade": "C",
+    "score": 51.8,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
   }
 ]
