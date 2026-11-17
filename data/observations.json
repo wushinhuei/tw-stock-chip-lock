@@ -3867,5 +3867,25 @@
     "score": 51.9,
     "revenue36mHigh": false,
     "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "1476",
+    "name": "儒鴻",
+    "listedDate": "2026-11-17",
+    "listedPrice": 385,
+    "grade": "C",
+    "score": 59.5,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
+  },
+  {
+    "symbol": "2610",
+    "name": "華航",
+    "listedDate": "2026-11-17",
+    "listedPrice": 23.1,
+    "grade": "C",
+    "score": 55.2,
+    "revenue36mHigh": false,
+    "candidateStatus": "VERIFIED"
   }
 ]
