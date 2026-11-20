@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T21:42:26.872Z",
+  "generatedAt": "2026-11-20T21:12:06.223Z",
   "observations": [
     {
       "symbol": "1101",
@@ -7901,14 +7901,14 @@
           "excessReturn": 0.0911
         },
         "20": {
-          "return": null,
-          "benchmarkReturn": null,
-          "excessReturn": null
+          "return": -0.1276,
+          "benchmarkReturn": -0.2191,
+          "excessReturn": 0.0916
         }
       },
-      "status": "PENDING",
+      "status": "COMPLETE",
       "maximumReturn20d": 0.0077,
-      "maximumDrawdown20d": -0.102
+      "maximumDrawdown20d": -0.1276
     },
     {
       "symbol": "2034",
@@ -7931,14 +7931,14 @@
           "excessReturn": 0.0405
         },
         "20": {
-          "return": null,
-          "benchmarkReturn": null,
-          "excessReturn": null
+          "return": -0.1708,
+          "benchmarkReturn": -0.2191,
+          "excessReturn": 0.0483
         }
       },
-      "status": "PENDING",
+      "status": "COMPLETE",
       "maximumReturn20d": 0.0208,
-      "maximumDrawdown20d": -0.1125
+      "maximumDrawdown20d": -0.1708
     },
     {
       "symbol": "2313",
@@ -7961,14 +7961,14 @@
           "excessReturn": -0.1942
         },
         "20": {
-          "return": null,
-          "benchmarkReturn": null,
-          "excessReturn": null
+          "return": -0.3659,
+          "benchmarkReturn": -0.2191,
+          "excessReturn": -0.1468
         }
       },
-      "status": "PENDING",
+      "status": "COMPLETE",
       "maximumReturn20d": -0.0665,
-      "maximumDrawdown20d": -0.3389
+      "maximumDrawdown20d": -0.3659
     },
     {
       "symbol": "2347",
@@ -7991,14 +7991,14 @@
           "excessReturn": -0.0088
         },
         "20": {
-          "return": null,
-          "benchmarkReturn": null,
-          "excessReturn": null
+          "return": -0.3029,
+          "benchmarkReturn": -0.2191,
+          "excessReturn": -0.0838
         }
       },
-      "status": "PENDING",
+      "status": "COMPLETE",
       "maximumReturn20d": 0.0281,
-      "maximumDrawdown20d": -0.2728
+      "maximumDrawdown20d": -0.3029
     },
     {
       "symbol": "2393",
@@ -8021,14 +8021,14 @@
           "excessReturn": 0.0313
         },
         "20": {
-          "return": null,
-          "benchmarkReturn": null,
-          "excessReturn": null
+          "return": -0.1738,
+          "benchmarkReturn": -0.2191,
+          "excessReturn": 0.0454
         }
       },
-      "status": "PENDING",
+      "status": "COMPLETE",
       "maximumReturn20d": 0.0162,
-      "maximumDrawdown20d": -0.1355
+      "maximumDrawdown20d": -0.1738
     },
     {
       "symbol": "2412",
@@ -8051,12 +8051,12 @@
           "excessReturn": 0.2064
         },
         "20": {
-          "return": null,
-          "benchmarkReturn": null,
-          "excessReturn": null
+          "return": 0.0552,
+          "benchmarkReturn": -0.2191,
+          "excessReturn": 0.2743
         }
       },
-      "status": "PENDING",
+      "status": "COMPLETE",
       "maximumReturn20d": 0.0779,
       "maximumDrawdown20d": 0.0162
     },
@@ -8081,14 +8081,14 @@
           "excessReturn": 0.1
         },
         "20": {
-          "return": null,
-          "benchmarkReturn": null,
-          "excessReturn": null
+          "return": -0.1951,
+          "benchmarkReturn": -0.2191,
+          "excessReturn": 0.024
         }
       },
-      "status": "PENDING",
+      "status": "COMPLETE",
       "maximumReturn20d": 0.0112,
-      "maximumDrawdown20d": -0.1799
+      "maximumDrawdown20d": -0.1951
     },
     {
       "symbol": "2892",
@@ -8111,14 +8111,14 @@
           "excessReturn": 0.1362
         },
         "20": {
-          "return": null,
-          "benchmarkReturn": null,
-          "excessReturn": null
+          "return": -0.0896,
+          "benchmarkReturn": -0.2191,
+          "excessReturn": 0.1296
         }
       },
-      "status": "PENDING",
+      "status": "COMPLETE",
       "maximumReturn20d": 0.0799,
-      "maximumDrawdown20d": -0.0278
+      "maximumDrawdown20d": -0.0896
     },
     {
       "symbol": "2913",
@@ -8141,14 +8141,14 @@
           "excessReturn": 0.0647
         },
         "20": {
-          "return": null,
-          "benchmarkReturn": null,
-          "excessReturn": null
+          "return": -0.2098,
+          "benchmarkReturn": -0.2191,
+          "excessReturn": 0.0094
         }
       },
-      "status": "PENDING",
+      "status": "COMPLETE",
       "maximumReturn20d": 0,
-      "maximumDrawdown20d": -0.1742
+      "maximumDrawdown20d": -0.2098
     },
     {
       "symbol": "3036",
@@ -8171,14 +8171,14 @@
           "excessReturn": 0.0176
         },
         "20": {
-          "return": null,
-          "benchmarkReturn": null,
-          "excessReturn": null
+          "return": -0.2353,
+          "benchmarkReturn": -0.2191,
+          "excessReturn": -0.0162
         }
       },
-      "status": "PENDING",
+      "status": "COMPLETE",
       "maximumReturn20d": 0.0212,
-      "maximumDrawdown20d": -0.1882
+      "maximumDrawdown20d": -0.2353
     },
     {
       "symbol": "4904",
@@ -8201,14 +8201,14 @@
           "excessReturn": 0.1447
         },
         "20": {
-          "return": null,
-          "benchmarkReturn": null,
-          "excessReturn": null
+          "return": -0.0804,
+          "benchmarkReturn": -0.2191,
+          "excessReturn": 0.1388
         }
       },
-      "status": "PENDING",
+      "status": "COMPLETE",
       "maximumReturn20d": 0.0268,
-      "maximumDrawdown20d": -0.058
+      "maximumDrawdown20d": -0.0804
     },
     {
       "symbol": "4927",
@@ -8231,14 +8231,14 @@
           "excessReturn": -0.0587
         },
         "20": {
-          "return": null,
-          "benchmarkReturn": null,
-          "excessReturn": null
+          "return": -0.3437,
+          "benchmarkReturn": -0.2191,
+          "excessReturn": -0.1246
         }
       },
-      "status": "PENDING",
+      "status": "COMPLETE",
       "maximumReturn20d": 0.0568,
-      "maximumDrawdown20d": -0.2709
+      "maximumDrawdown20d": -0.3437
     },
     {
       "symbol": "4958",
@@ -8261,14 +8261,14 @@
           "excessReturn": -0.21
         },
         "20": {
-          "return": null,
-          "benchmarkReturn": null,
-          "excessReturn": null
+          "return": -0.4637,
+          "benchmarkReturn": -0.2191,
+          "excessReturn": -0.2445
         }
       },
-      "status": "PENDING",
+      "status": "COMPLETE",
       "maximumReturn20d": -0.019,
-      "maximumDrawdown20d": -0.4048
+      "maximumDrawdown20d": -0.4637
     },
     {
       "symbol": "5469",
@@ -8291,12 +8291,12 @@
           "excessReturn": -0.1014
         },
         "20": {
-          "return": null,
-          "benchmarkReturn": null,
-          "excessReturn": null
+          "return": -0.2544,
+          "benchmarkReturn": -0.2191,
+          "excessReturn": -0.0353
         }
       },
-      "status": "PENDING",
+      "status": "COMPLETE",
       "maximumReturn20d": -0.0272,
       "maximumDrawdown20d": -0.2639
     },
@@ -8321,14 +8321,14 @@
           "excessReturn": 0.1411
         },
         "20": {
-          "return": null,
-          "benchmarkReturn": null,
-          "excessReturn": null
+          "return": -0.0571,
+          "benchmarkReturn": -0.2191,
+          "excessReturn": 0.162
         }
       },
-      "status": "PENDING",
+      "status": "COMPLETE",
       "maximumReturn20d": 0.0375,
-      "maximumDrawdown20d": -0.0214
+      "maximumDrawdown20d": -0.0571
     },
     {
       "symbol": "9105",
@@ -8351,14 +8351,14 @@
           "excessReturn": -0.0417
         },
         "20": {
-          "return": null,
-          "benchmarkReturn": null,
-          "excessReturn": null
+          "return": -0.3412,
+          "benchmarkReturn": -0.2191,
+          "excessReturn": -0.1221
         }
       },
-      "status": "PENDING",
+      "status": "COMPLETE",
       "maximumReturn20d": -0.0226,
-      "maximumDrawdown20d": -0.3006
+      "maximumDrawdown20d": -0.3412
     },
     {
       "symbol": "2002",
@@ -8388,7 +8388,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": 0.0102,
-      "maximumDrawdown20d": -0.0997
+      "maximumDrawdown20d": -0.1253
     },
     {
       "symbol": "2034",
@@ -8418,7 +8418,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": 0.0062,
-      "maximumDrawdown20d": -0.1253
+      "maximumDrawdown20d": -0.1828
     },
     {
       "symbol": "2323",
@@ -8478,7 +8478,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": 0.0322,
-      "maximumDrawdown20d": -0.2699
+      "maximumDrawdown20d": -0.3001
     },
     {
       "symbol": "2393",
@@ -8508,7 +8508,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": 0.0177,
-      "maximumDrawdown20d": -0.1342
+      "maximumDrawdown20d": -0.1726
     },
     {
       "symbol": "2412",
@@ -8568,7 +8568,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": -0.0089,
-      "maximumDrawdown20d": -0.1742
+      "maximumDrawdown20d": -0.2098
     },
     {
       "symbol": "3036",
@@ -8598,7 +8598,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": 0.0188,
-      "maximumDrawdown20d": -0.1901
+      "maximumDrawdown20d": -0.2371
     },
     {
       "symbol": "3715",
@@ -8658,7 +8658,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": -0.0087,
-      "maximumDrawdown20d": -0.0826
+      "maximumDrawdown20d": -0.1043
     },
     {
       "symbol": "5880",
@@ -8688,7 +8688,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": 0.0301,
-      "maximumDrawdown20d": -0.0284
+      "maximumDrawdown20d": -0.0638
     },
     {
       "symbol": "2002",
@@ -8718,7 +8718,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": 0,
-      "maximumDrawdown20d": -0.1089
+      "maximumDrawdown20d": -0.1342
     },
     {
       "symbol": "2347",
@@ -8748,7 +8748,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": 0.0049,
-      "maximumDrawdown20d": -0.2892
+      "maximumDrawdown20d": -0.3186
     },
     {
       "symbol": "2377",
@@ -8778,7 +8778,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": 0.0151,
-      "maximumDrawdown20d": -0.25
+      "maximumDrawdown20d": -0.3012
     },
     {
       "symbol": "2393",
@@ -8808,7 +8808,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": 0.0162,
-      "maximumDrawdown20d": -0.1355
+      "maximumDrawdown20d": -0.1738
     },
     {
       "symbol": "2412",
@@ -8868,7 +8868,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": 0,
-      "maximumDrawdown20d": -0.1668
+      "maximumDrawdown20d": -0.2027
     },
     {
       "symbol": "3036",
@@ -8898,7 +8898,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": 0.0093,
-      "maximumDrawdown20d": -0.1977
+      "maximumDrawdown20d": -0.2442
     },
     {
       "symbol": "4904",
@@ -8928,7 +8928,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": 0,
-      "maximumDrawdown20d": -0.0746
+      "maximumDrawdown20d": -0.0965
     },
     {
       "symbol": "4961",
@@ -8958,7 +8958,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": 0.0428,
-      "maximumDrawdown20d": -0.1176
+      "maximumDrawdown20d": -0.1283
     },
     {
       "symbol": "2002",
@@ -8988,7 +8988,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": -0.0152,
-      "maximumDrawdown20d": -0.1089
+      "maximumDrawdown20d": -0.1342
     },
     {
       "symbol": "2347",
@@ -9018,7 +9018,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": -0.0049,
-      "maximumDrawdown20d": -0.2927
+      "maximumDrawdown20d": -0.322
     },
     {
       "symbol": "2352",
@@ -9048,7 +9048,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": 0.1323,
-      "maximumDrawdown20d": -0.1575
+      "maximumDrawdown20d": -0.2094
     },
     {
       "symbol": "2393",
@@ -9078,7 +9078,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": 0,
-      "maximumDrawdown20d": -0.1493
+      "maximumDrawdown20d": -0.187
     },
     {
       "symbol": "2412",
@@ -9138,7 +9138,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": 0.0087,
-      "maximumDrawdown20d": -0.1039
+      "maximumDrawdown20d": -0.161
     },
     {
       "symbol": "3029",
@@ -9168,7 +9168,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": 0.0781,
-      "maximumDrawdown20d": -0.1211
+      "maximumDrawdown20d": -0.1562
     },
     {
       "symbol": "3036",
@@ -9198,7 +9198,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": -0.0138,
-      "maximumDrawdown20d": -0.2051
+      "maximumDrawdown20d": -0.2512
     },
     {
       "symbol": "3231",
@@ -9228,7 +9228,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": -0.0308,
-      "maximumDrawdown20d": -0.1979
+      "maximumDrawdown20d": -0.2442
     },
     {
       "symbol": "3591",
@@ -9318,7 +9318,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": 0.0568,
-      "maximumDrawdown20d": -0.2709
+      "maximumDrawdown20d": -0.3437
     },
     {
       "symbol": "8070",
@@ -9348,7 +9348,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": -0.0117,
-      "maximumDrawdown20d": -0.1774
+      "maximumDrawdown20d": -0.2359
     },
     {
       "symbol": "2002",
@@ -9378,7 +9378,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": -0.0026,
-      "maximumDrawdown20d": -0.0951
+      "maximumDrawdown20d": -0.1208
     },
     {
       "symbol": "2347",
@@ -9408,7 +9408,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": -0.0245,
-      "maximumDrawdown20d": -0.2892
+      "maximumDrawdown20d": -0.3186
     },
     {
       "symbol": "2412",
@@ -9468,7 +9468,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": -0.0135,
-      "maximumDrawdown20d": -0.1668
+      "maximumDrawdown20d": -0.2027
     },
     {
       "symbol": "3036",
@@ -9498,7 +9498,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": -0.0327,
-      "maximumDrawdown20d": -0.1939
+      "maximumDrawdown20d": -0.2407
     },
     {
       "symbol": "3045",
@@ -9528,7 +9528,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": 0.0037,
-      "maximumDrawdown20d": -0.052
+      "maximumDrawdown20d": -0.0855
     },
     {
       "symbol": "3533",
@@ -9558,7 +9558,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": 0.0053,
-      "maximumDrawdown20d": -0.1658
+      "maximumDrawdown20d": -0.2421
     },
     {
       "symbol": "2347",
@@ -9588,7 +9588,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": -0.0503,
-      "maximumDrawdown20d": -0.2714
+      "maximumDrawdown20d": -0.3015
     },
     {
       "symbol": "2882",
@@ -9618,7 +9618,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": 0,
-      "maximumDrawdown20d": -0.1078
+      "maximumDrawdown20d": -0.1647
     },
     {
       "symbol": "2885",
@@ -9648,7 +9648,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": 0.0014,
-      "maximumDrawdown20d": -0.1295
+      "maximumDrawdown20d": -0.1832
     },
     {
       "symbol": "3533",
@@ -9678,7 +9678,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": 0.0269,
-      "maximumDrawdown20d": -0.1478
+      "maximumDrawdown20d": -0.2258
     },
     {
       "symbol": "1101",
@@ -9708,7 +9708,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": -0.0142,
-      "maximumDrawdown20d": -0.0872
+      "maximumDrawdown20d": -0.1335
     },
     {
       "symbol": "2002",
@@ -9738,7 +9738,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": -0.0026,
-      "maximumDrawdown20d": -0.0928
+      "maximumDrawdown20d": -0.1186
     },
     {
       "symbol": "2027",
@@ -9768,7 +9768,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": -0.004,
-      "maximumDrawdown20d": -0.1153
+      "maximumDrawdown20d": -0.1551
     },
     {
       "symbol": "2355",
@@ -9828,7 +9828,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": -0.0237,
-      "maximumDrawdown20d": -0.1056
+      "maximumDrawdown20d": -0.1512
     },
     {
       "symbol": "2618",
@@ -9888,7 +9888,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": -0.0095,
-      "maximumDrawdown20d": -0.038
+      "maximumDrawdown20d": -0.0494
     },
     {
       "symbol": "2880",
@@ -9918,7 +9918,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": 0.0464,
-      "maximumDrawdown20d": -0.0282
+      "maximumDrawdown20d": -0.0524
     },
     {
       "symbol": "2882",
@@ -9948,7 +9948,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": -0.0129,
-      "maximumDrawdown20d": -0.1078
+      "maximumDrawdown20d": -0.1647
     },
     {
       "symbol": "2884",
@@ -9978,7 +9978,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": -0.0082,
-      "maximumDrawdown20d": -0.1715
+      "maximumDrawdown20d": -0.1869
     },
     {
       "symbol": "2885",
@@ -10008,7 +10008,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": 0.0168,
-      "maximumDrawdown20d": -0.1161
+      "maximumDrawdown20d": -0.1706
     },
     {
       "symbol": "2892",
@@ -10038,7 +10038,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": -0.0046,
-      "maximumDrawdown20d": -0.0802
+      "maximumDrawdown20d": -0.1386
     },
     {
       "symbol": "3005",
@@ -10068,7 +10068,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": -0.0161,
-      "maximumDrawdown20d": -0.221
+      "maximumDrawdown20d": -0.2718
     },
     {
       "symbol": "3034",
@@ -10098,7 +10098,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": -0.028,
-      "maximumDrawdown20d": -0.2356
+      "maximumDrawdown20d": -0.2706
     },
     {
       "symbol": "1101",
@@ -10128,7 +10128,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": 0,
-      "maximumDrawdown20d": -0.074
+      "maximumDrawdown20d": -0.1209
     },
     {
       "symbol": "1216",
@@ -10158,7 +10158,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": -0.0025,
-      "maximumDrawdown20d": -0.0691
+      "maximumDrawdown20d": -0.0752
     },
     {
       "symbol": "2002",
@@ -10188,7 +10188,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": -0.0103,
-      "maximumDrawdown20d": -0.0904
+      "maximumDrawdown20d": -0.1163
     },
     {
       "symbol": "2023",
@@ -10218,7 +10218,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": 0.0135,
-      "maximumDrawdown20d": -0.0673
+      "maximumDrawdown20d": -0.0842
     },
     {
       "symbol": "2412",
@@ -10278,7 +10278,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": 0.0056,
-      "maximumDrawdown20d": -0.0788
+      "maximumDrawdown20d": -0.1257
     },
     {
       "symbol": "2618",
@@ -10338,7 +10338,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": -0.0118,
-      "maximumDrawdown20d": -0.0943
+      "maximumDrawdown20d": -0.1448
     },
     {
       "symbol": "2880",
@@ -10368,7 +10368,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": 0.0581,
-      "maximumDrawdown20d": -0.0173
+      "maximumDrawdown20d": -0.0418
     },
     {
       "symbol": "2891",
@@ -10398,7 +10398,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": 0.0606,
-      "maximumDrawdown20d": -0.0148
+      "maximumDrawdown20d": -0.0836
     },
     {
       "symbol": "2892",
@@ -10428,7 +10428,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": 0.02,
-      "maximumDrawdown20d": -0.0575
+      "maximumDrawdown20d": -0.1174
     },
     {
       "symbol": "3005",
@@ -10458,7 +10458,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": 0,
-      "maximumDrawdown20d": -0.2082
+      "maximumDrawdown20d": -0.2598
     },
     {
       "symbol": "4904",
@@ -10488,7 +10488,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": 0.0133,
-      "maximumDrawdown20d": -0.0622
+      "maximumDrawdown20d": -0.0844
     },
     {
       "symbol": "5876",
@@ -10518,7 +10518,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": 0.0152,
-      "maximumDrawdown20d": -0.0304
+      "maximumDrawdown20d": -0.057
     },
     {
       "symbol": "5880",
@@ -10548,7 +10548,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": 0.0035,
-      "maximumDrawdown20d": -0.0369
+      "maximumDrawdown20d": -0.0721
     },
     {
       "symbol": "9933",
@@ -10608,7 +10608,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": 0,
-      "maximumDrawdown20d": -0.0667
+      "maximumDrawdown20d": -0.0729
     },
     {
       "symbol": "2328",
@@ -10638,7 +10638,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": -0.0971,
-      "maximumDrawdown20d": -0.299
+      "maximumDrawdown20d": -0.3686
     },
     {
       "symbol": "2412",
@@ -10698,7 +10698,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": -0.0336,
-      "maximumDrawdown20d": -0.084
+      "maximumDrawdown20d": -0.1306
     },
     {
       "symbol": "2891",
@@ -10728,7 +10728,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": 0.0751,
-      "maximumDrawdown20d": -0.0014
+      "maximumDrawdown20d": -0.071
     },
     {
       "symbol": "2892",
@@ -10758,7 +10758,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": 0.0236,
-      "maximumDrawdown20d": -0.0542
+      "maximumDrawdown20d": -0.1143
     },
     {
       "symbol": "3045",
@@ -10788,7 +10788,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": -0.0148,
-      "maximumDrawdown20d": -0.0556
+      "maximumDrawdown20d": -0.0889
     },
     {
       "symbol": "4904",
@@ -10818,7 +10818,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": -0.0132,
-      "maximumDrawdown20d": -0.0746
+      "maximumDrawdown20d": -0.0965
     },
     {
       "symbol": "2412",
@@ -10836,9 +10836,9 @@
           "excessReturn": -0.0989
         },
         "10": {
-          "return": null,
-          "benchmarkReturn": null,
-          "excessReturn": null
+          "return": -0.0061,
+          "benchmarkReturn": -0.087,
+          "excessReturn": 0.0809
         },
         "20": {
           "return": null,
@@ -10866,9 +10866,9 @@
           "excessReturn": -0.0726
         },
         "10": {
-          "return": null,
-          "benchmarkReturn": null,
-          "excessReturn": null
+          "return": -0.0318,
+          "benchmarkReturn": -0.087,
+          "excessReturn": 0.0553
         },
         "20": {
           "return": null,
@@ -10878,7 +10878,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": 0.0355,
-      "maximumDrawdown20d": -0.0168
+      "maximumDrawdown20d": -0.0318
     },
     {
       "symbol": "2891",
@@ -10896,9 +10896,9 @@
           "excessReturn": -0.0359
         },
         "10": {
-          "return": null,
-          "benchmarkReturn": null,
-          "excessReturn": null
+          "return": -0.0736,
+          "benchmarkReturn": -0.087,
+          "excessReturn": 0.0135
         },
         "20": {
           "return": null,
@@ -10908,7 +10908,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": 0.0722,
-      "maximumDrawdown20d": -0.0041
+      "maximumDrawdown20d": -0.0736
     },
     {
       "symbol": "2880",
@@ -10938,7 +10938,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": 0.0464,
-      "maximumDrawdown20d": -0.0282
+      "maximumDrawdown20d": -0.0524
     },
     {
       "symbol": "2891",
@@ -10968,7 +10968,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": 0.0369,
-      "maximumDrawdown20d": -0.0369
+      "maximumDrawdown20d": -0.1041
     },
     {
       "symbol": "2355",
@@ -10998,7 +10998,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": 0.2552,
-      "maximumDrawdown20d": 0.0152
+      "maximumDrawdown20d": -0.0714
     },
     {
       "symbol": "9933",
@@ -11058,7 +11058,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": -0.021,
-      "maximumDrawdown20d": -0.1118
+      "maximumDrawdown20d": -0.1517
     },
     {
       "symbol": "2618",
@@ -11088,7 +11088,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": 0.0105,
-      "maximumDrawdown20d": -0.0252
+      "maximumDrawdown20d": -0.062
     },
     {
       "symbol": "2880",
@@ -11118,7 +11118,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": 0.0277,
-      "maximumDrawdown20d": -0.0455
+      "maximumDrawdown20d": -0.0693
     },
     {
       "symbol": "2886",
@@ -11148,7 +11148,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": 0.0221,
-      "maximumDrawdown20d": -0.0295
+      "maximumDrawdown20d": -0.0443
     },
     {
       "symbol": "2891",
@@ -11178,7 +11178,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": 0.0535,
-      "maximumDrawdown20d": -0.0214
+      "maximumDrawdown20d": -0.0897
     },
     {
       "symbol": "2412",
@@ -11208,7 +11208,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": 0.0247,
-      "maximumDrawdown20d": 0.0093
+      "maximumDrawdown20d": 0.0031
     },
     {
       "symbol": "2618",
@@ -11238,7 +11238,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": 0.0256,
-      "maximumDrawdown20d": -0.0107
+      "maximumDrawdown20d": -0.048
     },
     {
       "symbol": "2880",
@@ -11268,7 +11268,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": 0.0277,
-      "maximumDrawdown20d": -0.0455
+      "maximumDrawdown20d": -0.0693
     },
     {
       "symbol": "2886",
@@ -11298,7 +11298,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": 0.0184,
-      "maximumDrawdown20d": -0.0331
+      "maximumDrawdown20d": -0.0478
     },
     {
       "symbol": "2891",
@@ -11328,7 +11328,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": 0.0438,
-      "maximumDrawdown20d": -0.0305
+      "maximumDrawdown20d": -0.0981
     },
     {
       "symbol": "5880",
@@ -11358,7 +11358,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": 0.0124,
-      "maximumDrawdown20d": -0.0284
+      "maximumDrawdown20d": -0.0638
     },
     {
       "symbol": "1802",
@@ -11371,9 +11371,9 @@
       "candidateStatus": "VERIFIED",
       "horizons": {
         "5": {
-          "return": null,
-          "benchmarkReturn": null,
-          "excessReturn": null
+          "return": -0.3784,
+          "benchmarkReturn": -0.1761,
+          "excessReturn": -0.2023
         },
         "10": {
           "return": null,
@@ -11388,7 +11388,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": -0.0999,
-      "maximumDrawdown20d": -0.3102
+      "maximumDrawdown20d": -0.3784
     },
     {
       "symbol": "2412",
@@ -11401,9 +11401,9 @@
       "candidateStatus": "VERIFIED",
       "horizons": {
         "5": {
-          "return": null,
-          "benchmarkReturn": null,
-          "excessReturn": null
+          "return": -0.0152,
+          "benchmarkReturn": -0.1761,
+          "excessReturn": 0.1609
         },
         "10": {
           "return": null,
@@ -11418,7 +11418,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": 0.0061,
-      "maximumDrawdown20d": -0.0091
+      "maximumDrawdown20d": -0.0152
     },
     {
       "symbol": "2618",
@@ -11431,9 +11431,9 @@
       "candidateStatus": "VERIFIED",
       "horizons": {
         "5": {
-          "return": null,
-          "benchmarkReturn": null,
-          "excessReturn": null
+          "return": -0.0649,
+          "benchmarkReturn": -0.1761,
+          "excessReturn": 0.1112
         },
         "10": {
           "return": null,
@@ -11448,7 +11448,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": 0.0073,
-      "maximumDrawdown20d": -0.0283
+      "maximumDrawdown20d": -0.0649
     },
     {
       "symbol": "2880",
@@ -11461,9 +11461,9 @@
       "candidateStatus": "VERIFIED",
       "horizons": {
         "5": {
-          "return": null,
-          "benchmarkReturn": null,
-          "excessReturn": null
+          "return": -0.0944,
+          "benchmarkReturn": -0.1761,
+          "excessReturn": 0.0817
         },
         "10": {
           "return": null,
@@ -11478,7 +11478,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": -0.0212,
-      "maximumDrawdown20d": -0.0713
+      "maximumDrawdown20d": -0.0944
     },
     {
       "symbol": "5880",
@@ -11491,9 +11491,9 @@
       "candidateStatus": "VERIFIED",
       "horizons": {
         "5": {
-          "return": null,
-          "benchmarkReturn": null,
-          "excessReturn": null
+          "return": -0.0753,
+          "benchmarkReturn": -0.1761,
+          "excessReturn": 0.1008
         },
         "10": {
           "return": null,
@@ -11508,7 +11508,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": -0.0105,
-      "maximumDrawdown20d": -0.0403
+      "maximumDrawdown20d": -0.0753
     },
     {
       "symbol": "1476",
@@ -11538,7 +11538,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": 0,
-      "maximumDrawdown20d": -0.0026
+      "maximumDrawdown20d": -0.0545
     },
     {
       "symbol": "2610",
@@ -11568,7 +11568,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": 0.0176,
-      "maximumDrawdown20d": -0.0088
+      "maximumDrawdown20d": -0.0617
     },
     {
       "symbol": "2618",
@@ -11598,7 +11598,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": 0.0148,
-      "maximumDrawdown20d": -0.0211
+      "maximumDrawdown20d": -0.058
     },
     {
       "symbol": "9904",
@@ -11628,7 +11628,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": -0.0187,
-      "maximumDrawdown20d": -0.0616
+      "maximumDrawdown20d": -0.097
     },
     {
       "symbol": "1476",
@@ -11658,7 +11658,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": -0.0013,
-      "maximumDrawdown20d": -0.0026
+      "maximumDrawdown20d": -0.0545
     },
     {
       "symbol": "2610",
@@ -11688,7 +11688,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": -0.0087,
-      "maximumDrawdown20d": -0.026
+      "maximumDrawdown20d": -0.0779
     },
     {
       "symbol": "1476",
@@ -11718,7 +11718,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": 0.0013,
-      "maximumDrawdown20d": 0.0013
+      "maximumDrawdown20d": -0.0521
     },
     {
       "symbol": "1477",
@@ -11748,7 +11748,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": 0,
-      "maximumDrawdown20d": 0
+      "maximumDrawdown20d": -0.0179
     },
     {
       "symbol": "2610",
@@ -11778,7 +11778,7 @@
       },
       "status": "PENDING",
       "maximumReturn20d": -0.0175,
-      "maximumDrawdown20d": -0.0175
+      "maximumDrawdown20d": -0.0699
     },
     {
       "symbol": "1476",
@@ -11807,8 +11807,8 @@
         }
       },
       "status": "PENDING",
-      "maximumReturn20d": null,
-      "maximumDrawdown20d": null
+      "maximumReturn20d": -0.0533,
+      "maximumDrawdown20d": -0.0533
     },
     {
       "symbol": "2610",
@@ -11837,13 +11837,73 @@
         }
       },
       "status": "PENDING",
+      "maximumReturn20d": -0.0533,
+      "maximumDrawdown20d": -0.0533
+    },
+    {
+      "symbol": "1476",
+      "name": "儒鴻",
+      "listedDate": "2026-11-20",
+      "listedPrice": 364,
+      "grade": "C",
+      "score": 53.8,
+      "revenue36mHigh": false,
+      "candidateStatus": "VERIFIED",
+      "horizons": {
+        "5": {
+          "return": null,
+          "benchmarkReturn": null,
+          "excessReturn": null
+        },
+        "10": {
+          "return": null,
+          "benchmarkReturn": null,
+          "excessReturn": null
+        },
+        "20": {
+          "return": null,
+          "benchmarkReturn": null,
+          "excessReturn": null
+        }
+      },
+      "status": "PENDING",
+      "maximumReturn20d": null,
+      "maximumDrawdown20d": null
+    },
+    {
+      "symbol": "1477",
+      "name": "聚陽",
+      "listedDate": "2026-11-20",
+      "listedPrice": 220,
+      "grade": "C",
+      "score": 54.9,
+      "revenue36mHigh": false,
+      "candidateStatus": "VERIFIED",
+      "horizons": {
+        "5": {
+          "return": null,
+          "benchmarkReturn": null,
+          "excessReturn": null
+        },
+        "10": {
+          "return": null,
+          "benchmarkReturn": null,
+          "excessReturn": null
+        },
+        "20": {
+          "return": null,
+          "benchmarkReturn": null,
+          "excessReturn": null
+        }
+      },
+      "status": "PENDING",
       "maximumReturn20d": null,
       "maximumDrawdown20d": null
     }
   ],
   "summary": {
-    "total": 395,
-    "completed": 263,
+    "total": 397,
+    "completed": 279,
     "groups": {
       "A": {
         "count": 0,
@@ -11851,24 +11911,24 @@
         "hitRate20d": null
       },
       "B": {
-        "count": 26,
-        "average20dReturn": -0.065,
-        "hitRate20d": 0.3077
+        "count": 28,
+        "average20dReturn": -0.0757,
+        "hitRate20d": 0.2857
       },
       "C": {
-        "count": 226,
-        "average20dReturn": -0.0646,
-        "hitRate20d": 0.3805
+        "count": 240,
+        "average20dReturn": -0.073,
+        "hitRate20d": 0.3625
       },
       "REVENUE_HIGH": {
-        "count": 143,
-        "average20dReturn": -0.1173,
-        "hitRate20d": 0.1608
+        "count": 152,
+        "average20dReturn": -0.128,
+        "hitRate20d": 0.1513
       },
       "OTHER": {
-        "count": 120,
-        "average20dReturn": 0.0053,
-        "hitRate20d": 0.65
+        "count": 127,
+        "average20dReturn": -0.0003,
+        "hitRate20d": 0.622
       }
     }
   }
